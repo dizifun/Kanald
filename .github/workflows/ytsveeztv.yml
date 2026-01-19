@@ -1,0 +1,37 @@
+name: Fanatik Play Scraper
+
+on:
+  schedule:
+    - cron: '0 */4 * * *' # Her 4 saatte bir çalışır
+  workflow_dispatch: # Manuel çalıştırma butonu
+
+permissions:
+  contents: write
+
+jobs:
+  scrape_vidsrc:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Kodları Çek (Checkout)
+        uses: actions/checkout@v3
+
+      - name: Python Kur
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Gereksinimleri Yükle
+        run: |
+          pip install requests
+
+      - name: Scraper'ı Çalıştır
+        run: python scraper.py
+
+      - name: Sonuçları Commit'le
+        run: |
+          git config --global user.name "Fanatik Bot"
+          git config --global user.email "bot@fanatik.app"
+          git add playlist.json playlist.m3u
+          # Eğer değişiklik yoksa hata verme, varsa kaydet
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Playlist güncellendi: $(date)" && git push)
