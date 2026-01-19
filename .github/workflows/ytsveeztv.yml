@@ -1,19 +1,19 @@
-name: Fanatik Play Scraper
+name: Fanatik Play Selenium Scraper
 
 on:
   schedule:
-    - cron: '0 */4 * * *' # Her 4 saatte bir çalışır
-  workflow_dispatch: # Manuel çalıştırma butonu
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  scrape_vidsrc:
+  scrape_selenium:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Kodları Çek (Checkout)
+      - name: Depoyu Çek
         uses: actions/checkout@v3
 
       - name: Python Kur
@@ -21,17 +21,20 @@ jobs:
         with:
           python-version: '3.9'
 
+      - name: Chrome ve Driver Kurulumu
+        # Bu adım Selenium için gerekli tarayıcıyı kurar
+        uses: browser-actions/setup-chrome@latest
+      
       - name: Gereksinimleri Yükle
         run: |
-          pip install requests
+          pip install selenium webdriver-manager requests
 
       - name: Scraper'ı Çalıştır
         run: python scraper.py
 
-      - name: Sonuçları Commit'le
+      - name: Kaydet ve Gönder
         run: |
           git config --global user.name "Fanatik Bot"
           git config --global user.email "bot@fanatik.app"
           git add playlist.json playlist.m3u
-          # Eğer değişiklik yoksa hata verme, varsa kaydet
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Playlist güncellendi: $(date)" && git push)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Liste Güncellendi" && git push)
