@@ -1,9 +1,8 @@
-import requests
 import json
 import os
-import re
 import time
 import concurrent.futures
+import requests
 
 # --- AYARLAR ---
 API_KEY = "6fabef7bd74e01efcd81d35c39c4a049"
@@ -11,55 +10,24 @@ BASE_URL = "https://api.themoviedb.org/3"
 VIDMODY_BASE = "https://vidmody.com/vs"
 IMG_URL = "https://image.tmdb.org/t/p/w500"
 
-# Dosya Yolları
-OUTPUT_DIR = "output"
-JSON_FILE = os.path.join(OUTPUT_DIR, "movies_all.json")
-M3U_FILE = os.path.join(OUTPUT_DIR, "movies_all.m3u")
-STATE_FILE = "taram_durumu.json" # Nerede kaldığımızı tutan dosya
+# --- TARAMA SAYFA ARALIĞI ---
+# Burayı istediğin gibi değiştir. GitHub Action her çalıştığında bu aralığı tarar.
+START_PAGE = 10000   
+END_PAGE = 20000     
 
-# Tarama Ayarları
-BATCH_SIZE = 1000  # Her çalışmada kaç sayfa ilerleyecek
-MAX_WORKERS = 20   # Hız
+MAX_WORKERS = 20     # Hız (Aynı anda kontrol edilecek link sayısı)
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
 }
 
-# Klasörleri oluştur
-os.makedirs(OUTPUT_DIR, exist_ok=True)
-
-# --- YARDIMCI FONKSİYONLAR ---
-
-def load_existing_data():
-    """Var olan veritabanını yükler, yoksa boş başlatır."""
-    if os.path.exists(JSON_FILE):
-        try:
-            with open(JSON_FILE, "r", encoding="utf-8") as f:
-                data = json.load(f)
-                # Listeyi ID bazlı sözlüğe çevir (Daha hızlı kontrol için)
-                return {item['id']: item for item in data}
-        except:
-            return {}
-    return {}
-
-def load_state():
-    """Son kalınan sayfayı yükler."""
-    if os.path.exists(STATE_FILE):
-        try:
-            with open(STATE_FILE, "r", encoding="utf-8") as f:
-                return json.load(f)
-        except:
-            pass
-    return {"last_page": 1}
-
-def save_state(page):
-    """Nerede kaldığımızı kaydeder."""
-    with open(STATE_FILE, "w", encoding="utf-8") as f:
-        json.dump({"last_page": page}, f)
+# Klasör kontrolü
+os.makedirs("output", exist_ok=True)
 
 def check_single_url(url):
+    """Linkin çalışıp çalışmadığını kontrol eder"""
     try:
-        response = requests.head(url, headers=HEADERS, timeout=2, allow_redirects=True)
+        response = requests.head(url, headers=HEADERS, timeout=3, allow_redirects=True)
         if response.status_code == 200:
             return url
     except:
@@ -67,6 +35,7 @@ def check_single_url(url):
     return None
 
 def batch_check_urls(url_list):
+    """Linkleri çoklu (paralel) kontrol eder"""
     valid_urls = set()
     with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
         future_to_url = {executor.submit(check_single_url, url): url for url in url_list}
@@ -76,147 +45,131 @@ def batch_check_urls(url_list):
                 valid_urls.add(result)
     return valid_urls
 
-def get_imdb_id(tmdb_id, media_type):
+def get_imdb_id(tmdb_id):
+    """TMDB ID'den IMDB ID bulur"""
     try:
-        url = f"{BASE_URL}/{media_type}/{tmdb_id}/external_ids?api_key={API_KEY}"
+        url = f"{BASE_URL}/movie/{tmdb_id}/external_ids?api_key={API_KEY}"
         r = requests.get(url, timeout=5)
         if r.status_code == 200:
             return r.json().get("imdb_id")
     except:
-        return None
+        pass
     return None
 
-def save_database(movie_dict):
-    """Verileri JSON ve M3U olarak kaydeder."""
-    # Dict'i listeye çevir
-    movies_list = list(movie_dict.values())
-    
-    # JSON Kaydet
-    with open(JSON_FILE, "w", encoding="utf-8") as f:
-        json.dump(movies_list, f, ensure_ascii=False, indent=4)
-    
-    # M3U Kaydet
-    with open(M3U_FILE, "w", encoding="utf-8") as f:
+def save_m3u(filename, content_list):
+    """Listeyi M3U formatında kaydeder"""
+    with open(filename, "w", encoding="utf-8") as f:
         f.write("#EXTM3U\n")
-        for item in movies_list:
-            # M3U formatında başlık ve link
-            group = "Filmler"
-            logo = item.get('poster', '')
-            name = item.get('title', 'Bilinmeyen')
-            url = item.get('link', '')
-            f.write(f'#EXTINF:-1 group-title="{group}" tvg-logo="{logo}", {name}\n')
-            f.write(f'{url}\n')
+        for item in content_list:
+            f.write(f'#EXTINF:-1 group-title="{item["group"]}" tvg-logo="{item["logo"]}", {item["name"]}\n')
+            f.write(f'{item["url"]}\n')
 
-# --- ANA İŞLEM ---
+def process_single_page(page, category_name, all_movies_list, m3u_list):
+    """Tek bir sayfadaki filmleri işler ve listelere ekler"""
+    print(f"-> Sayfa {page} taranıyor... [{category_name}]")
+    try:
+        # API'den veriyi çek
+        url = f"{BASE_URL}/movie/popular?api_key={API_KEY}&language=tr-TR&page={page}"
+        response = requests.get(url, timeout=10)
+        
+        # Eğer sayfa boşsa veya hata varsa atla
+        if response.status_code != 200:
+            print(f"   X Sayfa {page} alınamadı veya yok (Kod: {response.status_code})")
+            return
 
-def process_page_range(start_page, end_page, current_db):
-    """Belirli bir sayfa aralığını tarar ve veritabanını günceller."""
-    print(f"\n--- Tarama Başlıyor: Sayfa {start_page} ile {end_page} arası ---")
-    
-    for page in range(start_page, end_page + 1):
-        print(f"İşleniyor: Sayfa {page}...")
-        try:
-            url = f"{BASE_URL}/movie/popular?api_key={API_KEY}&language=tr-TR&page={page}"
-            resp = requests.get(url)
-            
-            if resp.status_code != 200:
-                print(f"  -> Sayfa {page} erişilemedi veya bitti.")
-                break # API limiti veya sayfa sonu
+        data = response.json()
+        results = data.get('results', [])
+        
+        if not results:
+            print(f"   ! Sayfa {page} boş geldi.")
+            return
+
+        pending_checks = []
+        movie_map = {}
+
+        # Filmlerin IMDB ID'lerini bul ve link oluştur
+        for item in results:
+            imdb_id = get_imdb_id(item['id'])
+            if imdb_id:
+                link = f"{VIDMODY_BASE}/{imdb_id}"
+                pending_checks.append(link)
+                movie_map[link] = {
+                    "id": imdb_id,
+                    "title": item['title'],
+                    "poster": f"{IMG_URL}{item['poster_path']}" if item.get('poster_path') else ""
+                }
+
+        # Oluşan linkleri kontrol et (Vidmody'de var mı?)
+        if pending_checks:
+            active_links = batch_check_urls(pending_checks)
+            print(f"   ✓ Sayfa {page}: {len(active_links)} aktif film bulundu.")
+
+            for link in active_links:
+                info = movie_map[link]
                 
-            data = resp.json()
-            results = data.get('results', [])
-            
-            if not results:
-                print("  -> Bu sayfada sonuç yok.")
-                break
-
-            pending_checks = []
-            movie_map = {}
-
-            # Filmleri Hazırla
-            for item in results:
-                tmdb_id = item.get('id')
+                # JSON Verisine Ekle
+                all_movies_list.append({
+                    "id": info['id'],
+                    "title": info['title'],
+                    "poster": info['poster'],
+                    "link": link,
+                    "category": category_name
+                })
                 
-                # Eğer veritabanında zaten varsa ve linki çalışıyorsa atla (Hız optimizasyonu)
-                # İstersen burayı kaldırıp her seferinde kontrol ettirebilirsin.
-                # Ancak imdb_id çekmek maliyetli olduğu için önce bunu yapıyoruz.
-                
-                imdb_id = get_imdb_id(tmdb_id, 'movie')
-                
-                if imdb_id:
-                    # Eğer bu ID zaten kayıtlıysa, tekrar check etmeye gerek var mı?
-                    # "Her seferinde güncelle" dediğin için check ediyoruz.
-                    link = f"{VIDMODY_BASE}/{imdb_id}"
-                    
-                    # Kontrol listesine ekle
-                    pending_checks.append(link)
-                    movie_map[link] = {
-                        "id": imdb_id,
-                        "title": item['title'],
-                        "poster": f"{IMG_URL}{item['poster_path']}" if item.get('poster_path') else "",
-                        "link": link
-                    }
+                # M3U Listesine Ekle
+                m3u_list.append({
+                    "group": category_name,
+                    "logo": info['poster'],
+                    "name": info['title'],
+                    "url": link
+                })
 
-            # Toplu Link Kontrolü
-            if pending_checks:
-                active_links = batch_check_urls(pending_checks)
-                count_new = 0
-                
-                for link in active_links:
-                    info = movie_map[link]
-                    
-                    # Veritabanına Ekle / Güncelle (ID anahtar olduğu için üstüne yazar)
-                    if info['id'] not in current_db:
-                        count_new += 1
-                    
-                    current_db[info['id']] = info
-                
-                print(f"  -> Sayfa {page} tamamlandı. {len(active_links)} aktif link bulundu. ({count_new} yeni)")
-
-        except Exception as e:
-            print(f"Hata (Sayfa {page}): {e}")
-            time.sleep(1) # Hata durumunda az bekle
-
-    return current_db
+    except Exception as e:
+        print(f"Hata (Sayfa {page}): {e}")
 
 def main():
-    start_time = time.time()
+    print(f"--- TARAMA BAŞLATILIYOR ---")
+    print(f"Hedef Aralık: {START_PAGE} - {END_PAGE}")
     
-    # 1. Mevcut Veritabanını Yükle
-    print("Mevcut veritabanı yükleniyor...")
-    movie_db = load_existing_data()
-    print(f"Mevcut Film Sayısı: {len(movie_db)}")
+    movies_data = [] # JSON için
+    m3u_entries = [] # M3U için
 
-    # 2. Durumu Yükle (Nerede kalmıştık?)
-    state = load_state()
-    last_page = state['last_page']
+    # ---------------------------------------------------------
+    # ADIM 1: SON EKLENENLER (SAYFA 1)
+    # ---------------------------------------------------------
+    print("\n[1/2] 'Son Eklenenler' taranıyor (Sayfa 1)...")
+    process_single_page(1, "Son Eklenenler", movies_data, m3u_entries)
+
+    # ---------------------------------------------------------
+    # ADIM 2: BELİRLENEN ARALIK (FİLMLER)
+    # ---------------------------------------------------------
+    print(f"\n[2/2] 'Filmler' aralığı taranıyor ({START_PAGE}-{END_PAGE})...")
     
-    # 3. ÖZEL İSTEK: Her zaman önce 1. Sayfayı Tara (Güncellemeler için)
-    print("\n!!! GÜNCEL KONTROLÜ (Sayfa 1) !!!")
-    movie_db = process_page_range(1, 1, movie_db)
-
-    # 4. Kaldığımız yerden devam et (Batch tarama)
-    start_page = last_page
-    # Eğer son kaldığı yer 1 ise ve biz zaten 1'i taradıysak 2'den başlasın
-    if start_page == 1: 
-        start_page = 2
+    for page in range(START_PAGE, END_PAGE + 1):
+        # Eğer kullanıcı aralığı 1'den başlattıysa, Sayfa 1'i zaten yukarıda taradık.
+        # Tekrar taramamak ve listeye çift eklememek için atlıyoruz.
+        if page == 1:
+            continue
         
-    end_page = start_page + BATCH_SIZE
-    
-    print(f"\nBatch Tarama Başlatılıyor: {start_page} -> {end_page}")
-    movie_db = process_page_range(start_page, end_page, movie_db)
+        process_single_page(page, "Filmler", movies_data, m3u_entries)
 
-    # 5. Kaydet
-    print("\nDosyalar Kaydediliyor...")
-    save_database(movie_db)
+    # ---------------------------------------------------------
+    # ADIM 3: KAYDETME
+    # ---------------------------------------------------------
+    print("\n--- Dosyalar Kaydediliyor ---")
     
-    # 6. Bir sonraki başlangıç noktasını kaydet
-    save_state(end_page + 1)
+    # JSON Kaydet
+    json_path = "output/movies_all.json"
+    with open(json_path, "w", encoding="utf-8") as f:
+        json.dump(movies_data, f, ensure_ascii=False, indent=4)
     
-    print(f"\n--- İŞLEM TAMAMLANDI ---")
-    print(f"Toplam Süre: {int(time.time() - start_time)} sn.")
-    print(f"Toplam Film: {len(movie_db)}")
-    print(f"Bir sonraki tarama {end_page + 1}. sayfadan başlayacak.")
+    # M3U Kaydet
+    m3u_path = "output/movies_all.m3u"
+    save_m3u(m3u_path, m3u_entries)
+    
+    print(f"İşlem bitti! Toplam {len(m3u_entries)} içerik kaydedildi.")
 
 if __name__ == "__main__":
+    start_time = time.time()
     main()
+    print(f"Toplam Süre: {int(time.time() - start_time)} saniye.")
