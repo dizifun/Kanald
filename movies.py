@@ -12,8 +12,8 @@ IMG_URL = "https://image.tmdb.org/t/p/w500"
 
 # --- TARAMA SAYFA ARALIĞI ---
 # Burayı istediğin gibi değiştir. GitHub Action her çalıştığında bu aralığı tarar.
-START_PAGE = 1   
-END_PAGE = 10000     
+START_PAGE = 10000   
+END_PAGE = 20000     
 
 MAX_WORKERS = 20     # Hız (Aynı anda kontrol edilecek link sayısı)
 
