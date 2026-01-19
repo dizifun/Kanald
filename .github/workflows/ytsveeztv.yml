@@ -30,7 +30,7 @@ jobs:
           pip install selenium webdriver-manager requests
 
       - name: Scraper'ı Çalıştır
-        run: python scraper.py
+        run: python main.py
 
       - name: Kaydet ve Gönder
         run: |
