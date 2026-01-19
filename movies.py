@@ -12,7 +12,7 @@ IMG_URL = "https://image.tmdb.org/t/p/w500"
 
 # --- TARAMA AYARLARI ---
 # Hangi yıllar arasındaki filmleri çekmek istiyorsun?
-START_YEAR = 1990  # Burayı 1990 yaparsan çok daha fazla film gelir
+START_YEAR = 1890  # Burayı 1990 yaparsan çok daha fazla film gelir
 END_YEAR = 2026    # Günümüz
 
 MAX_WORKERS = 20   # Hız
