@@ -10,18 +10,57 @@ BASE_URL = "https://api.themoviedb.org/3"
 VIDMODY_BASE = "https://vidmody.com/vs"
 IMG_URL = "https://image.tmdb.org/t/p/w500"
 
-# --- TARAMA AYARLARI ---
-# Hangi yıllar arasındaki filmleri çekmek istiyorsun?
-START_YEAR = 1890  # Burayı 1990 yaparsan çok daha fazla film gelir
-END_YEAR = 2026    # Günümüz
+MAX_WORKERS = 25  # Hız
+PAGE_DEPTH_ARCHIVE = 5  # Geçmiş yıllar için her türden kaç sayfa derinliğe inilsin?
+PAGE_DEPTH_NEW = 10     # Son eklenenler için kaç sayfa bakılsın? (Daha geniş tuttum)
 
-MAX_WORKERS = 20   # Hız
+# Klasör Kontrolü
+os.makedirs("output", exist_ok=True)
+JSON_FILE = "output/movies_all.json"
+M3U_FILE = "output/movies_all.m3u"
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
 }
 
-os.makedirs("output", exist_ok=True)
+# --- KATEGORİ AYARLARI ---
+# 1. Vitrin Yılları (Bu yıllardaki popülerler "Son Eklenenler" olur)
+NEW_YEARS = [2026, 2025] 
+
+# 2. Arşiv Yılları (Bunlar türlere ayrılır)
+ARCHIVE_YEARS = range(2024, 1985, -1)
+
+# 3. Tür Listesi
+GENRES = {
+    28: "Aksiyon",
+    12: "Macera",
+    16: "Animasyon",
+    35: "Komedi",
+    80: "Suç",
+    99: "Belgesel",
+    18: "Dram",
+    10751: "Aile",
+    14: "Fantastik",
+    27: "Korku",
+    9648: "Gizem",
+    10749: "Romantik",
+    878: "Bilim Kurgu",
+    53: "Gerilim",
+    10752: "Savaş"
+}
+
+def load_existing_data():
+    """Eski veriyi yükler"""
+    if os.path.exists(JSON_FILE):
+        try:
+            with open(JSON_FILE, "r", encoding="utf-8") as f:
+                data = json.load(f)
+                existing_ids = {item['id'] for item in data if 'id' in item}
+                print(f"--- HAFIZA: {len(data)} film mevcut. ---")
+                return data, existing_ids
+        except:
+            pass
+    return [], set()
 
 def check_single_url(url):
     try:
@@ -45,7 +84,7 @@ def batch_check_urls(url_list):
 def get_imdb_id(tmdb_id):
     try:
         url = f"{BASE_URL}/movie/{tmdb_id}/external_ids?api_key={API_KEY}"
-        r = requests.get(url, timeout=5)
+        r = requests.get(url, timeout=4)
         if r.status_code == 200:
             return r.json().get("imdb_id")
     except:
@@ -53,95 +92,117 @@ def get_imdb_id(tmdb_id):
     return None
 
 def save_m3u(filename, content_list):
+    """M3U Kaydederken 'Son Eklenenler' grubunu en başa koyar"""
     with open(filename, "w", encoding="utf-8") as f:
         f.write("#EXTM3U\n")
-        # Son Eklenenleri en başa koymak için listeyi ters çevirebiliriz veya olduğu gibi bırakırız
-        # Burada "category"ye göre gruplama zaten yapılıyor.
-        for item in content_list:
-            f.write(f'#EXTINF:-1 group-title="{item["group"]}" tvg-logo="{item["logo"]}", {item["name"]}\n')
-            f.write(f'{item["url"]}\n')
+        
+        # Listeyi sıralayalım: Önce "Son Eklenenler", sonra diğerleri
+        # Lambda fonksiyonu: Grup adı "Son Eklenenler" ise 0 (en başa), değilse 1 (sonra)
+        sorted_list = sorted(content_list, key=lambda x: 0 if x.get("category") == "Son Eklenenler" else 1)
+        
+        for item in sorted_list:
+            group = item.get("category", "Filmler")
+            title = item.get("title", "Bilinmeyen")
+            f.write(f'#EXTINF:-1 group-title="{group}" tvg-logo="{item.get("poster", "")}", {title}\n')
+            f.write(f'{item.get("link", "")}\n')
 
-def process_year(year, all_movies, m3u_entries):
-    """Belirli bir yılın popüler filmlerini çeker"""
-    print(f"\n--- {year} YILI TARANIYOR ---")
-    
-    # Her yıl için ilk 20 sayfayı tarasak yeterli (20 sayfa * 20 film = 400 film/yıl)
-    # İstersen buradaki range(1, 21)'i range(1, 51) yapabilirsin.
-    for page in range(1, 30): 
-        try:
-            # Discover API kullanıyoruz (Yıla göre filtreleme için şart)
-            url = f"{BASE_URL}/discover/movie?api_key={API_KEY}&language=tr-TR&sort_by=popularity.desc&primary_release_year={year}&page={page}"
-            response = requests.get(url)
-            
-            if response.status_code != 200:
-                continue
+def process_batch(api_url, category_name, existing_ids, all_movies, add_year_to_title=False):
+    """Verilen API URL'sini işler ve listeye ekler"""
+    try:
+        response = requests.get(api_url, timeout=10)
+        if response.status_code != 200: return
 
-            results = response.json().get('results', [])
-            if not results:
-                break
+        results = response.json().get('results', [])
+        if not results: return
 
-            pending_checks = []
-            movie_map = {}
+        pending_checks = []
+        movie_map = {}
+        
+        # Sadece veritabanında OLMAYANLARI al
+        unknown_movies = [m for m in results if m['id'] not in existing_ids]
 
-            for item in results:
-                imdb_id = get_imdb_id(item['id'])
-                if imdb_id:
-                    link = f"{VIDMODY_BASE}/{imdb_id}"
-                    pending_checks.append(link)
-                    movie_map[link] = {
-                        "id": imdb_id,
-                        "title": item['title'],
-                        "poster": f"{IMG_URL}{item['poster_path']}" if item.get('poster_path') else "",
-                        "year": str(year)
-                    }
+        for item in unknown_movies:
+            imdb_id = get_imdb_id(item['id'])
+            if imdb_id and imdb_id not in existing_ids: # İkinci kontrol
+                link = f"{VIDMODY_BASE}/{imdb_id}"
+                pending_checks.append(link)
+                
+                # Başlık düzeni (İsteğe bağlı yıl ekleme)
+                title_text = item['title']
+                if add_year_to_title and item.get('release_date'):
+                    year_str = item['release_date'].split('-')[0]
+                    title_text = f"{title_text} ({year_str})"
 
-            if pending_checks:
-                active_links = batch_check_urls(pending_checks)
-                print(f"   {year} - Sayfa {page}: {len(active_links)} film bulundu.")
+                movie_map[link] = {
+                    "id": item['id'],
+                    "imdb": imdb_id,
+                    "title": title_text,
+                    "poster": f"{IMG_URL}{item['poster_path']}" if item.get('poster_path') else "",
+                    "category": category_name
+                }
 
-                for link in active_links:
-                    info = movie_map[link]
-                    
-                    # Kategori Mantığı:
-                    # 2026 ve 2025 filmleri "Son Eklenenler" olsun
-                    # Diğerleri "Filmler" olsun
-                    category = "Son Eklenenler" if year >= 2025 else "Filmler"
-
+        if pending_checks:
+            active_links = batch_check_urls(pending_checks)
+            count = 0
+            for link in active_links:
+                info = movie_map[link]
+                if info['id'] not in existing_ids:
+                    existing_ids.add(info['id']) # ID'yi kilitle (Başka grup alamasın)
                     all_movies.append({
                         "id": info['id'],
                         "title": info['title'],
                         "poster": info['poster'],
                         "link": link,
-                        "category": category
+                        "category": info['category']
                     })
-                    
-                    m3u_entries.append({
-                        "group": category,
-                        "logo": info['poster'],
-                        "name": info['title'],
-                        "url": link
-                    })
+                    count += 1
+            if count > 0:
+                print(f"   + {count} film eklendi -> {category_name}")
 
-        except Exception as e:
-            print(f"Hata: {e}")
+    except Exception as e:
+        print(f"Hata: {e}")
 
 def main():
     start_time = time.time()
-    movies_data = []
-    m3u_entries = []
-
-    # Belirlediğimiz yılları geriye doğru tarıyoruz (En yeniler en üstte olsun)
-    for year in range(END_YEAR, START_YEAR - 1, -1):
-        process_year(year, movies_data, m3u_entries)
-
-    # Dosyaları Kaydet
-    print("\n--- Dosyalar Kaydediliyor ---")
-    with open("output/movies_all.json", "w", encoding="utf-8") as f:
-        json.dump(movies_data, f, ensure_ascii=False, indent=4)
+    all_movies, existing_ids = load_existing_data()
     
-    save_m3u("output/movies_all.m3u", m3u_entries)
-    print(f"Toplam {len(m3u_entries)} film bulundu.")
-    print(f"İşlem Süresi: {int(time.time() - start_time)} saniye.")
+    # --- ADIM 1: SON EKLENENLER (VİTRİN) ---
+    # Burası en önemlisi. 2026 ve 2025'in en popülerlerini "Son Eklenenler" yapar.
+    # Bu ID'ler kilitlendiği için sonraki aşamalarda tekrar eklenmez.
+    print("\n--- ADIM 1: VİTRİN (SON EKLENENLER) ---")
+    for year in NEW_YEARS:
+        print(f"> {year} Yılı Vitrini Taranıyor...")
+        for page in range(1, PAGE_DEPTH_NEW + 1):
+            url = f"{BASE_URL}/discover/movie?api_key={API_KEY}&language=tr-TR&sort_by=popularity.desc&primary_release_year={year}&page={page}"
+            process_batch(url, "Son Eklenenler", existing_ids, all_movies, add_year_to_title=False)
+
+    # --- ADIM 2: YERLİ FİLMLER (TÜRKİYE) ---
+    # Tüm yıllardaki Türk filmlerini "Filmler | Yerli" klasörüne toplar.
+    print("\n--- ADIM 2: YERLİ FİLMLER ---")
+    for page in range(1, 11): # İlk 10 sayfa yerli film
+        url = f"{BASE_URL}/discover/movie?api_key={API_KEY}&language=tr-TR&sort_by=popularity.desc&with_original_language=tr&page={page}"
+        process_batch(url, "Filmler | Yerli", existing_ids, all_movies, add_year_to_title=True)
+
+    # --- ADIM 3: ARŞİV (YILLAR VE TÜRLER) ---
+    # Geriye kalanlar türlerine göre dağılır.
+    # Eğer film yukarıdaki "Son Eklenenler"de varsa, burası onu atlar (Duplicate olmaz).
+    print("\n--- ADIM 3: GENEL ARŞİV TARANIYOR ---")
+    for year in ARCHIVE_YEARS:
+        print(f"> Yıl: {year} işleniyor...")
+        for genre_id, genre_name in GENRES.items():
+            # Her türden 3-5 sayfa alalım
+            for page in range(1, PAGE_DEPTH_ARCHIVE + 1):
+                url = f"{BASE_URL}/discover/movie?api_key={API_KEY}&language=tr-TR&sort_by=popularity.desc&primary_release_year={year}&with_genres={genre_id}&page={page}"
+                process_batch(url, f"Filmler | {genre_name}", existing_ids, all_movies, add_year_to_title=True)
+
+    # --- KAYIT ---
+    print("\n--- KAYDEDİLİYOR ---")
+    with open(JSON_FILE, "w", encoding="utf-8") as f:
+        json.dump(all_movies, f, ensure_ascii=False, indent=4)
+    
+    save_m3u(M3U_FILE, all_movies)
+    print(f"İşlem bitti. Toplam Film: {len(all_movies)}")
+    print(f"Süre: {int(time.time() - start_time)} sn.")
 
 if __name__ == "__main__":
     main()
