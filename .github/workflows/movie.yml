@@ -1,0 +1,40 @@
+name: Movies Scraper (Only Movies)
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 2 * * *' # Her gece 02:00 (UTC)
+
+jobs:
+  scrape-movies:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Depoyu Çek
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Python Kurulumu
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Kütüphaneleri Yükle
+        run: pip install requests
+
+      - name: Filmleri Tara (movies.py)
+        run: python movies.py
+
+      - name: Sonuçları Kaydet ve Yükle
+        run: |
+          git config --global user.name 'GitHub Action Bot'
+          git config --global user.email 'action@github.com'
+          
+          git add output/
+          git commit -m "Filmler güncellendi" || echo "Değişiklik yok"
+          
+          git pull origin main --rebase --strategy-option=theirs
+          git push origin main
