@@ -65,7 +65,7 @@
     {
         "id": "tt14142060",
         "title": "Kiralık Aile",
-        "poster": "https://image.tmdb.org/t/p/w500/h3zd2DFwrQWrE3zc7fTH0LrCFjs.jpg",
+        "poster": "https://image.tmdb.org/t/p/w500/A5lswNlytTUrnMWsuD0NFfhZlf3.jpg",
         "link": "https://vidmody.com/vs/tt14142060",
         "group": "Yeni Eklenenler"
     },
@@ -959,6 +959,62 @@
         "group": "Yeni Eklenenler"
     },
     {
+        "id": "tt7510222",
+        "title": "Çılgın Hırsız 4",
+        "poster": "https://image.tmdb.org/t/p/w500/t61Yo3P7k0rBO4Oq9whSj0nX5Fc.jpg",
+        "link": "https://vidmody.com/vs/tt7510222",
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt1179933",
+        "title": "Cloverfield Yolu No:10",
+        "poster": "https://image.tmdb.org/t/p/w500/A5K6rtqlfd4NHrWamb1TETh5nYI.jpg",
+        "link": "https://vidmody.com/vs/tt1179933",
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt27986457",
+        "title": "Polly McClusky’nin Zor Eğitimi",
+        "poster": "https://image.tmdb.org/t/p/w500/fKdrXhs72K7DDtPmuhf0ZEnZ28D.jpg",
+        "link": "https://vidmody.com/vs/tt27986457",
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt2294629",
+        "title": "Karlar Ülkesi",
+        "poster": "https://image.tmdb.org/t/p/w500/7U6FUO2Utiog1jJjIyJ8OPfJr2J.jpg",
+        "link": "https://vidmody.com/vs/tt2294629",
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt0120363",
+        "title": "Oyuncak Hikayesi 2",
+        "poster": "https://image.tmdb.org/t/p/w500/df437IDV5xku4mYmvOCBMIqLXzj.jpg",
+        "link": "https://vidmody.com/vs/tt0120363",
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt19713090",
+        "title": "더 킬러: 죽어도 되는 아이",
+        "poster": "https://image.tmdb.org/t/p/w500/qPXGKOEQ1NSrmH6s7qFFF3qC9O6.jpg",
+        "link": "https://vidmody.com/vs/tt19713090",
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt0253474",
+        "title": "Piyanist",
+        "poster": "https://image.tmdb.org/t/p/w500/8gdOy6vd1lK2KyakZroETXyB4re.jpg",
+        "link": "https://vidmody.com/vs/tt0253474",
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt0162222",
+        "title": "Yeni Hayat",
+        "poster": "https://image.tmdb.org/t/p/w500/tFV8sdzithtgqjabGiPPAGz1fNi.jpg",
+        "link": "https://vidmody.com/vs/tt0162222",
+        "group": "Yeni Eklenenler"
+    },
+    {
         "id": "tt4154796",
         "title": "Avengers: Endgame",
         "poster": "https://image.tmdb.org/t/p/w500/bR8ISy1O9XQxqiy0fQFw2BX72RQ.jpg",
@@ -1001,20 +1057,6 @@
         "group": "Filmler"
     },
     {
-        "id": "tt7510222",
-        "title": "Çılgın Hırsız 4",
-        "poster": "https://image.tmdb.org/t/p/w500/t61Yo3P7k0rBO4Oq9whSj0nX5Fc.jpg",
-        "link": "https://vidmody.com/vs/tt7510222",
-        "group": "Filmler"
-    },
-    {
-        "id": "tt1179933",
-        "title": "Cloverfield Yolu No:10",
-        "poster": "https://image.tmdb.org/t/p/w500/A5K6rtqlfd4NHrWamb1TETh5nYI.jpg",
-        "link": "https://vidmody.com/vs/tt1179933",
-        "group": "Filmler"
-    },
-    {
         "id": "tt15239678",
         "title": "Dune: Çöl Gezegeni Bölüm İki",
         "poster": "https://image.tmdb.org/t/p/w500/tihf8Trht9zP3scmUQfvGlAY9FU.jpg",
@@ -1026,20 +1068,6 @@
         "title": "Thunderbolts*",
         "poster": "https://image.tmdb.org/t/p/w500/rjubchd3QdoDOZ6zrghHjNB1Rqh.jpg",
         "link": "https://vidmody.com/vs/tt20969586",
-        "group": "Filmler"
-    },
-    {
-        "id": "tt27986457",
-        "title": "Polly McClusky’nin Zor Eğitimi",
-        "poster": "https://image.tmdb.org/t/p/w500/fKdrXhs72K7DDtPmuhf0ZEnZ28D.jpg",
-        "link": "https://vidmody.com/vs/tt27986457",
-        "group": "Filmler"
-    },
-    {
-        "id": "tt2294629",
-        "title": "Karlar Ülkesi",
-        "poster": "https://image.tmdb.org/t/p/w500/7U6FUO2Utiog1jJjIyJ8OPfJr2J.jpg",
-        "link": "https://vidmody.com/vs/tt2294629",
         "group": "Filmler"
     },
     {
@@ -1155,13 +1183,6 @@
         "group": "Filmler"
     },
     {
-        "id": "tt0120363",
-        "title": "Oyuncak Hikayesi 2",
-        "poster": "https://image.tmdb.org/t/p/w500/df437IDV5xku4mYmvOCBMIqLXzj.jpg",
-        "link": "https://vidmody.com/vs/tt0120363",
-        "group": "Filmler"
-    },
-    {
         "id": "tt10627720",
         "title": "Ne Zha",
         "poster": "https://image.tmdb.org/t/p/w500/zb8xejiaNR0snSJgDepwFQUIi2e.jpg",
@@ -1173,13 +1194,6 @@
         "title": "Bizim Hatamız",
         "poster": "https://image.tmdb.org/t/p/w500/6kmi6vmp6iOn4KzI7WfnVtAeJhU.jpg",
         "link": "https://vidmody.com/vs/tt33311244",
-        "group": "Filmler"
-    },
-    {
-        "id": "tt19713090",
-        "title": "더 킬러: 죽어도 되는 아이",
-        "poster": "https://image.tmdb.org/t/p/w500/qPXGKOEQ1NSrmH6s7qFFF3qC9O6.jpg",
-        "link": "https://vidmody.com/vs/tt19713090",
         "group": "Filmler"
     },
     {
@@ -4802,13 +4816,6 @@
         "group": "Filmler"
     },
     {
-        "id": "tt0253474",
-        "title": "Piyanist",
-        "poster": "https://image.tmdb.org/t/p/w500/8gdOy6vd1lK2KyakZroETXyB4re.jpg",
-        "link": "https://vidmody.com/vs/tt0253474",
-        "group": "Filmler"
-    },
-    {
         "id": "tt0275847",
         "title": "Lilo ve Stiç",
         "poster": "https://image.tmdb.org/t/p/w500/m13Vbzv7R2GMAl3GXFrkmMEgCFQ.jpg",
@@ -5352,13 +5359,6 @@
         "title": "Özgürlüğün Elli Tonu",
         "poster": "https://image.tmdb.org/t/p/w500/bwDgBwC2Sxn8WNLjGYZbPaT8TzJ.jpg",
         "link": "https://vidmody.com/vs/tt4477536",
-        "group": "Filmler"
-    },
-    {
-        "id": "tt0162222",
-        "title": "Yeni Hayat",
-        "poster": "https://image.tmdb.org/t/p/w500/tFV8sdzithtgqjabGiPPAGz1fNi.jpg",
-        "link": "https://vidmody.com/vs/tt0162222",
         "group": "Filmler"
     },
     {
