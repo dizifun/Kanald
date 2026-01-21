@@ -19671,5 +19671,141 @@
                 "link": "https://vidmody.com/vs/tt0108778/s10/e17"
             }
         ]
+    },
+    {
+        "id": 271885,
+        "name": "As You Stood By",
+        "poster": "https://image.tmdb.org/t/p/w500/cAx7vFmy7gBCqGKU1v8lvrvpDBF.jpg",
+        "category": "Son Eklenenler",
+        "episodes": [
+            {
+                "season": 1,
+                "episode": 1,
+                "link": "https://vidmody.com/vs/tt33550045/s1/e01"
+            },
+            {
+                "season": 1,
+                "episode": 2,
+                "link": "https://vidmody.com/vs/tt33550045/s1/e02"
+            },
+            {
+                "season": 1,
+                "episode": 3,
+                "link": "https://vidmody.com/vs/tt33550045/s1/e03"
+            },
+            {
+                "season": 1,
+                "episode": 4,
+                "link": "https://vidmody.com/vs/tt33550045/s1/e04"
+            },
+            {
+                "season": 1,
+                "episode": 5,
+                "link": "https://vidmody.com/vs/tt33550045/s1/e05"
+            },
+            {
+                "season": 1,
+                "episode": 6,
+                "link": "https://vidmody.com/vs/tt33550045/s1/e06"
+            },
+            {
+                "season": 1,
+                "episode": 7,
+                "link": "https://vidmody.com/vs/tt33550045/s1/e07"
+            },
+            {
+                "season": 1,
+                "episode": 8,
+                "link": "https://vidmody.com/vs/tt33550045/s1/e08"
+            }
+        ]
+    },
+    {
+        "id": 117830,
+        "name": "Tomb Raider: The Legend of Lara Croft (2024)",
+        "poster": "https://image.tmdb.org/t/p/w500/hBqYte464epKcSaOufl3SXPqKfj.jpg",
+        "category": "Diziler | Aksiyon & Macera",
+        "episodes": [
+            {
+                "season": 1,
+                "episode": 1,
+                "link": "https://vidmody.com/vs/tt13930822/s1/e01"
+            },
+            {
+                "season": 1,
+                "episode": 2,
+                "link": "https://vidmody.com/vs/tt13930822/s1/e02"
+            },
+            {
+                "season": 1,
+                "episode": 3,
+                "link": "https://vidmody.com/vs/tt13930822/s1/e03"
+            },
+            {
+                "season": 1,
+                "episode": 4,
+                "link": "https://vidmody.com/vs/tt13930822/s1/e04"
+            },
+            {
+                "season": 1,
+                "episode": 5,
+                "link": "https://vidmody.com/vs/tt13930822/s1/e05"
+            },
+            {
+                "season": 1,
+                "episode": 6,
+                "link": "https://vidmody.com/vs/tt13930822/s1/e06"
+            },
+            {
+                "season": 1,
+                "episode": 7,
+                "link": "https://vidmody.com/vs/tt13930822/s1/e07"
+            },
+            {
+                "season": 1,
+                "episode": 8,
+                "link": "https://vidmody.com/vs/tt13930822/s1/e08"
+            },
+            {
+                "season": 2,
+                "episode": 1,
+                "link": "https://vidmody.com/vs/tt13930822/s2/e01"
+            },
+            {
+                "season": 2,
+                "episode": 2,
+                "link": "https://vidmody.com/vs/tt13930822/s2/e02"
+            },
+            {
+                "season": 2,
+                "episode": 3,
+                "link": "https://vidmody.com/vs/tt13930822/s2/e03"
+            },
+            {
+                "season": 2,
+                "episode": 4,
+                "link": "https://vidmody.com/vs/tt13930822/s2/e04"
+            },
+            {
+                "season": 2,
+                "episode": 5,
+                "link": "https://vidmody.com/vs/tt13930822/s2/e05"
+            },
+            {
+                "season": 2,
+                "episode": 6,
+                "link": "https://vidmody.com/vs/tt13930822/s2/e06"
+            },
+            {
+                "season": 2,
+                "episode": 7,
+                "link": "https://vidmody.com/vs/tt13930822/s2/e07"
+            },
+            {
+                "season": 2,
+                "episode": 8,
+                "link": "https://vidmody.com/vs/tt13930822/s2/e08"
+            }
+        ]
     }
 ]
