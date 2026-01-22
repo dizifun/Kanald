@@ -463,7 +463,7 @@
     },
     {
         "id": "tt26896414",
-        "title": "Bütün Şeytanlar Burada",
+        "title": "Tüm Şeytanlar Burada",
         "poster": "https://image.tmdb.org/t/p/w500/4GJTUSjbCGynQo4PpTTNzzxYfBM.jpg",
         "link": "https://vidmody.com/vs/tt26896414",
         "group": "Yeni Eklenenler"
@@ -1015,17 +1015,52 @@
         "group": "Yeni Eklenenler"
     },
     {
-        "id": "tt4154796",
-        "title": "Avengers: Endgame",
-        "poster": "https://image.tmdb.org/t/p/w500/bR8ISy1O9XQxqiy0fQFw2BX72RQ.jpg",
-        "link": "https://vidmody.com/vs/tt4154796",
-        "group": "Filmler"
-    },
-    {
         "id": "tt33088452",
         "title": "Pişmanım Ama",
         "poster": "https://image.tmdb.org/t/p/w500/9IwLXJ3JTnpKvsIXx8ZAzc6rehE.jpg",
         "link": "https://vidmody.com/vs/tt33088452",
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt0993846",
+        "title": "Para Avcısı",
+        "poster": "https://image.tmdb.org/t/p/w500/ywn2c1sSfdNdJB5O9Hoy3ETfTY2.jpg",
+        "link": "https://vidmody.com/vs/tt0993846",
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt27621210",
+        "title": "Buz Yolu: İntikam",
+        "poster": "https://image.tmdb.org/t/p/w500/z0xS4gEnspPQ9DY6e2Nw1n9RXMJ.jpg",
+        "link": "https://vidmody.com/vs/tt27621210",
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt0114709",
+        "title": "Oyuncak Hikayesi",
+        "poster": "https://image.tmdb.org/t/p/w500/4KAtscEx3Pt9YPpNuK3BO6irQn1.jpg",
+        "link": "https://vidmody.com/vs/tt0114709",
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt0088763",
+        "title": "Geleceğe Dönüş",
+        "poster": "https://image.tmdb.org/t/p/w500/s6pfkJuTFZe7BCfJ5vOCECNmQbW.jpg",
+        "link": "https://vidmody.com/vs/tt0088763",
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt10193752",
+        "title": "Gerçek Charlie Chaplin",
+        "poster": "https://image.tmdb.org/t/p/w500/zajwv6MwIweYlyhu1ibMojr65wB.jpg",
+        "link": "https://vidmody.com/vs/tt10193752",
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt4154796",
+        "title": "Avengers: Endgame",
+        "poster": "https://image.tmdb.org/t/p/w500/bR8ISy1O9XQxqiy0fQFw2BX72RQ.jpg",
+        "link": "https://vidmody.com/vs/tt4154796",
         "group": "Filmler"
     },
     {
@@ -1169,13 +1204,6 @@
         "group": "Filmler"
     },
     {
-        "id": "tt0993846",
-        "title": "Para Avcısı",
-        "poster": "https://image.tmdb.org/t/p/w500/ywn2c1sSfdNdJB5O9Hoy3ETfTY2.jpg",
-        "link": "https://vidmody.com/vs/tt0993846",
-        "group": "Filmler"
-    },
-    {
         "id": "tt0304141",
         "title": "Harry Potter ve Azkaban Tutsağı",
         "poster": "https://image.tmdb.org/t/p/w500/hyxksRw6NmbPqGI2z7pebORvjx3.jpg",
@@ -1208,13 +1236,6 @@
         "title": "Örümcek-Adam: Eve Dönüş",
         "poster": "https://image.tmdb.org/t/p/w500/7KQ8dSUHk1yDpiBfOQ4hqMLAqrX.jpg",
         "link": "https://vidmody.com/vs/tt2250912",
-        "group": "Filmler"
-    },
-    {
-        "id": "tt27621210",
-        "title": "Buz Yolu: İntikam",
-        "poster": "https://image.tmdb.org/t/p/w500/z0xS4gEnspPQ9DY6e2Nw1n9RXMJ.jpg",
-        "link": "https://vidmody.com/vs/tt27621210",
         "group": "Filmler"
     },
     {
@@ -1309,13 +1330,6 @@
         "group": "Filmler"
     },
     {
-        "id": "tt0114709",
-        "title": "Oyuncak Hikayesi",
-        "poster": "https://image.tmdb.org/t/p/w500/4KAtscEx3Pt9YPpNuK3BO6irQn1.jpg",
-        "link": "https://vidmody.com/vs/tt0114709",
-        "group": "Filmler"
-    },
-    {
         "id": "tt11245972",
         "title": "Çığlık",
         "poster": "https://image.tmdb.org/t/p/w500/g81ja9FsXrye5ZvUaJSxrXpmpOy.jpg",
@@ -1341,13 +1355,6 @@
         "title": "Yenilmezler: Ultron Çağı",
         "poster": "https://image.tmdb.org/t/p/w500/y3t1t4FlQpDdtpoVsXC6IzeMjUH.jpg",
         "link": "https://vidmody.com/vs/tt2395427",
-        "group": "Filmler"
-    },
-    {
-        "id": "tt0088763",
-        "title": "Geleceğe Dönüş",
-        "poster": "https://image.tmdb.org/t/p/w500/s6pfkJuTFZe7BCfJ5vOCECNmQbW.jpg",
-        "link": "https://vidmody.com/vs/tt0088763",
         "group": "Filmler"
     },
     {
