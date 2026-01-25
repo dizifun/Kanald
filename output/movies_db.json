@@ -72,7 +72,7 @@
     {
         "id": "tt34610311",
         "title": "The Shadow's Edge",
-        "poster": "https://image.tmdb.org/t/p/w500/uBRMTcpUd55pstCVTEn49uRuevX.jpg",
+        "poster": "https://image.tmdb.org/t/p/w500/o25Tk1FYQi2BLk0OEAvx2h69QvB.jpg",
         "link": "https://vidmody.com/vs/tt34610311",
         "group": "Yeni Eklenenler"
     },
@@ -387,7 +387,7 @@
     {
         "id": "tt19847976",
         "title": "Wicked: İyilik Uğruna",
-        "poster": "https://image.tmdb.org/t/p/w500/lDL8vPUuJs2LsPHPjAGhkbYTpNX.jpg",
+        "poster": "https://image.tmdb.org/t/p/w500/rABBTy8KZju7SNna7cgGDJZsrRV.jpg",
         "link": "https://vidmody.com/vs/tt19847976",
         "group": "Yeni Eklenenler"
     },
@@ -1204,6 +1204,48 @@
         "group": "Yeni Eklenenler"
     },
     {
+        "id": "tt15239678",
+        "title": "Dune: Çöl Gezegeni Bölüm İki",
+        "poster": "https://image.tmdb.org/t/p/w500/tihf8Trht9zP3scmUQfvGlAY9FU.jpg",
+        "link": "https://vidmody.com/vs/tt15239678",
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt33311244",
+        "title": "Bizim Hatamız",
+        "poster": "https://image.tmdb.org/t/p/w500/6kmi6vmp6iOn4KzI7WfnVtAeJhU.jpg",
+        "link": "https://vidmody.com/vs/tt33311244",
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt18312380",
+        "title": "Primitive War",
+        "poster": "https://image.tmdb.org/t/p/w500/fZnY97zAyATRH50Q1I92fQy1hUg.jpg",
+        "link": "https://vidmody.com/vs/tt18312380",
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt0384537",
+        "title": "Sessiz Tepe",
+        "poster": "https://image.tmdb.org/t/p/w500/cE6p8kIqDjzDQKkEEuxgsbwdBCu.jpg",
+        "link": "https://vidmody.com/vs/tt0384537",
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt0892791",
+        "title": "Şrek: Sonsuza Dek Mutlu",
+        "poster": "https://image.tmdb.org/t/p/w500/r51o1rUyPvR2bQFy09uItJrlNmd.jpg",
+        "link": "https://vidmody.com/vs/tt0892791",
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt32001482",
+        "title": "Strangers",
+        "poster": "https://image.tmdb.org/t/p/w500/ohpuwSBMgP44OPduPkpOtLxh90w.jpg",
+        "link": "https://vidmody.com/vs/tt32001482",
+        "group": "Yeni Eklenenler"
+    },
+    {
         "id": "tt4154796",
         "title": "Avengers: Endgame",
         "poster": "https://image.tmdb.org/t/p/w500/bR8ISy1O9XQxqiy0fQFw2BX72RQ.jpg",
@@ -1215,13 +1257,6 @@
         "title": "Freddy'nin Pizza Dükkanında Beş Gece",
         "poster": "https://image.tmdb.org/t/p/w500/z9GinPUm7cxu1Fud4fxDmIhoCpj.jpg",
         "link": "https://vidmody.com/vs/tt4589218",
-        "group": "Filmler"
-    },
-    {
-        "id": "tt15239678",
-        "title": "Dune: Çöl Gezegeni Bölüm İki",
-        "poster": "https://image.tmdb.org/t/p/w500/tihf8Trht9zP3scmUQfvGlAY9FU.jpg",
-        "link": "https://vidmody.com/vs/tt15239678",
         "group": "Filmler"
     },
     {
@@ -1316,13 +1351,6 @@
         "group": "Filmler"
     },
     {
-        "id": "tt33311244",
-        "title": "Bizim Hatamız",
-        "poster": "https://image.tmdb.org/t/p/w500/6kmi6vmp6iOn4KzI7WfnVtAeJhU.jpg",
-        "link": "https://vidmody.com/vs/tt33311244",
-        "group": "Filmler"
-    },
-    {
         "id": "tt32304349",
         "title": "Oğul",
         "poster": "https://image.tmdb.org/t/p/w500/yllVWLHfHuNPsusGeLPhUB0cMLS.jpg",
@@ -1348,13 +1376,6 @@
         "title": "Schindler'in Listesi",
         "poster": "https://image.tmdb.org/t/p/w500/2mOH8EqumIaepdP94e0cy4Xnyg7.jpg",
         "link": "https://vidmody.com/vs/tt0108052",
-        "group": "Filmler"
-    },
-    {
-        "id": "tt18312380",
-        "title": "Primitive War",
-        "poster": "https://image.tmdb.org/t/p/w500/fZnY97zAyATRH50Q1I92fQy1hUg.jpg",
-        "link": "https://vidmody.com/vs/tt18312380",
         "group": "Filmler"
     },
     {
@@ -2020,13 +2041,6 @@
         "title": "Young Hearts",
         "poster": "https://image.tmdb.org/t/p/w500/xsApLXxqTG5uorAZRF0kJi0oXfR.jpg",
         "link": "https://vidmody.com/vs/tt15245268",
-        "group": "Filmler"
-    },
-    {
-        "id": "tt0384537",
-        "title": "Sessiz Tepe",
-        "poster": "https://image.tmdb.org/t/p/w500/cE6p8kIqDjzDQKkEEuxgsbwdBCu.jpg",
-        "link": "https://vidmody.com/vs/tt0384537",
         "group": "Filmler"
     },
     {
@@ -2944,13 +2958,6 @@
         "title": "Her Şey Her Yerde Aynı Anda",
         "poster": "https://image.tmdb.org/t/p/w500/vt5Fd1wouNEL7HN3TQ0PMls4auE.jpg",
         "link": "https://vidmody.com/vs/tt6710474",
-        "group": "Filmler"
-    },
-    {
-        "id": "tt0892791",
-        "title": "Şrek: Sonsuza Dek Mutlu",
-        "poster": "https://image.tmdb.org/t/p/w500/r51o1rUyPvR2bQFy09uItJrlNmd.jpg",
-        "link": "https://vidmody.com/vs/tt0892791",
         "group": "Filmler"
     },
     {
