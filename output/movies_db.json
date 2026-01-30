@@ -72,7 +72,7 @@
     {
         "id": "tt34610311",
         "title": "The Shadow's Edge",
-        "poster": "https://image.tmdb.org/t/p/w500/o25Tk1FYQi2BLk0OEAvx2h69QvB.jpg",
+        "poster": "https://image.tmdb.org/t/p/w500/25OeH0GOuEljJqZoF0HoKxOpq0B.jpg",
         "link": "https://vidmody.com/vs/tt34610311",
         "group": "Yeni Eklenenler"
     },
@@ -1344,6 +1344,20 @@
         "group": "Yeni Eklenenler"
     },
     {
+        "id": "tt4633694",
+        "title": "Örümcek Adam: Örümcek Evreninde",
+        "poster": "https://image.tmdb.org/t/p/w500/ii2MsmBmTL5kQuvBRCtKokUAF8v.jpg",
+        "link": "https://vidmody.com/vs/tt4633694",
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt2084970",
+        "title": "Enigma",
+        "poster": "https://image.tmdb.org/t/p/w500/zSqJ1qFq8NXFfi7JeIYMlzyR0dx.jpg",
+        "link": "https://vidmody.com/vs/tt2084970",
+        "group": "Yeni Eklenenler"
+    },
+    {
         "id": "tt4154796",
         "title": "Avengers: Endgame",
         "poster": "https://image.tmdb.org/t/p/w500/bR8ISy1O9XQxqiy0fQFw2BX72RQ.jpg",
@@ -1985,13 +1999,6 @@
         "title": "Yürüyen Şato",
         "poster": "https://image.tmdb.org/t/p/w500/8rUEO5BjmWEQcGUm5SmO134NBC3.jpg",
         "link": "https://vidmody.com/vs/tt0347149",
-        "group": "Filmler"
-    },
-    {
-        "id": "tt4633694",
-        "title": "Örümcek Adam: Örümcek Evreninde",
-        "poster": "https://image.tmdb.org/t/p/w500/ii2MsmBmTL5kQuvBRCtKokUAF8v.jpg",
-        "link": "https://vidmody.com/vs/tt4633694",
         "group": "Filmler"
     },
     {
@@ -2811,13 +2818,6 @@
         "title": "Bıçaklar Çekildi: Gizemli Bir Serüven",
         "poster": "https://image.tmdb.org/t/p/w500/5nVRMEnjQ4yDOdDdRZehqqBac9p.jpg",
         "link": "https://vidmody.com/vs/tt11564570",
-        "group": "Filmler"
-    },
-    {
-        "id": "tt2084970",
-        "title": "Enigma",
-        "poster": "https://image.tmdb.org/t/p/w500/zSqJ1qFq8NXFfi7JeIYMlzyR0dx.jpg",
-        "link": "https://vidmody.com/vs/tt2084970",
         "group": "Filmler"
     },
     {
