@@ -79,7 +79,7 @@
     {
         "id": "tt32642706",
         "title": "The Rip",
-        "poster": "https://image.tmdb.org/t/p/w500/p4bW2sJKAwcHuLpfoZK7Zo63osA.jpg",
+        "poster": "https://image.tmdb.org/t/p/w500/eZo31Dhl5BQ6GfbMNf3oU0tUvPZ.jpg",
         "link": "https://vidmody.com/vs/tt32642706",
         "group": "Yeni Eklenenler"
     },
@@ -1379,6 +1379,20 @@
         "group": "Yeni Eklenenler"
     },
     {
+        "id": "tt0373889",
+        "title": "Harry Potter ve Zümrüdüanka Yoldaşlığı",
+        "poster": "https://image.tmdb.org/t/p/w500/s8htpahrRb2lEFa3fYL9yXFORYC.jpg",
+        "link": "https://vidmody.com/vs/tt0373889",
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt32323252",
+        "title": "Christy",
+        "poster": "https://image.tmdb.org/t/p/w500/ssy1uHGZkuXLkIWJWrtsBczPvVC.jpg",
+        "link": "https://vidmody.com/vs/tt32323252",
+        "group": "Yeni Eklenenler"
+    },
+    {
         "id": "tt4154796",
         "title": "Avengers: Endgame",
         "poster": "https://image.tmdb.org/t/p/w500/bR8ISy1O9XQxqiy0fQFw2BX72RQ.jpg",
@@ -1628,13 +1642,6 @@
         "title": "Vol.i",
         "poster": "https://image.tmdb.org/t/p/w500/jzCpGwWHUwby14KPJJWla9ybY81.jpg",
         "link": "https://vidmody.com/vs/tt0910970",
-        "group": "Filmler"
-    },
-    {
-        "id": "tt0373889",
-        "title": "Harry Potter ve Zümrüdüanka Yoldaşlığı",
-        "poster": "https://image.tmdb.org/t/p/w500/s8htpahrRb2lEFa3fYL9yXFORYC.jpg",
-        "link": "https://vidmody.com/vs/tt0373889",
         "group": "Filmler"
     },
     {
@@ -12898,13 +12905,6 @@
         "title": "Batı Vahşi Hikayeleri",
         "poster": "https://image.tmdb.org/t/p/w500/voxl654m7p36y8FLu8oQD7dfwwK.jpg",
         "link": "https://vidmody.com/vs/tt6412452",
-        "group": "Filmler"
-    },
-    {
-        "id": "tt32323252",
-        "title": "Christy",
-        "poster": "https://image.tmdb.org/t/p/w500/ssy1uHGZkuXLkIWJWrtsBczPvVC.jpg",
-        "link": "https://vidmody.com/vs/tt32323252",
         "group": "Filmler"
     },
     {
