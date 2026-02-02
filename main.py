@@ -1,15 +1,22 @@
 import requests
 import json
 import os
-import sys  # Sistem komutları için gerekli
+import sys
 
 # --- KULLANICI BİLGİLERİ ---
 EMAIL = "Mr.aykutsen@gmail.com"
-PASSWORD = "Aykut01081993.."  # <-- Şifreni buraya yapıştırmayı unutma!
+PASSWORD = "Aykut01081993.."  # <-- Şifreni tırnak içine yapıştır!
 
 # --- AYARLAR ---
 BASE_URL = "https://eu1.tabii.com/apigateway"
-LOGIN_URL = "https://eu1.tabii.com/auth/v1/login"
+
+# Olası Login Adresleri (Sırayla dener)
+LOGIN_URLS_TO_TRY = [
+    "https://eu1.tabii.com/apigateway/auth/v1/login",  # En muhtemel adres
+    "https://eu1.tabii.com/apigateway/auth/login",
+    "https://eu1.tabii.com/auth/v1/login",
+    "https://eu1.tabii.com/auth/login"
+]
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -17,38 +24,43 @@ HEADERS = {
 }
 
 def login_and_get_token():
-    print("🔑 Giriş yapılıyor...")
+    print("🔑 Giriş deneniyor...")
     payload = {"email": EMAIL, "password": PASSWORD}
-
-    try:
-        response = requests.post(LOGIN_URL, json=payload, headers=HEADERS)
-        if response.status_code == 200:
-            data = response.json()
-            token = data.get("token") or data.get("access_token") or data.get("session", {}).get("token")
-            if token:
-                print("✅ Giriş başarılı! Token alındı.")
-                return token
+    
+    for url in LOGIN_URLS_TO_TRY:
+        try:
+            print(f"URL deneniyor: {url}")
+            response = requests.post(url, json=payload, headers=HEADERS)
+            
+            if response.status_code == 200:
+                data = response.json()
+                token = data.get("token") or data.get("access_token") or data.get("session", {}).get("token")
+                
+                if token:
+                    print(f"✅ Giriş başarılı! ({url})")
+                    return token
+            elif response.status_code == 404:
+                print(f"❌ Adres bulunamadı (404), bir sonrakine geçiliyor...")
+                continue
             else:
-                print(f"❌ Giriş başarılı ama Token bulunamadı. Yanıt: {data}")
-                sys.exit(1) # Hata verip durdur
-        else:
-            print(f"❌ Giriş başarısız! Hata Kodu: {response.status_code}")
-            print(f"❌ Cevap: {response.text}")
-            sys.exit(1) # Hata verip durdur
+                print(f"⚠️ Giriş başarısız. Kod: {response.status_code}, Cevap: {response.text}")
+                
+        except Exception as e:
+            print(f"⚠️ Bağlantı hatası: {e}")
+            continue
 
-    except Exception as e:
-        print(f"❌ Login bağlantı hatası: {e}")
-        sys.exit(1)
+    print("❌ HATA: Hiçbir login adresi çalışmadı.")
+    sys.exit(1)
 
 def get_contents(auth_token):
     print("📡 İçerikler çekiliyor...")
     auth_headers = HEADERS.copy()
     auth_headers["Authorization"] = f"Bearer {auth_token}"
-
-    # Hedef ID (Genel Akış veya benzeri bir liste ID'si)
-    target_id = "149106_149112" 
+    
+    # Genel içerik listesi ID'si (Değişirse burayı güncellemek gerekebilir)
+    target_id = "149106_149112"
     api_endpoint = f"{BASE_URL}/pbr/v1/pages/browse/{target_id}"
-
+    
     try:
         response = requests.get(api_endpoint, headers=auth_headers)
         if response.status_code == 200:
@@ -62,23 +74,23 @@ def get_contents(auth_token):
 
 def generate_files(data, auth_token):
     if not data:
-        print("❌ Veri boş geldi!")
+        print("❌ Veri boş!")
         sys.exit(1)
 
     m3u_content = "#EXTM3U\n"
     json_list = []
-
+    
     items = []
     if "components" in data:
         for comp in data["components"]:
              if "elements" in comp:
                  items.extend(comp["elements"])
 
-    print(f"📄 Toplam {len(items)} içerik bulundu. Dosyalar hazırlanıyor...")
+    print(f"📄 {len(items)} içerik bulundu. Dosyalar yazılıyor...")
 
     if len(items) == 0:
-        print("⚠️ HATA: Listede hiç içerik yok! API yapısı değişmiş olabilir.")
-        # Dosya oluşmazsa git add hata verir, o yüzden boş dosya oluşturalım:
+        print("⚠️ Liste boş geldi, boş dosya oluşturuluyor.")
+        # Hata vermemesi için boş da olsa dosya oluştur
         with open("playlist.m3u", "w") as f: f.write("")
         with open("tabii_data.json", "w") as f: f.write("[]")
         return
@@ -86,8 +98,8 @@ def generate_files(data, auth_token):
     for item in items:
         try:
             media_id = item.get("id")
-            title = item.get("title", "Bilinmeyen Başlık")
-
+            title = item.get("title", "Bilinmeyen")
+            
             image_url = ""
             if "images" in item and item["images"]:
                 image_url = item["images"][0].get("url", "")
@@ -106,25 +118,17 @@ def generate_files(data, auth_token):
                 "title": title,
                 "thumbnail": image_url,
                 "stream_url": stream_url,
-                "drm": "widevine",
-                "headers": {
-                    "Authorization": f"Bearer {auth_token}",
-                    "User-Agent": HEADERS["User-Agent"]
-                }
+                "headers": {"Authorization": f"Bearer {auth_token}"}
             })
 
         except Exception:
             continue
 
-    with open("playlist.m3u", "w", encoding="utf-8") as f:
-        f.write(m3u_content)
-
-    with open("tabii_data.json", "w", encoding="utf-8") as f:
-        json.dump(json_list, f, ensure_ascii=False, indent=4)
-
-    print("✅ Dosyalar başarıyla oluşturuldu!")
+    with open("playlist.m3u", "w", encoding="utf-8") as f: f.write(m3u_content)
+    with open("tabii_data.json", "w", encoding="utf-8") as f: json.dump(json_list, f, indent=4)
+    print("✅ Dosyalar hazır!")
 
 if __name__ == "__main__":
     token = login_and_get_token()
-    content_data = get_contents(token)
-    generate_files(content_data, token)
+    content = get_contents(token)
+    generate_files(content, token)
