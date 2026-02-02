@@ -261,7 +261,7 @@
     {
         "id": "tt1527793",
         "title": "Başka Yolu Yok",
-        "poster": "https://image.tmdb.org/t/p/w500/lVPmupvmvwWCFXHf6QX3xqehIpm.jpg",
+        "poster": "https://image.tmdb.org/t/p/w500/9w7WGjQes0Cs0s4U3Qr09Tg1Sra.jpg",
         "link": "https://vidmody.com/vs/tt1527793",
         "group": "Yeni Eklenenler"
     },
@@ -1393,6 +1393,20 @@
         "group": "Yeni Eklenenler"
     },
     {
+        "id": "tt10374610",
+        "title": "The Long Walk",
+        "poster": "https://image.tmdb.org/t/p/w500/wobVTa99eW0ht6c1rNNzLkazPtR.jpg",
+        "link": "https://vidmody.com/vs/tt10374610",
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt27674706",
+        "title": "Oscar Shaw",
+        "poster": "https://image.tmdb.org/t/p/w500/tsE3nySukwrfUjouz8vzvKTcXNC.jpg",
+        "link": "https://vidmody.com/vs/tt27674706",
+        "group": "Yeni Eklenenler"
+    },
+    {
         "id": "tt4154796",
         "title": "Avengers: Endgame",
         "poster": "https://image.tmdb.org/t/p/w500/bR8ISy1O9XQxqiy0fQFw2BX72RQ.jpg",
@@ -1481,13 +1495,6 @@
         "title": "Oğul",
         "poster": "https://image.tmdb.org/t/p/w500/yllVWLHfHuNPsusGeLPhUB0cMLS.jpg",
         "link": "https://vidmody.com/vs/tt32304349",
-        "group": "Filmler"
-    },
-    {
-        "id": "tt10374610",
-        "title": "The Long Walk",
-        "poster": "https://image.tmdb.org/t/p/w500/wobVTa99eW0ht6c1rNNzLkazPtR.jpg",
-        "link": "https://vidmody.com/vs/tt10374610",
         "group": "Filmler"
     },
     {
@@ -11764,13 +11771,6 @@
         "title": "John Carter: İki Dünya Arasında",
         "poster": "https://image.tmdb.org/t/p/w500/cQnW68MIq6ZU1Yz03FhCOVHm9YL.jpg",
         "link": "https://vidmody.com/vs/tt0401729",
-        "group": "Filmler"
-    },
-    {
-        "id": "tt27674706",
-        "title": "Oscar Shaw",
-        "poster": "https://image.tmdb.org/t/p/w500/tsE3nySukwrfUjouz8vzvKTcXNC.jpg",
-        "link": "https://vidmody.com/vs/tt27674706",
         "group": "Filmler"
     },
     {
