@@ -135,7 +135,7 @@
     {
         "id": "tt30274401",
         "title": "Freddy'nin Pizza Dükkanında Beş Gece 2",
-        "poster": "https://image.tmdb.org/t/p/w500/2ZqZ1olQyizSwwPTpYlTRH2Vguv.jpg",
+        "poster": "https://image.tmdb.org/t/p/w500/AovrwjfMJSis5Xm3M0ydhhJ8yPz.jpg",
         "link": "https://vidmody.com/vs/tt30274401",
         "group": "Yeni Eklenenler"
     },
@@ -261,7 +261,7 @@
     {
         "id": "tt1527793",
         "title": "Başka Yolu Yok",
-        "poster": "https://image.tmdb.org/t/p/w500/9w7WGjQes0Cs0s4U3Qr09Tg1Sra.jpg",
+        "poster": "https://image.tmdb.org/t/p/w500/5iQ9umAVeNTQHxhJyHdVmxBQefX.jpg",
         "link": "https://vidmody.com/vs/tt1527793",
         "group": "Yeni Eklenenler"
     },
@@ -1456,6 +1456,104 @@
         "group": "Yeni Eklenenler"
     },
     {
+        "id": "tt0363771",
+        "title": "Narnia Günlükleri: Aslan, Cadı ve Dolap",
+        "poster": "https://image.tmdb.org/t/p/w500/xLw3vdBIwVptsyoIqRfXva9SLxK.jpg",
+        "link": "https://vidmody.com/vs/tt0363771",
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt34381460",
+        "title": "96分鐘",
+        "poster": "https://image.tmdb.org/t/p/w500/5HefFZDvzHAR4qWEMExLfyM0qLs.jpg",
+        "link": "https://vidmody.com/vs/tt34381460",
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt33046197",
+        "title": "Yıkım Ekibi",
+        "poster": "https://image.tmdb.org/t/p/w500/qDg6i7uqiq6K3PNHlVQz0MmZSX.jpg",
+        "link": "https://vidmody.com/vs/tt33046197",
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt37969426",
+        "title": "The Muppet Show",
+        "poster": "https://image.tmdb.org/t/p/w500/tcwar1rL0neoLvnklL7DzYw7sN8.jpg",
+        "link": "https://vidmody.com/vs/tt37969426",
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt35718349",
+        "title": "Relationship Goals",
+        "poster": "https://image.tmdb.org/t/p/w500/o7dVxvZIKnAB7k1eeeWp2k14Es7.jpg",
+        "link": "https://vidmody.com/vs/tt35718349",
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt14905854",
+        "title": "Hamnet",
+        "poster": "https://image.tmdb.org/t/p/w500/vbeyOZm2bvBXcbgPD3v6o94epPX.jpg",
+        "link": "https://vidmody.com/vs/tt14905854",
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt30096221",
+        "title": "Ella McCay",
+        "poster": "https://image.tmdb.org/t/p/w500/3413itecsPkiNAESKLNvwU5Wc5s.jpg",
+        "link": "https://vidmody.com/vs/tt30096221",
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt39049192",
+        "title": "Aşkımız Bu Gece Kaybolsa Bile",
+        "poster": "https://image.tmdb.org/t/p/w500/bMA6E5cu1QUMehjBZOjWjqQjhey.jpg",
+        "link": "https://vidmody.com/vs/tt39049192",
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt39240255",
+        "title": "Çocukluğuma Bir Mektup",
+        "poster": "https://image.tmdb.org/t/p/w500/h0zJFHsXlWrJ7Q3XYqovmLvQeEV.jpg",
+        "link": "https://vidmody.com/vs/tt39240255",
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt1554091",
+        "title": "Daha İyi Bir Yaşam",
+        "poster": "https://image.tmdb.org/t/p/w500/eY9wOw5PjrRXUTLgNmqWb60it10.jpg",
+        "link": "https://vidmody.com/vs/tt1554091",
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt36398562",
+        "title": "Yangın Yeri: Çukur",
+        "poster": "https://image.tmdb.org/t/p/w500/3OBRXbnlhZxMPpfLMLzQwF29IMC.jpg",
+        "link": "https://vidmody.com/vs/tt36398562",
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt0488380",
+        "title": "Kayıp Yüzük",
+        "poster": "https://image.tmdb.org/t/p/w500/rsQp6ZlVN9DFj6wcxDcwgpFrOaH.jpg",
+        "link": "https://vidmody.com/vs/tt0488380",
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt36741457",
+        "title": "Gerçek Sahtekâr",
+        "poster": "https://image.tmdb.org/t/p/w500/fzSEuMeoi5Pnf3PU10ZznPAJ2Ap.jpg",
+        "link": "https://vidmody.com/vs/tt36741457",
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt35819650",
+        "title": "Aşkın Yüzü",
+        "poster": "https://image.tmdb.org/t/p/w500/1yhTZRtl7ZSMoPGpmMhL1iq0fxD.jpg",
+        "link": "https://vidmody.com/vs/tt35819650",
+        "group": "Yeni Eklenenler"
+    },
+    {
         "id": "tt4154796",
         "title": "Avengers: Endgame",
         "poster": "https://image.tmdb.org/t/p/w500/bR8ISy1O9XQxqiy0fQFw2BX72RQ.jpg",
@@ -1467,13 +1565,6 @@
         "title": "Freddy'nin Pizza Dükkanında Beş Gece",
         "poster": "https://image.tmdb.org/t/p/w500/z9GinPUm7cxu1Fud4fxDmIhoCpj.jpg",
         "link": "https://vidmody.com/vs/tt4589218",
-        "group": "Filmler"
-    },
-    {
-        "id": "tt0363771",
-        "title": "Narnia Günlükleri: Aslan, Cadı ve Dolap",
-        "poster": "https://image.tmdb.org/t/p/w500/xLw3vdBIwVptsyoIqRfXva9SLxK.jpg",
-        "link": "https://vidmody.com/vs/tt0363771",
         "group": "Filmler"
     },
     {
