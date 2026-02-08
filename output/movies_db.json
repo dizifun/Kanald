@@ -72,7 +72,7 @@
     {
         "id": "tt34610311",
         "title": "The Shadow's Edge",
-        "poster": "https://image.tmdb.org/t/p/w500/25OeH0GOuEljJqZoF0HoKxOpq0B.jpg",
+        "poster": "https://image.tmdb.org/t/p/w500/uFsqAak0ClSwtXiZUO1JgzpFH6y.jpg",
         "link": "https://vidmody.com/vs/tt34610311",
         "group": "Yeni Eklenenler"
     },
@@ -1485,7 +1485,7 @@
     },
     {
         "id": "tt35718349",
-        "title": "Relationship Goals",
+        "title": "İlişki Hedefleri",
         "poster": "https://image.tmdb.org/t/p/w500/o7dVxvZIKnAB7k1eeeWp2k14Es7.jpg",
         "link": "https://vidmody.com/vs/tt35718349",
         "group": "Yeni Eklenenler"
@@ -1493,7 +1493,7 @@
     {
         "id": "tt14905854",
         "title": "Hamnet",
-        "poster": "https://image.tmdb.org/t/p/w500/vbeyOZm2bvBXcbgPD3v6o94epPX.jpg",
+        "poster": "https://image.tmdb.org/t/p/w500/rCFaCsk6cFdAoW3lVb1ftWNBnbf.jpg",
         "link": "https://vidmody.com/vs/tt14905854",
         "group": "Yeni Eklenenler"
     },
@@ -1596,6 +1596,55 @@
         "group": "Yeni Eklenenler"
     },
     {
+        "id": "tt0078748",
+        "title": "Yaratık",
+        "poster": "https://image.tmdb.org/t/p/w500/dH1emjWR6ZsYsnsetlFU65KaCnb.jpg",
+        "link": "https://vidmody.com/vs/tt0078748",
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt0110357",
+        "title": "Aslan Kral",
+        "poster": "https://image.tmdb.org/t/p/w500/fevIusz4PyAwrlU8CmIfATVJf3K.jpg",
+        "link": "https://vidmody.com/vs/tt0110357",
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt17526714",
+        "title": "Cevher",
+        "poster": "https://image.tmdb.org/t/p/w500/rNrBHeqnDA8aHIz9eYkBskcKhq7.jpg",
+        "link": "https://vidmody.com/vs/tt17526714",
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt2245084",
+        "title": "6 Süper Kahraman",
+        "poster": "https://image.tmdb.org/t/p/w500/arU3cIkDhOyhiiPsWVzSOVqYIbU.jpg",
+        "link": "https://vidmody.com/vs/tt2245084",
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt0332280",
+        "title": "Not Defteri",
+        "poster": "https://image.tmdb.org/t/p/w500/zOQxNgI8aTS5Wcv6qVu2fpVErZo.jpg",
+        "link": "https://vidmody.com/vs/tt0332280",
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt1212450",
+        "title": "Kanunsuzlar",
+        "poster": "https://image.tmdb.org/t/p/w500/pmmt75Bnw2B21T3LDlhmKJDoew8.jpg",
+        "link": "https://vidmody.com/vs/tt1212450",
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt39354078",
+        "title": "Yok Böyle Bir Aşk!",
+        "poster": "https://image.tmdb.org/t/p/w500/9wBzRaeWfELNOPmcvOVTmB3kDEl.jpg",
+        "link": "https://vidmody.com/vs/tt39354078",
+        "group": "Yeni Eklenenler"
+    },
+    {
         "id": "tt4154796",
         "title": "Avengers: Endgame",
         "poster": "https://image.tmdb.org/t/p/w500/bR8ISy1O9XQxqiy0fQFw2BX72RQ.jpg",
@@ -1621,13 +1670,6 @@
         "title": "On Falling",
         "poster": "https://image.tmdb.org/t/p/w500/kBnNDABP0rIkXdxJV3OcyOlTLT3.jpg",
         "link": "https://vidmody.com/vs/tt30766504",
-        "group": "Filmler"
-    },
-    {
-        "id": "tt0078748",
-        "title": "Yaratık",
-        "poster": "https://image.tmdb.org/t/p/w500/dH1emjWR6ZsYsnsetlFU65KaCnb.jpg",
-        "link": "https://vidmody.com/vs/tt0078748",
         "group": "Filmler"
     },
     {
@@ -1684,13 +1726,6 @@
         "title": "Schindler'in Listesi",
         "poster": "https://image.tmdb.org/t/p/w500/2mOH8EqumIaepdP94e0cy4Xnyg7.jpg",
         "link": "https://vidmody.com/vs/tt0108052",
-        "group": "Filmler"
-    },
-    {
-        "id": "tt0110357",
-        "title": "Aslan Kral",
-        "poster": "https://image.tmdb.org/t/p/w500/fevIusz4PyAwrlU8CmIfATVJf3K.jpg",
-        "link": "https://vidmody.com/vs/tt0110357",
         "group": "Filmler"
     },
     {
@@ -1806,13 +1841,6 @@
         "group": "Filmler"
     },
     {
-        "id": "tt17526714",
-        "title": "Cevher",
-        "poster": "https://image.tmdb.org/t/p/w500/rNrBHeqnDA8aHIz9eYkBskcKhq7.jpg",
-        "link": "https://vidmody.com/vs/tt17526714",
-        "group": "Filmler"
-    },
-    {
         "id": "tt1972591",
         "title": "Kral Arthur: Kılıç Efsanesi",
         "poster": "https://image.tmdb.org/t/p/w500/gB9yom8oS4YsJ6YZe1lkeFcsDgs.jpg",
@@ -1887,13 +1915,6 @@
         "title": "Yukarı Bak",
         "poster": "https://image.tmdb.org/t/p/w500/c9QLSX3qEW8FO7UgT2pyfC1LDzb.jpg",
         "link": "https://vidmody.com/vs/tt1049413",
-        "group": "Filmler"
-    },
-    {
-        "id": "tt2245084",
-        "title": "6 Süper Kahraman",
-        "poster": "https://image.tmdb.org/t/p/w500/arU3cIkDhOyhiiPsWVzSOVqYIbU.jpg",
-        "link": "https://vidmody.com/vs/tt2245084",
         "group": "Filmler"
     },
     {
@@ -1978,13 +1999,6 @@
         "title": "Örümcek Ağındaki Kız",
         "poster": "https://image.tmdb.org/t/p/w500/zwhyD7ViDUtUYPpbKULoX7OTPxg.jpg",
         "link": "https://vidmody.com/vs/tt5177088",
-        "group": "Filmler"
-    },
-    {
-        "id": "tt0332280",
-        "title": "Not Defteri",
-        "poster": "https://image.tmdb.org/t/p/w500/zOQxNgI8aTS5Wcv6qVu2fpVErZo.jpg",
-        "link": "https://vidmody.com/vs/tt0332280",
         "group": "Filmler"
     },
     {
@@ -16825,13 +16839,6 @@
         "title": "밀수",
         "poster": "https://image.tmdb.org/t/p/w500/ayLXqPZCu3uaLLhXiqvw5NBb7Lw.jpg",
         "link": "https://vidmody.com/vs/tt28106766",
-        "group": "Filmler"
-    },
-    {
-        "id": "tt1212450",
-        "title": "Kanunsuzlar",
-        "poster": "https://image.tmdb.org/t/p/w500/pmmt75Bnw2B21T3LDlhmKJDoew8.jpg",
-        "link": "https://vidmody.com/vs/tt1212450",
         "group": "Filmler"
     },
     {
