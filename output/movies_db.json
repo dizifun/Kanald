@@ -1745,9 +1745,65 @@
     {
         "id": "tt4154796",
         "title": "Avengers: Endgame",
-        "poster": "https://image.tmdb.org/t/p/w500/bR8ISy1O9XQxqiy0fQFw2BX72RQ.jpg",
+        "poster": "https://image.tmdb.org/t/p/w500/zx1uMVXSJrzYCA8KTpmeEBqBx66.jpg",
         "link": "https://vidmody.com/vs/tt4154796",
-        "group": "Filmler"
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt2395427",
+        "title": "Yenilmezler: Ultron Çağı",
+        "poster": "https://image.tmdb.org/t/p/w500/y3t1t4FlQpDdtpoVsXC6IzeMjUH.jpg",
+        "link": "https://vidmody.com/vs/tt2395427",
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt7286456",
+        "title": "Joker",
+        "poster": "https://image.tmdb.org/t/p/w500/oioWvyxqspVyZL9wulttXZ0IdHI.jpg",
+        "link": "https://vidmody.com/vs/tt7286456",
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt1877830",
+        "title": "The Batman",
+        "poster": "https://image.tmdb.org/t/p/w500/3B19RaHTSpyNEcjWtsAPqgJsQ0h.jpg",
+        "link": "https://vidmody.com/vs/tt1877830",
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt0088247",
+        "title": "Terminatör",
+        "poster": "https://image.tmdb.org/t/p/w500/XgnjObKKM0QNfwDFI421NW65mv.jpg",
+        "link": "https://vidmody.com/vs/tt0088247",
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt2267998",
+        "title": "Kayıp Kız",
+        "poster": "https://image.tmdb.org/t/p/w500/ukTOTpF1KK2L4qURnFsGtWpjYO.jpg",
+        "link": "https://vidmody.com/vs/tt2267998",
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt7131622",
+        "title": "Bir Zamanlar… Hollywood'da",
+        "poster": "https://image.tmdb.org/t/p/w500/8irilDRdSFs93B5qyaPNbHiytt8.jpg",
+        "link": "https://vidmody.com/vs/tt7131622",
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt31174024",
+        "title": "Vari",
+        "poster": "https://image.tmdb.org/t/p/w500/t6hPGT2hGxn4E5VMWjEiLjkGNzt.jpg",
+        "link": "https://vidmody.com/vs/tt31174024",
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt29214162",
+        "title": "The Dutchman",
+        "poster": "https://image.tmdb.org/t/p/w500/v7CCosgX9LcSpt7bXmqw5OzTFTV.jpg",
+        "link": "https://vidmody.com/vs/tt29214162",
+        "group": "Yeni Eklenenler"
     },
     {
         "id": "tt4589218",
@@ -1855,24 +1911,10 @@
         "group": "Filmler"
     },
     {
-        "id": "tt2395427",
-        "title": "Yenilmezler: Ultron Çağı",
-        "poster": "https://image.tmdb.org/t/p/w500/y3t1t4FlQpDdtpoVsXC6IzeMjUH.jpg",
-        "link": "https://vidmody.com/vs/tt2395427",
-        "group": "Filmler"
-    },
-    {
         "id": "tt0093773",
         "title": "Av",
         "poster": "https://image.tmdb.org/t/p/w500/k3mW4qfJo6SKqe6laRyNGnbB9n5.jpg",
         "link": "https://vidmody.com/vs/tt0093773",
-        "group": "Filmler"
-    },
-    {
-        "id": "tt7286456",
-        "title": "Joker",
-        "poster": "https://image.tmdb.org/t/p/w500/oioWvyxqspVyZL9wulttXZ0IdHI.jpg",
-        "link": "https://vidmody.com/vs/tt7286456",
         "group": "Filmler"
     },
     {
@@ -2016,13 +2058,6 @@
         "group": "Filmler"
     },
     {
-        "id": "tt1877830",
-        "title": "The Batman",
-        "poster": "https://image.tmdb.org/t/p/w500/3B19RaHTSpyNEcjWtsAPqgJsQ0h.jpg",
-        "link": "https://vidmody.com/vs/tt1877830",
-        "group": "Filmler"
-    },
-    {
         "id": "tt1300854",
         "title": "Iron Man 3",
         "poster": "https://image.tmdb.org/t/p/w500/wpW7k3TYS3WG89vPiRQr4peEcFO.jpg",
@@ -2072,13 +2107,6 @@
         "group": "Filmler"
     },
     {
-        "id": "tt0088247",
-        "title": "Terminatör",
-        "poster": "https://image.tmdb.org/t/p/w500/XgnjObKKM0QNfwDFI421NW65mv.jpg",
-        "link": "https://vidmody.com/vs/tt0088247",
-        "group": "Filmler"
-    },
-    {
         "id": "tt4419684",
         "title": "Kayıp Dünya",
         "poster": "https://image.tmdb.org/t/p/w500/19MISRxGiaCKZHUuGL0dbWbJrab.jpg",
@@ -2104,13 +2132,6 @@
         "title": "Karayip Korsanları: Ölü Adam'ın Sandığı",
         "poster": "https://image.tmdb.org/t/p/w500/kbHReT65bMcy0jyz7tMUi9NMuOd.jpg",
         "link": "https://vidmody.com/vs/tt0383574",
-        "group": "Filmler"
-    },
-    {
-        "id": "tt2267998",
-        "title": "Kayıp Kız",
-        "poster": "https://image.tmdb.org/t/p/w500/ukTOTpF1KK2L4qURnFsGtWpjYO.jpg",
-        "link": "https://vidmody.com/vs/tt2267998",
         "group": "Filmler"
     },
     {
@@ -2230,13 +2251,6 @@
         "title": "Good Fortune",
         "poster": "https://image.tmdb.org/t/p/w500/r83HIGA0mUiy7I9qVr17pF7SCDP.jpg",
         "link": "https://vidmody.com/vs/tt27543578",
-        "group": "Filmler"
-    },
-    {
-        "id": "tt7131622",
-        "title": "Bir Zamanlar… Hollywood'da",
-        "poster": "https://image.tmdb.org/t/p/w500/8irilDRdSFs93B5qyaPNbHiytt8.jpg",
-        "link": "https://vidmody.com/vs/tt7131622",
         "group": "Filmler"
     },
     {
