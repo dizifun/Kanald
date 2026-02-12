@@ -1724,7 +1724,7 @@
     {
         "id": "tt32916440",
         "title": "Muhteşem Marty",
-        "poster": "https://image.tmdb.org/t/p/w500/8Ii10oSwzLQquPfXpwpK2vJwFxU.jpg",
+        "poster": "https://image.tmdb.org/t/p/w500/67NYLc5j3S5ceoaYN26GwXKiSDy.jpg",
         "link": "https://vidmody.com/vs/tt32916440",
         "group": "Yeni Eklenenler"
     },
@@ -1806,6 +1806,76 @@
         "group": "Yeni Eklenenler"
     },
     {
+        "id": "tt6320628",
+        "title": "Örümcek-Adam: Evden Uzakta",
+        "poster": "https://image.tmdb.org/t/p/w500/4tRdNexuqCCVAlHdVyegWdDNZs2.jpg",
+        "link": "https://vidmody.com/vs/tt6320628",
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt12593682",
+        "title": "Suikast Treni",
+        "poster": "https://image.tmdb.org/t/p/w500/aNk1X15NaqY6Mcw15kkgxD1C53V.jpg",
+        "link": "https://vidmody.com/vs/tt12593682",
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt1853728",
+        "title": "Zincirsiz",
+        "poster": "https://image.tmdb.org/t/p/w500/wjN6Cg2Ow7eP1HotskuDyVQQiKb.jpg",
+        "link": "https://vidmody.com/vs/tt1853728",
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt14948432",
+        "title": "Kod Adı: Kırmızı",
+        "poster": "https://image.tmdb.org/t/p/w500/ymEu97tJ8h2sUAhaw8CU3MGTi9v.jpg",
+        "link": "https://vidmody.com/vs/tt14948432",
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt8946378",
+        "title": "Bıçaklar Çekildi",
+        "poster": "https://image.tmdb.org/t/p/w500/tZ6ABcJr1GeGff7fyEsReWXnXN.jpg",
+        "link": "https://vidmody.com/vs/tt8946378",
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt12996154",
+        "title": "365 Gün: Bugün",
+        "poster": "https://image.tmdb.org/t/p/w500/kkVbZoe9mpEgT7LSKjpG9n78v0V.jpg",
+        "link": "https://vidmody.com/vs/tt12996154",
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt6791350",
+        "title": "Galaksinin Koruyucuları 3",
+        "poster": "https://image.tmdb.org/t/p/w500/fbK6py6t9ikhWbsz3tIeXgiBCCn.jpg",
+        "link": "https://vidmody.com/vs/tt6791350",
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt2713180",
+        "title": "Fury",
+        "poster": "https://image.tmdb.org/t/p/w500/pfte7wdMobMF4CVHuOxyu6oqeeA.jpg",
+        "link": "https://vidmody.com/vs/tt2713180",
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt3498820",
+        "title": "Kaptan Amerika: İç Savaş",
+        "poster": "https://image.tmdb.org/t/p/w500/td9wjb1v4sBE0T5UsZx50QnsZ3j.jpg",
+        "link": "https://vidmody.com/vs/tt3498820",
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt2820852",
+        "title": "Hızlı ve Öfkeli 7",
+        "poster": "https://image.tmdb.org/t/p/w500/fvxAFADmcbYSMJ6GYqkHqcELczd.jpg",
+        "link": "https://vidmody.com/vs/tt2820852",
+        "group": "Yeni Eklenenler"
+    },
+    {
         "id": "tt4589218",
         "title": "Freddy'nin Pizza Dükkanında Beş Gece",
         "poster": "https://image.tmdb.org/t/p/w500/z9GinPUm7cxu1Fud4fxDmIhoCpj.jpg",
@@ -1880,13 +1950,6 @@
         "title": "Para Konuşur",
         "poster": "https://image.tmdb.org/t/p/w500/bN57Rl003E9pYred5kw9Rp8h9Np.jpg",
         "link": "https://vidmody.com/vs/tt0119695",
-        "group": "Filmler"
-    },
-    {
-        "id": "tt6320628",
-        "title": "Örümcek-Adam: Evden Uzakta",
-        "poster": "https://image.tmdb.org/t/p/w500/4tRdNexuqCCVAlHdVyegWdDNZs2.jpg",
-        "link": "https://vidmody.com/vs/tt6320628",
         "group": "Filmler"
     },
     {
@@ -2044,13 +2107,6 @@
         "group": "Filmler"
     },
     {
-        "id": "tt12593682",
-        "title": "Suikast Treni",
-        "poster": "https://image.tmdb.org/t/p/w500/aNk1X15NaqY6Mcw15kkgxD1C53V.jpg",
-        "link": "https://vidmody.com/vs/tt12593682",
-        "group": "Filmler"
-    },
-    {
         "id": "tt0114369",
         "title": "Yedi",
         "poster": "https://image.tmdb.org/t/p/w500/3qpOnTbxPK2HeHObBHttcvQHLGI.jpg",
@@ -2142,31 +2198,10 @@
         "group": "Filmler"
     },
     {
-        "id": "tt1853728",
-        "title": "Zincirsiz",
-        "poster": "https://image.tmdb.org/t/p/w500/wjN6Cg2Ow7eP1HotskuDyVQQiKb.jpg",
-        "link": "https://vidmody.com/vs/tt1853728",
-        "group": "Filmler"
-    },
-    {
         "id": "tt4016934",
         "title": "Hizmetçi",
         "poster": "https://image.tmdb.org/t/p/w500/90UG9Nt9EsvxA2eTdiIEIYJYl8z.jpg",
         "link": "https://vidmody.com/vs/tt4016934",
-        "group": "Filmler"
-    },
-    {
-        "id": "tt14948432",
-        "title": "Kod Adı: Kırmızı",
-        "poster": "https://image.tmdb.org/t/p/w500/ymEu97tJ8h2sUAhaw8CU3MGTi9v.jpg",
-        "link": "https://vidmody.com/vs/tt14948432",
-        "group": "Filmler"
-    },
-    {
-        "id": "tt8946378",
-        "title": "Bıçaklar Çekildi",
-        "poster": "https://image.tmdb.org/t/p/w500/tZ6ABcJr1GeGff7fyEsReWXnXN.jpg",
-        "link": "https://vidmody.com/vs/tt8946378",
         "group": "Filmler"
     },
     {
@@ -2289,13 +2324,6 @@
         "group": "Filmler"
     },
     {
-        "id": "tt12996154",
-        "title": "365 Gün: Bugün",
-        "poster": "https://image.tmdb.org/t/p/w500/kkVbZoe9mpEgT7LSKjpG9n78v0V.jpg",
-        "link": "https://vidmody.com/vs/tt12996154",
-        "group": "Filmler"
-    },
-    {
         "id": "tt0441773",
         "title": "Kung Fu Panda",
         "poster": "https://image.tmdb.org/t/p/w500/ni4z0DOBm6padSbnqbps4hVYehK.jpg",
@@ -2335,13 +2363,6 @@
         "title": "O: Bölüm 2",
         "poster": "https://image.tmdb.org/t/p/w500/kMsi0Op9JJASx7ph0NvQvkM6lrE.jpg",
         "link": "https://vidmody.com/vs/tt7349950",
-        "group": "Filmler"
-    },
-    {
-        "id": "tt6791350",
-        "title": "Galaksinin Koruyucuları 3",
-        "poster": "https://image.tmdb.org/t/p/w500/fbK6py6t9ikhWbsz3tIeXgiBCCn.jpg",
-        "link": "https://vidmody.com/vs/tt6791350",
         "group": "Filmler"
     },
     {
@@ -2405,13 +2426,6 @@
         "title": "Succubus",
         "poster": "https://image.tmdb.org/t/p/w500/7AfBMebJS8mEtSV5ymdxEPpgvXb.jpg",
         "link": "https://vidmody.com/vs/tt13778486",
-        "group": "Filmler"
-    },
-    {
-        "id": "tt2713180",
-        "title": "Fury",
-        "poster": "https://image.tmdb.org/t/p/w500/pfte7wdMobMF4CVHuOxyu6oqeeA.jpg",
-        "link": "https://vidmody.com/vs/tt2713180",
         "group": "Filmler"
     },
     {
@@ -2608,13 +2622,6 @@
         "title": "Büyük Hesaplaşma",
         "poster": "https://image.tmdb.org/t/p/w500/avp9LgmtnCiOj9l07SYA7U0yNkG.jpg",
         "link": "https://vidmody.com/vs/tt0113277",
-        "group": "Filmler"
-    },
-    {
-        "id": "tt3498820",
-        "title": "Kaptan Amerika: İç Savaş",
-        "poster": "https://image.tmdb.org/t/p/w500/td9wjb1v4sBE0T5UsZx50QnsZ3j.jpg",
-        "link": "https://vidmody.com/vs/tt3498820",
         "group": "Filmler"
     },
     {
@@ -3217,13 +3224,6 @@
         "title": "Şaşkın İmparator",
         "poster": "https://image.tmdb.org/t/p/w500/o7yVxsfwQ8IhCAoaic5oMTT8uE4.jpg",
         "link": "https://vidmody.com/vs/tt0120917",
-        "group": "Filmler"
-    },
-    {
-        "id": "tt2820852",
-        "title": "Hızlı ve Öfkeli 7",
-        "poster": "https://image.tmdb.org/t/p/w500/fvxAFADmcbYSMJ6GYqkHqcELczd.jpg",
-        "link": "https://vidmody.com/vs/tt2820852",
         "group": "Filmler"
     },
     {
