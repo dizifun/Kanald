@@ -345,7 +345,7 @@
     {
         "id": "tt33028778",
         "title": "Primat",
-        "poster": "https://image.tmdb.org/t/p/w500/57cyAMc9c8iveudogTRuDOQjujn.jpg",
+        "poster": "https://image.tmdb.org/t/p/w500/z97hrgI5wbGbZvSVkBfAeBnFKAg.jpg",
         "link": "https://vidmody.com/vs/tt33028778",
         "group": "Yeni Eklenenler"
     },
@@ -1493,7 +1493,7 @@
     {
         "id": "tt14905854",
         "title": "Hamnet",
-        "poster": "https://image.tmdb.org/t/p/w500/rCFaCsk6cFdAoW3lVb1ftWNBnbf.jpg",
+        "poster": "https://image.tmdb.org/t/p/w500/vbeyOZm2bvBXcbgPD3v6o94epPX.jpg",
         "link": "https://vidmody.com/vs/tt14905854",
         "group": "Yeni Eklenenler"
     },
@@ -2436,6 +2436,34 @@
         "group": "Yeni Eklenenler"
     },
     {
+        "id": "tt11245972",
+        "title": "Çığlık",
+        "poster": "https://image.tmdb.org/t/p/w500/g81ja9FsXrye5ZvUaJSxrXpmpOy.jpg",
+        "link": "https://vidmody.com/vs/tt11245972",
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt14539740",
+        "title": "Godzilla ve Kong: Yeni İmparatorluk",
+        "poster": "https://image.tmdb.org/t/p/w500/6Hwzl9hP58DQcgju1MbqhADLo4Z.jpg",
+        "link": "https://vidmody.com/vs/tt14539740",
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt17663992",
+        "title": "Çığlık 6",
+        "poster": "https://image.tmdb.org/t/p/w500/l16wpQSFzdmAiMc8kD8SumxqBvL.jpg",
+        "link": "https://vidmody.com/vs/tt17663992",
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt39631179",
+        "title": "İtham",
+        "poster": "https://image.tmdb.org/t/p/w500/9UueaWSof6TvmjTIG6z0S2zFgJK.jpg",
+        "link": "https://vidmody.com/vs/tt39631179",
+        "group": "Yeni Eklenenler"
+    },
+    {
         "id": "tt4589218",
         "title": "Freddy'nin Pizza Dükkanında Beş Gece",
         "poster": "https://image.tmdb.org/t/p/w500/z9GinPUm7cxu1Fud4fxDmIhoCpj.jpg",
@@ -2513,13 +2541,6 @@
         "group": "Filmler"
     },
     {
-        "id": "tt11245972",
-        "title": "Çığlık",
-        "poster": "https://image.tmdb.org/t/p/w500/g81ja9FsXrye5ZvUaJSxrXpmpOy.jpg",
-        "link": "https://vidmody.com/vs/tt11245972",
-        "group": "Filmler"
-    },
-    {
         "id": "tt0926084",
         "title": "Harry Potter ve Ölüm Yadigârları: Bölüm 1",
         "poster": "https://image.tmdb.org/t/p/w500/qYIA1d3mktpLsfaIpkLzLr3OH62.jpg",
@@ -2573,13 +2594,6 @@
         "title": "Birlikte",
         "poster": "https://image.tmdb.org/t/p/w500/vEIrctCS6ESyJzgnxHSgSsREMyn.jpg",
         "link": "https://vidmody.com/vs/tt31184028",
-        "group": "Filmler"
-    },
-    {
-        "id": "tt14539740",
-        "title": "Godzilla ve Kong: Yeni İmparatorluk",
-        "poster": "https://image.tmdb.org/t/p/w500/6Hwzl9hP58DQcgju1MbqhADLo4Z.jpg",
-        "link": "https://vidmody.com/vs/tt14539740",
         "group": "Filmler"
     },
     {
@@ -5870,13 +5884,6 @@
         "title": "Gün Batmadan",
         "poster": "https://image.tmdb.org/t/p/w500/gycdE1ARByGQcK4fYR2mgpU6OO.jpg",
         "link": "https://vidmody.com/vs/tt0381681",
-        "group": "Filmler"
-    },
-    {
-        "id": "tt17663992",
-        "title": "Çığlık 6",
-        "poster": "https://image.tmdb.org/t/p/w500/l16wpQSFzdmAiMc8kD8SumxqBvL.jpg",
-        "link": "https://vidmody.com/vs/tt17663992",
         "group": "Filmler"
     },
     {
