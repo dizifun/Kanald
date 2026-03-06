@@ -93000,5 +93000,376 @@
         "poster": "https://image.tmdb.org/t/p/w500/aDLeyk8bqeStw7csWJageZlmc3j.jpg",
         "link": "https://vidmody.com/vs/tt0094910",
         "category": "Filmler | Komedi"
+    },
+    {
+        "id": 1159559,
+        "title": "Çığlık 7",
+        "poster": "https://image.tmdb.org/t/p/w500/zCgNJJXXYmajAW5qPxRKO0vSsQ3.jpg",
+        "link": "https://vidmody.com/vs/tt27047903",
+        "category": "Son Eklenenler"
+    },
+    {
+        "id": 1262547,
+        "title": "सूबेदार",
+        "poster": "https://image.tmdb.org/t/p/w500/gKn63ZWEVK66OaC1svlI7g6r9ah.jpg",
+        "link": "https://vidmody.com/vs/tt31852278",
+        "category": "Son Eklenenler"
+    },
+    {
+        "id": 1243078,
+        "title": "Muhabir",
+        "poster": "https://image.tmdb.org/t/p/w500/5VRL6v2mUGM3VNJk96ssa8aJ09d.jpg",
+        "link": "https://vidmody.com/vs/tt31728562",
+        "category": "Son Eklenenler"
+    },
+    {
+        "id": 451791,
+        "title": "Damat Koğuşu (2017)",
+        "poster": "https://image.tmdb.org/t/p/w500/266SONlqMh4vdKEv5GPSHfPagcA.jpg",
+        "link": "https://vidmody.com/vs/tt6101458",
+        "category": "Filmler | Yerli"
+    },
+    {
+        "id": 1286002,
+        "title": "Day Labor (2024)",
+        "poster": "https://image.tmdb.org/t/p/w500/f2fAJUg2zRBSxO2R6xvakgUtyM4.jpg",
+        "link": "https://vidmody.com/vs/tt13646460",
+        "category": "Filmler | Aksiyon"
+    },
+    {
+        "id": 1002088,
+        "title": "Ev Ajanı (2024)",
+        "poster": "https://image.tmdb.org/t/p/w500/ocKc9X86iyC475nMNxgqrnZUjNa.jpg",
+        "link": "https://vidmody.com/vs/tt30515931",
+        "category": "Filmler | Aksiyon"
+    },
+    {
+        "id": 1278725,
+        "title": "Estado de silencio (2024)",
+        "poster": "https://image.tmdb.org/t/p/w500/zo62RwZnT1P1eMWqtmMRmc42uXZ.jpg",
+        "link": "https://vidmody.com/vs/tt32146541",
+        "category": "Filmler | Belgesel"
+    },
+    {
+        "id": 785542,
+        "title": "Çıkış Yolu (2024)",
+        "poster": "https://image.tmdb.org/t/p/w500/tFthMcS8Sg17ty3aIvKPhdjtFSo.jpg",
+        "link": "https://vidmody.com/vs/tt11687002",
+        "category": "Filmler | Dram"
+    },
+    {
+        "id": 934866,
+        "title": "Bad Genius (2024)",
+        "poster": "https://image.tmdb.org/t/p/w500/h5hONXZ4hPgniv1DXMB1IZohhpO.jpg",
+        "link": "https://vidmody.com/vs/tt17717416",
+        "category": "Filmler | Gerilim"
+    },
+    {
+        "id": 1243186,
+        "title": "Demise (2024)",
+        "poster": "https://image.tmdb.org/t/p/w500/3RFkqeMh0lsoBdlsHNmJ2I0uec8.jpg",
+        "link": "https://vidmody.com/vs/tt15558362",
+        "category": "Filmler | Gerilim"
+    },
+    {
+        "id": 977223,
+        "title": "Kibar Toplum (2023)",
+        "poster": "https://image.tmdb.org/t/p/w500/52kSpVlI2QZJ3fjqyrCxIvzjfxI.jpg",
+        "link": "https://vidmody.com/vs/tt18257464",
+        "category": "Filmler | Aksiyon"
+    },
+    {
+        "id": 507250,
+        "title": "Dead Shot (2023)",
+        "poster": "https://image.tmdb.org/t/p/w500/oLMzL9cpBBnkMGF8j4Z5Dbi2Z5u.jpg",
+        "link": "https://vidmody.com/vs/tt8019518",
+        "category": "Filmler | Aksiyon"
+    },
+    {
+        "id": 1122688,
+        "title": "The Getback (2023)",
+        "poster": "https://image.tmdb.org/t/p/w500/rFz0Pf7XhPPXZptfJvpPuJk9N.jpg",
+        "link": "https://vidmody.com/vs/tt26570494",
+        "category": "Filmler | Aksiyon"
+    },
+    {
+        "id": 790416,
+        "title": "Showing Up (2023)",
+        "poster": "https://image.tmdb.org/t/p/w500/iJw55oTb2MlG4NWjq3sbIFUVU76.jpg",
+        "link": "https://vidmody.com/vs/tt13923216",
+        "category": "Filmler | Komedi"
+    },
+    {
+        "id": 853332,
+        "title": "Asi (2022)",
+        "poster": "https://image.tmdb.org/t/p/w500/na6BcEvVXabMGclMK6RbDFdCmbh.jpg",
+        "link": "https://vidmody.com/vs/tt11946138",
+        "category": "Filmler | Aksiyon"
+    },
+    {
+        "id": 862946,
+        "title": "Çaylak Polisler (2022)",
+        "poster": "https://image.tmdb.org/t/p/w500/vFlavfJeclcLTX9T1a55KRNr2uJ.jpg",
+        "link": "https://vidmody.com/vs/tt12874984",
+        "category": "Filmler | Macera"
+    },
+    {
+        "id": 806368,
+        "title": "Oğul (2022)",
+        "poster": "https://image.tmdb.org/t/p/w500/dyoISrZCA2QbzaMa4H7xh3zZkOc.jpg",
+        "link": "https://vidmody.com/vs/tt14458442",
+        "category": "Filmler | Dram"
+    },
+    {
+        "id": 1002226,
+        "title": "Midnight Peepshow (2022)",
+        "poster": "https://image.tmdb.org/t/p/w500/vm2wuccxwuK6qnhLzlWz2gSGnfx.jpg",
+        "link": "https://vidmody.com/vs/tt13209904",
+        "category": "Filmler | Korku"
+    },
+    {
+        "id": 1053080,
+        "title": "Jeszcze przed Świętami (2022)",
+        "poster": "https://image.tmdb.org/t/p/w500/5ZrsE9O2aRwqTLREx9NLnXNYNbp.jpg",
+        "link": "https://vidmody.com/vs/tt19723342",
+        "category": "Filmler | Romantik"
+    },
+    {
+        "id": 968438,
+        "title": "Aşk ve Dondurma (2022)",
+        "poster": "https://image.tmdb.org/t/p/w500/aAi8yFNADuxkJiQ9a5xlbPhOT8d.jpg",
+        "link": "https://vidmody.com/vs/tt15521050",
+        "category": "Filmler | Romantik"
+    },
+    {
+        "id": 844404,
+        "title": "Sam & Kate (2022)",
+        "poster": "https://image.tmdb.org/t/p/w500/fzQN7YcIgboMavMMwrOTaqz8agm.jpg",
+        "link": "https://vidmody.com/vs/tt14850544",
+        "category": "Filmler | Romantik"
+    },
+    {
+        "id": 846956,
+        "title": "Rogue Agent (2022)",
+        "poster": "https://image.tmdb.org/t/p/w500/4tOaGR6mzUAEQzIgWCeVoneRIkp.jpg",
+        "link": "https://vidmody.com/vs/tt9731386",
+        "category": "Filmler | Gerilim"
+    },
+    {
+        "id": 788734,
+        "title": "İlgi Manyağı (2022)",
+        "poster": "https://image.tmdb.org/t/p/w500/3foz4JbQH0RvR5mcDXARiKAGMDt.jpg",
+        "link": "https://vidmody.com/vs/tt18816518",
+        "category": "Filmler | Gerilim"
+    },
+    {
+        "id": 878962,
+        "title": "Camgöz Fantastik Cadılar Bayramı (2021)",
+        "poster": "https://image.tmdb.org/t/p/w500/llKx3r1iKqkojnAhQpED0GZwqKL.jpg",
+        "link": "https://vidmody.com/vs/tt15478768",
+        "category": "Filmler | Aile"
+    },
+    {
+        "id": 726916,
+        "title": "Kış Körfezi (2021)",
+        "poster": "https://image.tmdb.org/t/p/w500/tY2giXB3tUUhUPPjMi8zElHpQxY.jpg",
+        "link": "https://vidmody.com/vs/tt12299824",
+        "category": "Filmler | Romantik"
+    },
+    {
+        "id": 605734,
+        "title": "#JeSuisLà (2020)",
+        "poster": "https://image.tmdb.org/t/p/w500/yxHDlr90ww0XZt3U26W95JNExf3.jpg",
+        "link": "https://vidmody.com/vs/tt9828918",
+        "category": "Filmler | Komedi"
+    },
+    {
+        "id": 658760,
+        "title": "Isi & Ossi (2020)",
+        "poster": "https://image.tmdb.org/t/p/w500/bZ7H0kCwEM6CQ0dyCs2H4RkU130.jpg",
+        "link": "https://vidmody.com/vs/tt9806322",
+        "category": "Filmler | Romantik"
+    },
+    {
+        "id": 585311,
+        "title": "General Commander (2019)",
+        "poster": "https://image.tmdb.org/t/p/w500/tarle8uNAqiQfCTY95U0Oj1DxIU.jpg",
+        "link": "https://vidmody.com/vs/tt7043534",
+        "category": "Filmler | Aksiyon"
+    },
+    {
+        "id": 496967,
+        "title": "Atlantique (2019)",
+        "poster": "https://image.tmdb.org/t/p/w500/6re5NBRLemS5Ysvc60mGUGHz8C6.jpg",
+        "link": "https://vidmody.com/vs/tt10199586",
+        "category": "Filmler | Fantastik"
+    },
+    {
+        "id": 456750,
+        "title": "Game Over, Man! (2018)",
+        "poster": "https://image.tmdb.org/t/p/w500/58BnnYeQOTzdMBghZIH1tSH0REx.jpg",
+        "link": "https://vidmody.com/vs/tt3317234",
+        "category": "Filmler | Aksiyon"
+    },
+    {
+        "id": 485162,
+        "title": "Savaşta (2018)",
+        "poster": "https://image.tmdb.org/t/p/w500/gnziGiGATRCjSRMwhcrIH372Ls4.jpg",
+        "link": "https://vidmody.com/vs/tt7555774",
+        "category": "Filmler | Dram"
+    },
+    {
+        "id": 450314,
+        "title": "Kahraman Tavuk Uzayda (2017)",
+        "poster": "https://image.tmdb.org/t/p/w500/A7yTRWLgJdvOFQPhwSJF1s4BwbQ.jpg",
+        "link": "https://vidmody.com/vs/tt4494382",
+        "category": "Filmler | Macera"
+    },
+    {
+        "id": 430043,
+        "title": "Bad Day for the Cut (2017)",
+        "poster": "https://image.tmdb.org/t/p/w500/53Jh8cMCfDOI87XnPBCIiTCwN6U.jpg",
+        "link": "https://vidmody.com/vs/tt5653514",
+        "category": "Filmler | Suç"
+    },
+    {
+        "id": 461375,
+        "title": "By Any Means (2017)",
+        "poster": "https://image.tmdb.org/t/p/w500/eltSajOLH2T8drL6wLM7mUfN0cB.jpg",
+        "link": "https://vidmody.com/vs/tt4741768",
+        "category": "Filmler | Gizem"
+    },
+    {
+        "id": 551535,
+        "title": "Above Ground (2017)",
+        "poster": "https://image.tmdb.org/t/p/w500/amqZi7wVcC2q8qAqezfMN9Bu2cw.jpg",
+        "link": "https://vidmody.com/vs/tt3313314",
+        "category": "Filmler | Gerilim"
+    },
+    {
+        "id": 413992,
+        "title": "Sweet Virginia (2017)",
+        "poster": "https://image.tmdb.org/t/p/w500/qTch1l0ZMU4MiOBDEJ14jVmANVC.jpg",
+        "link": "https://vidmody.com/vs/tt2582498",
+        "category": "Filmler | Gerilim"
+    },
+    {
+        "id": 525286,
+        "title": "İsra ve Sihirli Kitap (2016)",
+        "poster": "https://image.tmdb.org/t/p/w500/yi29awEWOszN6jlVcWScM89nzGN.jpg",
+        "link": "https://vidmody.com/vs/tt5323380",
+        "category": "Filmler | Macera"
+    },
+    {
+        "id": 375898,
+        "title": "Paris-Willouby (2016)",
+        "poster": "https://image.tmdb.org/t/p/w500/4hYp09l6CmNyiW0Czwg6St2j9bd.jpg",
+        "link": "https://vidmody.com/vs/tt4313608",
+        "category": "Filmler | Komedi"
+    },
+    {
+        "id": 375355,
+        "title": "Tehlikeli Arama (2016)",
+        "poster": "https://image.tmdb.org/t/p/w500/cZYTKvFKYtuUybTUmnIiUKCjNnZ.jpg",
+        "link": "https://vidmody.com/vs/tt3610746",
+        "category": "Filmler | Korku"
+    },
+    {
+        "id": 382501,
+        "title": "Sonsuzluk (2016)",
+        "poster": "https://image.tmdb.org/t/p/w500/x0ViFaQyaFtTVWYGMvu0xzGik44.jpg",
+        "link": "https://vidmody.com/vs/tt3564574",
+        "category": "Filmler | Romantik"
+    },
+    {
+        "id": 321668,
+        "title": "Yanlış Tedavi (2015)",
+        "poster": "https://image.tmdb.org/t/p/w500/4ujrzRHgyERXUBrhAzQIH0jSnLH.jpg",
+        "link": "https://vidmody.com/vs/tt3304756",
+        "category": "Filmler | Bilim Kurgu"
+    },
+    {
+        "id": 277594,
+        "title": "Hercules Reborn (2014)",
+        "poster": "https://image.tmdb.org/t/p/w500/zustI9EStTWz2PxVmy8KvWVpJTP.jpg",
+        "link": "https://vidmody.com/vs/tt3499424",
+        "category": "Filmler | Macera"
+    },
+    {
+        "id": 250662,
+        "title": "Marmato (2014)",
+        "poster": "",
+        "link": "https://vidmody.com/vs/tt3197558",
+        "category": "Filmler | Belgesel"
+    },
+    {
+        "id": 265189,
+        "title": "Turist (2014)",
+        "poster": "https://image.tmdb.org/t/p/w500/igVXppBn635wzcLWDz218a7zHH6.jpg",
+        "link": "https://vidmody.com/vs/tt2121382",
+        "category": "Filmler | Dram"
+    },
+    {
+        "id": 184053,
+        "title": "Flying Blind (2013)",
+        "poster": "https://image.tmdb.org/t/p/w500/shZnaUEBfqiajH4y2vdKLiRjtGM.jpg",
+        "link": "https://vidmody.com/vs/tt1823120",
+        "category": "Filmler | Dram"
+    },
+    {
+        "id": 167963,
+        "title": "Cinayet Tezi (2013)",
+        "poster": "https://image.tmdb.org/t/p/w500/xQlSPMQnHHQM1yVfWqAhic1k3f2.jpg",
+        "link": "https://vidmody.com/vs/tt2241605",
+        "category": "Filmler | Gerilim"
+    },
+    {
+        "id": 83896,
+        "title": "Kumdaki Dehşet (2011)",
+        "poster": "https://image.tmdb.org/t/p/w500/bhOBPEmtPPfwfTIbCF5CPMeEte6.jpg",
+        "link": "https://vidmody.com/vs/tt1844770",
+        "category": "Filmler | Bilim Kurgu"
+    },
+    {
+        "id": 43549,
+        "title": "Deney (2010)",
+        "poster": "https://image.tmdb.org/t/p/w500/zy6hJYii2PJfMRoUBlULhfuLsgL.jpg",
+        "link": "https://vidmody.com/vs/tt0997152",
+        "category": "Filmler | Dram"
+    },
+    {
+        "id": 2080,
+        "title": "X-Men Başlangıç: Wolverine (2009)",
+        "poster": "https://image.tmdb.org/t/p/w500/oztsCfR0IyaH7M4ZMMG9vpqd059.jpg",
+        "link": "https://vidmody.com/vs/tt0458525",
+        "category": "Filmler | Macera"
+    },
+    {
+        "id": 20215,
+        "title": "Boo (2005)",
+        "poster": "https://image.tmdb.org/t/p/w500/9VyMAPsjUIeLf71J2OG5V8DO7Jj.jpg",
+        "link": "https://vidmody.com/vs/tt0385560",
+        "category": "Filmler | Korku"
+    },
+    {
+        "id": 11159,
+        "title": "Sırlar ve Yalanlar (1996)",
+        "poster": "https://image.tmdb.org/t/p/w500/zQBuRQ3hrLhkEsXcxteUxuxLrvs.jpg",
+        "link": "https://vidmody.com/vs/tt0117589",
+        "category": "Filmler | Dram"
+    },
+    {
+        "id": 2778,
+        "title": "Clifford (1994)",
+        "poster": "https://image.tmdb.org/t/p/w500/ym5iYreD35Qa4Kjq9FOmtMqCtMF.jpg",
+        "link": "https://vidmody.com/vs/tt0109447",
+        "category": "Filmler | Komedi"
+    },
+    {
+        "id": 72615,
+        "title": "Exponerad (1971)",
+        "poster": "https://image.tmdb.org/t/p/w500/4xRcPCJHScdoZixXdvWKKPCUg0M.jpg",
+        "link": "https://vidmody.com/vs/tt0067076",
+        "category": "Filmler | Dram"
     }
 ]
