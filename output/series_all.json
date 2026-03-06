@@ -20578,5 +20578,93 @@
                 "link": "https://vidmody.com/vs/tt31613279/s1/e08"
             }
         ]
+    },
+    {
+        "id": 231727,
+        "name": "Kurt Kral",
+        "poster": "https://image.tmdb.org/t/p/w500/jgs2AtxtOMRuVHYjSofbv3P9WnN.jpg",
+        "category": "Son Eklenenler",
+        "episodes": [
+            {
+                "season": 1,
+                "episode": 1,
+                "link": "https://vidmody.com/vs/tt20917940/s1/e01"
+            },
+            {
+                "season": 1,
+                "episode": 2,
+                "link": "https://vidmody.com/vs/tt20917940/s1/e02"
+            },
+            {
+                "season": 1,
+                "episode": 3,
+                "link": "https://vidmody.com/vs/tt20917940/s1/e03"
+            },
+            {
+                "season": 1,
+                "episode": 4,
+                "link": "https://vidmody.com/vs/tt20917940/s1/e04"
+            },
+            {
+                "season": 1,
+                "episode": 5,
+                "link": "https://vidmody.com/vs/tt20917940/s1/e05"
+            },
+            {
+                "season": 1,
+                "episode": 6,
+                "link": "https://vidmody.com/vs/tt20917940/s1/e06"
+            },
+            {
+                "season": 1,
+                "episode": 7,
+                "link": "https://vidmody.com/vs/tt20917940/s1/e07"
+            },
+            {
+                "season": 1,
+                "episode": 8,
+                "link": "https://vidmody.com/vs/tt20917940/s1/e08"
+            },
+            {
+                "season": 2,
+                "episode": 1,
+                "link": "https://vidmody.com/vs/tt20917940/s2/e01"
+            },
+            {
+                "season": 2,
+                "episode": 2,
+                "link": "https://vidmody.com/vs/tt20917940/s2/e02"
+            },
+            {
+                "season": 2,
+                "episode": 3,
+                "link": "https://vidmody.com/vs/tt20917940/s2/e03"
+            },
+            {
+                "season": 2,
+                "episode": 4,
+                "link": "https://vidmody.com/vs/tt20917940/s2/e04"
+            },
+            {
+                "season": 2,
+                "episode": 5,
+                "link": "https://vidmody.com/vs/tt20917940/s2/e05"
+            },
+            {
+                "season": 2,
+                "episode": 6,
+                "link": "https://vidmody.com/vs/tt20917940/s2/e06"
+            },
+            {
+                "season": 2,
+                "episode": 7,
+                "link": "https://vidmody.com/vs/tt20917940/s2/e07"
+            },
+            {
+                "season": 2,
+                "episode": 8,
+                "link": "https://vidmody.com/vs/tt20917940/s2/e08"
+            }
+        ]
     }
 ]
