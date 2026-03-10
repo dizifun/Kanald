@@ -2688,6 +2688,76 @@
         "group": "Yeni Eklenenler"
     },
     {
+        "id": "tt26342662",
+        "title": "M3GAN 2.0",
+        "poster": "https://image.tmdb.org/t/p/w500/oekamLQrwlJjRNmfaBE4llIvkir.jpg",
+        "link": "https://vidmody.com/vs/tt26342662",
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt33057137",
+        "title": "Prisoner of War",
+        "poster": "https://image.tmdb.org/t/p/w500/4T4yRG6iskDcfMeoLuUZEJYCrjL.jpg",
+        "link": "https://vidmody.com/vs/tt33057137",
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt18412256",
+        "title": "Alien: Romulus",
+        "poster": "https://image.tmdb.org/t/p/w500/6XaSb6bHdopC7XeSO0aOzPlvi41.jpg",
+        "link": "https://vidmody.com/vs/tt18412256",
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt16431870",
+        "title": "The Family Plan",
+        "poster": "https://image.tmdb.org/t/p/w500/jLLtx3nTRSLGPAKl4RoIv1FbEBr.jpg",
+        "link": "https://vidmody.com/vs/tt16431870",
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt33312131",
+        "title": "Mantis",
+        "poster": "https://image.tmdb.org/t/p/w500/gRPSu4sG5iVnWyLv9um7t3L0yhH.jpg",
+        "link": "https://vidmody.com/vs/tt33312131",
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt0795461",
+        "title": "Korkunç Bir Film 5",
+        "poster": "https://image.tmdb.org/t/p/w500/s4CNoQcu0X03vbCQ0RMXX6uafg4.jpg",
+        "link": "https://vidmody.com/vs/tt0795461",
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt35669044",
+        "title": "Kötülük İçin Doğanlar",
+        "poster": "https://image.tmdb.org/t/p/w500/h6bAYq54AEHy8Gafrf9evcjUEV5.jpg",
+        "link": "https://vidmody.com/vs/tt35669044",
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt11304740",
+        "title": "Dilek",
+        "poster": "https://image.tmdb.org/t/p/w500/qh5fUcvkmAwk68ndiYT8hXXB7IA.jpg",
+        "link": "https://vidmody.com/vs/tt11304740",
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt0257106",
+        "title": "Korkunç Bir Film 2",
+        "poster": "https://image.tmdb.org/t/p/w500/eem1liKwPlyVmD50hJJrxDbrj3B.jpg",
+        "link": "https://vidmody.com/vs/tt0257106",
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt4758646",
+        "title": "Savaş Makinesi",
+        "poster": "https://image.tmdb.org/t/p/w500/jFeRKHswzbxBrKhko0y2W7JIFwu.jpg",
+        "link": "https://vidmody.com/vs/tt4758646",
+        "group": "Yeni Eklenenler"
+    },
+    {
         "id": "tt4589218",
         "title": "Freddy'nin Pizza Dükkanında Beş Gece",
         "poster": "https://image.tmdb.org/t/p/w500/z9GinPUm7cxu1Fud4fxDmIhoCpj.jpg",
@@ -2727,13 +2797,6 @@
         "title": "Tinker Bell ve Canavar Efsanesi",
         "poster": "https://image.tmdb.org/t/p/w500/i5CCwqLkD204bJkhtoXIzPfzj2x.jpg",
         "link": "https://vidmody.com/vs/tt3120408",
-        "group": "Filmler"
-    },
-    {
-        "id": "tt26342662",
-        "title": "M3GAN 2.0",
-        "poster": "https://image.tmdb.org/t/p/w500/oekamLQrwlJjRNmfaBE4llIvkir.jpg",
-        "link": "https://vidmody.com/vs/tt26342662",
         "group": "Filmler"
     },
     {
@@ -2891,13 +2954,6 @@
         "group": "Filmler"
     },
     {
-        "id": "tt33057137",
-        "title": "Prisoner of War",
-        "poster": "https://image.tmdb.org/t/p/w500/4T4yRG6iskDcfMeoLuUZEJYCrjL.jpg",
-        "link": "https://vidmody.com/vs/tt33057137",
-        "group": "Filmler"
-    },
-    {
         "id": "tt1300854",
         "title": "Iron Man 3",
         "poster": "https://image.tmdb.org/t/p/w500/wpW7k3TYS3WG89vPiRQr4peEcFO.jpg",
@@ -3007,13 +3063,6 @@
         "title": "Şeytanın Avukatı",
         "poster": "https://image.tmdb.org/t/p/w500/oWAgga8zBHP1NVU5D9SOCtTNt7.jpg",
         "link": "https://vidmody.com/vs/tt0118971",
-        "group": "Filmler"
-    },
-    {
-        "id": "tt18412256",
-        "title": "Alien: Romulus",
-        "poster": "https://image.tmdb.org/t/p/w500/2uSWRTtCG336nuBiG8jOTEUKSy8.jpg",
-        "link": "https://vidmody.com/vs/tt18412256",
         "group": "Filmler"
     },
     {
@@ -3745,13 +3794,6 @@
         "group": "Filmler"
     },
     {
-        "id": "tt16431870",
-        "title": "The Family Plan",
-        "poster": "https://image.tmdb.org/t/p/w500/jLLtx3nTRSLGPAKl4RoIv1FbEBr.jpg",
-        "link": "https://vidmody.com/vs/tt16431870",
-        "group": "Filmler"
-    },
-    {
         "id": "tt0255798",
         "title": "Hayvan",
         "poster": "https://image.tmdb.org/t/p/w500/oNxEXmKTZtECHs0bQbI6dQoXYMV.jpg",
@@ -4078,13 +4120,6 @@
         "title": "Damsel",
         "poster": "https://image.tmdb.org/t/p/w500/AgHbB9DCE9aE57zkHjSmseszh6e.jpg",
         "link": "https://vidmody.com/vs/tt13452446",
-        "group": "Filmler"
-    },
-    {
-        "id": "tt33312131",
-        "title": "Mantis",
-        "poster": "https://image.tmdb.org/t/p/w500/gRPSu4sG5iVnWyLv9um7t3L0yhH.jpg",
-        "link": "https://vidmody.com/vs/tt33312131",
         "group": "Filmler"
     },
     {
@@ -4610,13 +4645,6 @@
         "title": "Matilda",
         "poster": "https://image.tmdb.org/t/p/w500/wYoDpWInsBEVSmWStnRH06ddoyk.jpg",
         "link": "https://vidmody.com/vs/tt0117008",
-        "group": "Filmler"
-    },
-    {
-        "id": "tt0795461",
-        "title": "Korkunç Bir Film 5",
-        "poster": "https://image.tmdb.org/t/p/w500/s4CNoQcu0X03vbCQ0RMXX6uafg4.jpg",
-        "link": "https://vidmody.com/vs/tt0795461",
         "group": "Filmler"
     },
     {
@@ -5695,13 +5723,6 @@
         "title": "Aladdin",
         "poster": "https://image.tmdb.org/t/p/w500/ykUEbfpkf8d0w49pHh0AD2KrT52.jpg",
         "link": "https://vidmody.com/vs/tt6139732",
-        "group": "Filmler"
-    },
-    {
-        "id": "tt35669044",
-        "title": "Kötülük İçin Doğanlar",
-        "poster": "https://image.tmdb.org/t/p/w500/h6bAYq54AEHy8Gafrf9evcjUEV5.jpg",
-        "link": "https://vidmody.com/vs/tt35669044",
         "group": "Filmler"
     },
     {
@@ -9527,13 +9548,6 @@
         "group": "Filmler"
     },
     {
-        "id": "tt11304740",
-        "title": "Dilek",
-        "poster": "https://image.tmdb.org/t/p/w500/qh5fUcvkmAwk68ndiYT8hXXB7IA.jpg",
-        "link": "https://vidmody.com/vs/tt11304740",
-        "group": "Filmler"
-    },
-    {
         "id": "tt27604215",
         "title": "Rüyalar Diyarında",
         "poster": "https://image.tmdb.org/t/p/w500/ug0TqgmByPCEYzR9lQWQmyAa7sw.jpg",
@@ -10665,13 +10679,6 @@
         "title": "Mama",
         "poster": "https://image.tmdb.org/t/p/w500/eo8BhR8Q5STmWE9sMLsEPagxmy6.jpg",
         "link": "https://vidmody.com/vs/tt2023587",
-        "group": "Filmler"
-    },
-    {
-        "id": "tt0257106",
-        "title": "Korkunç Bir Film 2",
-        "poster": "https://image.tmdb.org/t/p/w500/eem1liKwPlyVmD50hJJrxDbrj3B.jpg",
-        "link": "https://vidmody.com/vs/tt0257106",
         "group": "Filmler"
     },
     {
