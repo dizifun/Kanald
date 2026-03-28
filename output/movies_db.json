@@ -1744,7 +1744,7 @@
     },
     {
         "id": "tt4154796",
-        "title": "Avengers: Endgame",
+        "title": "Avengers: Son Oyun",
         "poster": "https://image.tmdb.org/t/p/w500/zx1uMVXSJrzYCA8KTpmeEBqBx66.jpg",
         "link": "https://vidmody.com/vs/tt4154796",
         "group": "Yeni Eklenenler"
@@ -1759,7 +1759,7 @@
     {
         "id": "tt7286456",
         "title": "Joker",
-        "poster": "https://image.tmdb.org/t/p/w500/oioWvyxqspVyZL9wulttXZ0IdHI.jpg",
+        "poster": "https://image.tmdb.org/t/p/w500/3DeEAwO42j4VmRdI4KSSN1VloM.jpg",
         "link": "https://vidmody.com/vs/tt7286456",
         "group": "Yeni Eklenenler"
     },
@@ -3444,6 +3444,41 @@
         "group": "Yeni Eklenenler"
     },
     {
+        "id": "tt0295297",
+        "title": "Harry Potter ve Sırlar Odası",
+        "poster": "https://image.tmdb.org/t/p/w500/sI62SD5NJMIVyMpY18gvdoyREJf.jpg",
+        "link": "https://vidmody.com/vs/tt0295297",
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt5013056",
+        "title": "Dunkirk",
+        "poster": "https://image.tmdb.org/t/p/w500/iwvcIamoONxy9yB2td7yjRcbTQ2.jpg",
+        "link": "https://vidmody.com/vs/tt5013056",
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt0094226",
+        "title": "Dokunulmazlar",
+        "poster": "https://image.tmdb.org/t/p/w500/yewFqjJbyfX7ZVIIpvVRovw41M5.jpg",
+        "link": "https://vidmody.com/vs/tt0094226",
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt1654829",
+        "title": "Bir Kadının Gözyaşı",
+        "poster": "https://image.tmdb.org/t/p/w500/fenH4WAfa73usMvFmNtNBxpcRwD.jpg",
+        "link": "https://vidmody.com/vs/tt1654829",
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt39744394",
+        "title": "Kırmızı Hat",
+        "poster": "https://image.tmdb.org/t/p/w500/at29WEJ7lmFua6eWz79B6XFhfu2.jpg",
+        "link": "https://vidmody.com/vs/tt39744394",
+        "group": "Yeni Eklenenler"
+    },
+    {
         "id": "tt4589218",
         "title": "Freddy'nin Pizza Dükkanında Beş Gece",
         "poster": "https://image.tmdb.org/t/p/w500/z9GinPUm7cxu1Fud4fxDmIhoCpj.jpg",
@@ -3462,13 +3497,6 @@
         "title": "Batı Yakası'nın Hikayesi",
         "poster": "https://image.tmdb.org/t/p/w500/opSE3uQoFvWXFz9SMUa4ZvLVj6s.jpg",
         "link": "https://vidmody.com/vs/tt3581652",
-        "group": "Filmler"
-    },
-    {
-        "id": "tt0295297",
-        "title": "Harry Potter ve Sırlar Odası",
-        "poster": "https://image.tmdb.org/t/p/w500/sI62SD5NJMIVyMpY18gvdoyREJf.jpg",
-        "link": "https://vidmody.com/vs/tt0295297",
         "group": "Filmler"
     },
     {
@@ -6178,13 +6206,6 @@
         "title": "Akıl Defteri",
         "poster": "https://image.tmdb.org/t/p/w500/31yNVJl968krAHy3f5nFB6kLl7i.jpg",
         "link": "https://vidmody.com/vs/tt0209144",
-        "group": "Filmler"
-    },
-    {
-        "id": "tt5013056",
-        "title": "Dunkirk",
-        "poster": "https://image.tmdb.org/t/p/w500/iwvcIamoONxy9yB2td7yjRcbTQ2.jpg",
-        "link": "https://vidmody.com/vs/tt5013056",
         "group": "Filmler"
     },
     {
@@ -14886,13 +14907,6 @@
         "title": "Şeytanla Bir Gece",
         "poster": "https://image.tmdb.org/t/p/w500/aWJhM7n1fqehv36AcfNcg3XYZ2r.jpg",
         "link": "https://vidmody.com/vs/tt14966898",
-        "group": "Filmler"
-    },
-    {
-        "id": "tt0094226",
-        "title": "Dokunulmazlar",
-        "poster": "https://image.tmdb.org/t/p/w500/yewFqjJbyfX7ZVIIpvVRovw41M5.jpg",
-        "link": "https://vidmody.com/vs/tt0094226",
         "group": "Filmler"
     },
     {
