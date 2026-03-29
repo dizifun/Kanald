@@ -358,7 +358,7 @@
     },
     {
         "id": "tt31434030",
-        "title": "Dracula",
+        "title": "Drakula",
         "poster": "https://image.tmdb.org/t/p/w500/hCKkybW6EfSZoOW3xia9ZsQwaUd.jpg",
         "link": "https://vidmody.com/vs/tt31434030",
         "group": "Yeni Eklenenler"
@@ -2025,7 +2025,7 @@
     {
         "id": "tt32430579",
         "title": "Crime 101",
-        "poster": "https://image.tmdb.org/t/p/w500/heMdO64ys1hR896YE2jvTv8JlBX.jpg",
+        "poster": "https://image.tmdb.org/t/p/w500/8L1IKxEfrFHmo2Zg0qjL9yAMnbP.jpg",
         "link": "https://vidmody.com/vs/tt32430579",
         "group": "Yeni Eklenenler"
     },
@@ -3476,6 +3476,34 @@
         "title": "Kırmızı Hat",
         "poster": "https://image.tmdb.org/t/p/w500/at29WEJ7lmFua6eWz79B6XFhfu2.jpg",
         "link": "https://vidmody.com/vs/tt39744394",
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt0087182",
+        "title": "Dune",
+        "poster": "https://image.tmdb.org/t/p/w500/4kJmUCE7mkVJjXa7A0g2rY4IGTm.jpg",
+        "link": "https://vidmody.com/vs/tt0087182",
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt27552099",
+        "title": "Mike & Nick & Nick & Alice",
+        "poster": "https://image.tmdb.org/t/p/w500/7F0jc75HrSkLVcvOXR2FXAIwuEv.jpg",
+        "link": "https://vidmody.com/vs/tt27552099",
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt32155665",
+        "title": "53 Pazar",
+        "poster": "https://image.tmdb.org/t/p/w500/gxDXLihzhr7yJf7Xs3JXY6V99q8.jpg",
+        "link": "https://vidmody.com/vs/tt32155665",
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt5580390",
+        "title": "Suyun Sesi",
+        "poster": "https://image.tmdb.org/t/p/w500/o0cnudVI3BL9UUbk4zHMYyaIs8V.jpg",
+        "link": "https://vidmody.com/vs/tt5580390",
         "group": "Yeni Eklenenler"
     },
     {
@@ -9433,13 +9461,6 @@
         "title": "Honey Don't!",
         "poster": "https://image.tmdb.org/t/p/w500/fJm3kmd9NLZWypMas7g34oNFgbk.jpg",
         "link": "https://vidmody.com/vs/tt30645201",
-        "group": "Filmler"
-    },
-    {
-        "id": "tt0087182",
-        "title": "Dune",
-        "poster": "https://image.tmdb.org/t/p/w500/4kJmUCE7mkVJjXa7A0g2rY4IGTm.jpg",
-        "link": "https://vidmody.com/vs/tt0087182",
         "group": "Filmler"
     },
     {
