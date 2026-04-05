@@ -3670,7 +3670,7 @@
     {
         "id": "tt39773309",
         "title": "Son Dev",
-        "poster": "https://image.tmdb.org/t/p/w500/B1T4YXBS4B5TR2fVFOomCKXRuc.jpg",
+        "poster": "https://image.tmdb.org/t/p/w500/a8CuWZZ91SWajXLpZHN0ttfVtk2.jpg",
         "link": "https://vidmody.com/vs/tt39773309",
         "group": "Yeni Eklenenler"
     },
@@ -3679,6 +3679,41 @@
         "title": "Pizza Movie",
         "poster": "https://image.tmdb.org/t/p/w500/2c2ib9pS3BTIoMnYHi4z6t9nxuA.jpg",
         "link": "https://vidmody.com/vs/tt37209937",
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt5052448",
+        "title": "Kapan",
+        "poster": "https://image.tmdb.org/t/p/w500/2Uo7WiwHKb27i8Qskqy4arxaoLz.jpg",
+        "link": "https://vidmody.com/vs/tt5052448",
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt2527338",
+        "title": "Star Wars: Skywalker'ın Yükselişi",
+        "poster": "https://image.tmdb.org/t/p/w500/e1YcZy8HMEn4fNGf18losEWblCl.jpg",
+        "link": "https://vidmody.com/vs/tt2527338",
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt0974015",
+        "title": "Justice League: Adalet Birliği",
+        "poster": "https://image.tmdb.org/t/p/w500/k1EapjttxBZ69m2FydocO10OGfb.jpg",
+        "link": "https://vidmody.com/vs/tt0974015",
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt0052618",
+        "title": "Ben Hur",
+        "poster": "https://image.tmdb.org/t/p/w500/m4WQ1dBIrEIHZNCoAjdpxwSKWyH.jpg",
+        "link": "https://vidmody.com/vs/tt0052618",
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt9214772",
+        "title": "Maymun Adam",
+        "poster": "https://image.tmdb.org/t/p/w500/d3cqh55cjh3CDXsT1d5qKFzHUw8.jpg",
+        "link": "https://vidmody.com/vs/tt9214772",
         "group": "Yeni Eklenenler"
     },
     {
@@ -5488,13 +5523,6 @@
         "group": "Filmler"
     },
     {
-        "id": "tt5052448",
-        "title": "Kapan",
-        "poster": "https://image.tmdb.org/t/p/w500/2Uo7WiwHKb27i8Qskqy4arxaoLz.jpg",
-        "link": "https://vidmody.com/vs/tt5052448",
-        "group": "Filmler"
-    },
-    {
         "id": "tt36499994",
         "title": "İki Dünya Bir Dilek",
         "poster": "https://image.tmdb.org/t/p/w500/98JYjLElGk8cHYd2FT0DLK11CcJ.jpg",
@@ -5534,13 +5562,6 @@
         "title": "Küçük Denizkızı",
         "poster": "https://image.tmdb.org/t/p/w500/rvTKYudD0z9JdqCR4pEApK2Iel5.jpg",
         "link": "https://vidmody.com/vs/tt0097757",
-        "group": "Filmler"
-    },
-    {
-        "id": "tt2527338",
-        "title": "Star Wars: Skywalker'ın Yükselişi",
-        "poster": "https://image.tmdb.org/t/p/w500/e1YcZy8HMEn4fNGf18losEWblCl.jpg",
-        "link": "https://vidmody.com/vs/tt2527338",
         "group": "Filmler"
     },
     {
@@ -6059,13 +6080,6 @@
         "title": "The Marvels",
         "poster": "https://image.tmdb.org/t/p/w500/laGm5l1tF2xhjbZipoZUc4yyl7d.jpg",
         "link": "https://vidmody.com/vs/tt10676048",
-        "group": "Filmler"
-    },
-    {
-        "id": "tt0974015",
-        "title": "Justice League: Adalet Birliği",
-        "poster": "https://image.tmdb.org/t/p/w500/k1EapjttxBZ69m2FydocO10OGfb.jpg",
-        "link": "https://vidmody.com/vs/tt0974015",
         "group": "Filmler"
     },
     {
@@ -9937,13 +9951,6 @@
         "title": "Crood'lar 2: Yeni Bir Çağ",
         "poster": "https://image.tmdb.org/t/p/w500/voRLkBhGQLpNdl46BcUKBHfMvHE.jpg",
         "link": "https://vidmody.com/vs/tt2850386",
-        "group": "Filmler"
-    },
-    {
-        "id": "tt0052618",
-        "title": "Ben Hur",
-        "poster": "https://image.tmdb.org/t/p/w500/m4WQ1dBIrEIHZNCoAjdpxwSKWyH.jpg",
-        "link": "https://vidmody.com/vs/tt0052618",
         "group": "Filmler"
     },
     {
@@ -16867,13 +16874,6 @@
         "title": "Savaş Tanrısı",
         "poster": "https://image.tmdb.org/t/p/w500/giOHwzXYzvaXIuNqv0meYHIreq9.jpg",
         "link": "https://vidmody.com/vs/tt0399295",
-        "group": "Filmler"
-    },
-    {
-        "id": "tt9214772",
-        "title": "Maymun Adam",
-        "poster": "https://image.tmdb.org/t/p/w500/d3cqh55cjh3CDXsT1d5qKFzHUw8.jpg",
-        "link": "https://vidmody.com/vs/tt9214772",
         "group": "Filmler"
     },
     {
