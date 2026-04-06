@@ -102177,5 +102177,194 @@
         "poster": "https://image.tmdb.org/t/p/w500/8w9gWnw34nc1JjgU0qel1TdwLhx.jpg",
         "link": "https://vidmody.com/vs/tt0032145",
         "category": "Filmler | Dram"
+    },
+    {
+        "id": 1371185,
+        "title": "Kalpten Söylenen Bir Şarkı",
+        "poster": "https://image.tmdb.org/t/p/w500/fuXYoPlbseUFGdvXD2UHKolYphZ.jpg",
+        "link": "https://vidmody.com/vs/tt30343021",
+        "category": "Son Eklenenler"
+    },
+    {
+        "id": 393322,
+        "title": "Çırak (2015)",
+        "poster": "https://image.tmdb.org/t/p/w500/o5MKa9X5GDWrEVd7g1HqF7i3WIg.jpg",
+        "link": "https://vidmody.com/vs/tt5263412",
+        "category": "Filmler | Yerli"
+    },
+    {
+        "id": 752603,
+        "title": "9,75 (2020)",
+        "poster": "https://image.tmdb.org/t/p/w500/1EDXENkqAKJyBDgqbWqkYzN1IS7.jpg",
+        "link": "https://vidmody.com/vs/tt13275406",
+        "category": "Filmler | Yerli"
+    },
+    {
+        "id": 54424,
+        "title": "Çoğunluk (2010)",
+        "poster": "https://image.tmdb.org/t/p/w500/dQ82V5nm0xRrcnsm1hWdzUE3sBc.jpg",
+        "link": "https://vidmody.com/vs/tt1714014",
+        "category": "Filmler | Yerli"
+    },
+    {
+        "id": 1257130,
+        "title": "Çiftlik Aşkım (2024)",
+        "poster": "https://image.tmdb.org/t/p/w500/a8vkHZyzyjHCMU5j1lcm7UkWssy.jpg",
+        "link": "https://vidmody.com/vs/tt31713069",
+        "category": "Filmler | Romantik"
+    },
+    {
+        "id": 862968,
+        "title": "Acı Reçete (2023)",
+        "poster": "https://image.tmdb.org/t/p/w500/wm1gAWKtsiH2QvA7DnODEhQdFGZ.jpg",
+        "link": "https://vidmody.com/vs/tt15257160",
+        "category": "Filmler | Dram"
+    },
+    {
+        "id": 1073413,
+        "title": "Görüngü (2023)",
+        "poster": "https://image.tmdb.org/t/p/w500/tjZXA0hkXm5HXbFzt2Zv9tbw66F.jpg",
+        "link": "https://vidmody.com/vs/tt18315204",
+        "category": "Filmler | Korku"
+    },
+    {
+        "id": 1032194,
+        "title": "Görünmeyen (2023)",
+        "poster": "https://image.tmdb.org/t/p/w500/9Amqi6cwuRQckZocGw1No28CEB6.jpg",
+        "link": "https://vidmody.com/vs/tt16374352",
+        "category": "Filmler | Romantik"
+    },
+    {
+        "id": 831410,
+        "title": "Gençlik Ateşi 7: Kazan ya da Öl (2022)",
+        "poster": "https://image.tmdb.org/t/p/w500/nw3dM0QsneYjBio0ggFpnVkuVvm.jpg",
+        "link": "https://vidmody.com/vs/tt20101986",
+        "category": "Filmler | Korku"
+    },
+    {
+        "id": 862582,
+        "title": "Untold: Breaking Point (2021)",
+        "poster": "https://image.tmdb.org/t/p/w500/a8VCNVOYDgXFR7kZ9xz63uEcczg.jpg",
+        "link": "https://vidmody.com/vs/tt15101938",
+        "category": "Filmler | Belgesel"
+    },
+    {
+        "id": 854188,
+        "title": "Şüphe (2021)",
+        "poster": "https://image.tmdb.org/t/p/w500/459sMGUDhJkJ5dsPD6pmPPxlJl4.jpg",
+        "link": "https://vidmody.com/vs/tt10306450",
+        "category": "Filmler | Korku"
+    },
+    {
+        "id": 365958,
+        "title": "Stano (2019)",
+        "poster": "https://image.tmdb.org/t/p/w500/ha8eYfbDVP6quENGGkEpwzHaFL5.jpg",
+        "link": "https://vidmody.com/vs/tt1507002",
+        "category": "Filmler | Suç"
+    },
+    {
+        "id": 587808,
+        "title": "Alev Kapanı 2 (2019)",
+        "poster": "https://image.tmdb.org/t/p/w500/qS4Y7VOJ0wqWXPpRnlGMuX6sKKJ.jpg",
+        "link": "https://vidmody.com/vs/tt8172466",
+        "category": "Filmler | Suç"
+    },
+    {
+        "id": 577647,
+        "title": "Büyükbabalar Yuvada (2019)",
+        "poster": "https://image.tmdb.org/t/p/w500/3LpLQTBmnzDqKlZuJWnOtACjCB1.jpg",
+        "link": "https://vidmody.com/vs/tt8749922",
+        "category": "Filmler | Aile"
+    },
+    {
+        "id": 637663,
+        "title": "DC Showcase: Death (2019)",
+        "poster": "https://image.tmdb.org/t/p/w500/4Ni5u7VMFbw4kIpqx5wKqjlFVwA.jpg",
+        "link": "https://vidmody.com/vs/tt11229556",
+        "category": "Filmler | Fantastik"
+    },
+    {
+        "id": 438145,
+        "title": "Black '47 (2018)",
+        "poster": "https://image.tmdb.org/t/p/w500/gZiu9RIcMeQLUaDVqQffQTl6bhy.jpg",
+        "link": "https://vidmody.com/vs/tt3208026",
+        "category": "Filmler | Dram"
+    },
+    {
+        "id": 369697,
+        "title": "Norman: The Moderate Rise and Tragic Fall of a New York Fixer (2016)",
+        "poster": "https://image.tmdb.org/t/p/w500/2pVxTxpFZafeGcbx2c5M6TSxJgT.jpg",
+        "link": "https://vidmody.com/vs/tt4191702",
+        "category": "Filmler | Komedi"
+    },
+    {
+        "id": 318121,
+        "title": "Kayıp Şeylerin Bakım Kılavuzu (2016)",
+        "poster": "https://image.tmdb.org/t/p/w500/zZ0eda1GyHILNSoq9KF5u0hcq6O.jpg",
+        "link": "https://vidmody.com/vs/tt2452386",
+        "category": "Filmler | Komedi"
+    },
+    {
+        "id": 326423,
+        "title": "Berber Dükkanı 3 (2016)",
+        "poster": "https://image.tmdb.org/t/p/w500/9mwzidlGgWfr2hcMWUKM86lOqdo.jpg",
+        "link": "https://vidmody.com/vs/tt3628584",
+        "category": "Filmler | Komedi"
+    },
+    {
+        "id": 381262,
+        "title": "Kalinka Davası (2016)",
+        "poster": "https://image.tmdb.org/t/p/w500/h7BcatAkUC8pc0k5txyNaA3Gtav.jpg",
+        "link": "https://vidmody.com/vs/tt4228810",
+        "category": "Filmler | Suç"
+    },
+    {
+        "id": 300693,
+        "title": "Gizli Dosya (2015)",
+        "poster": "https://image.tmdb.org/t/p/w500/7ZjOwN7wk1oRqwwlr2E2EGcOrfE.jpg",
+        "link": "https://vidmody.com/vs/tt3859076",
+        "category": "Filmler | Dram"
+    },
+    {
+        "id": 324803,
+        "title": "Hangman (2015)",
+        "poster": "https://image.tmdb.org/t/p/w500/oFycPIlZahNAodgnOMG9Anv4Hds.jpg",
+        "link": "https://vidmody.com/vs/tt4441422",
+        "category": "Filmler | Korku"
+    },
+    {
+        "id": 222581,
+        "title": "Son Teslimat (2014)",
+        "poster": "https://image.tmdb.org/t/p/w500/6mQegWd7oEfPEzWGQptGgq3LjcP.jpg",
+        "link": "https://vidmody.com/vs/tt1536051",
+        "category": "Filmler | Suç"
+    },
+    {
+        "id": 100046,
+        "title": "The Giant Mechanical Man (2012)",
+        "poster": "https://image.tmdb.org/t/p/w500/yfecPCTuP8vNAijpjewznbKuzIu.jpg",
+        "link": "https://vidmody.com/vs/tt1769363",
+        "category": "Filmler | Romantik"
+    },
+    {
+        "id": 13160,
+        "title": "Sevgilimin Kazara Bu Dünyadan Göçmüş Eski Nişanlısıyla Tanıştığım Gün (2008)",
+        "poster": "https://image.tmdb.org/t/p/w500/85moNqAncGlJXEwt4Ja3DfNbiQY.jpg",
+        "link": "https://vidmody.com/vs/tt0785007",
+        "category": "Filmler | Komedi"
+    },
+    {
+        "id": 17893,
+        "title": "Camino (2008)",
+        "poster": "https://image.tmdb.org/t/p/w500/mXM9wTy3iBNwStgmGzJdfAeuRTf.jpg",
+        "link": "https://vidmody.com/vs/tt1206285",
+        "category": "Filmler | Dram"
+    },
+    {
+        "id": 25852,
+        "title": "Tatil Gibisi Yok (2008)",
+        "poster": "https://image.tmdb.org/t/p/w500/veP26wuib65SnkFjyLgFeIWeFzd.jpg",
+        "link": "https://vidmody.com/vs/tt1151915",
+        "category": "Filmler | Romantik"
     }
 ]
