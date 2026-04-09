@@ -3676,7 +3676,7 @@
     },
     {
         "id": "tt37209937",
-        "title": "Pizza Movie",
+        "title": "Pizza Filmi",
         "poster": "https://image.tmdb.org/t/p/w500/2c2ib9pS3BTIoMnYHi4z6t9nxuA.jpg",
         "link": "https://vidmody.com/vs/tt37209937",
         "group": "Yeni Eklenenler"
@@ -3756,6 +3756,27 @@
         "title": "Sil Baştan",
         "poster": "https://image.tmdb.org/t/p/w500/zZl2T3yj80dwaWBeOWZQoFOJwGe.jpg",
         "link": "https://vidmody.com/vs/tt0338013",
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt1201607",
+        "title": "Harry Potter ve Ölüm Yadigârları: Bölüm 2",
+        "poster": "https://image.tmdb.org/t/p/w500/y33jCOdrFNpuNVq7F5ZFztfNNYe.jpg",
+        "link": "https://vidmody.com/vs/tt1201607",
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt1324999",
+        "title": "Alacakaranlık Efsanesi: Şafak Vakti Bölüm 1",
+        "poster": "https://image.tmdb.org/t/p/w500/5soU5Rh5OkZksyXdJaoTzFf200a.jpg",
+        "link": "https://vidmody.com/vs/tt1324999",
+        "group": "Yeni Eklenenler"
+    },
+    {
+        "id": "tt13238346",
+        "title": "Başka Bir Hayatta",
+        "poster": "https://image.tmdb.org/t/p/w500/ndE4NbhoNGFcnICbkhvpExdFp8W.jpg",
+        "link": "https://vidmody.com/vs/tt13238346",
         "group": "Yeni Eklenenler"
     },
     {
@@ -3903,13 +3924,6 @@
         "title": "Mumya",
         "poster": "https://image.tmdb.org/t/p/w500/7m9WF2avkvPrUpU7S8nUzx9zb8b.jpg",
         "link": "https://vidmody.com/vs/tt0120616",
-        "group": "Filmler"
-    },
-    {
-        "id": "tt1201607",
-        "title": "Harry Potter ve Ölüm Yadigârları: Bölüm 2",
-        "poster": "https://image.tmdb.org/t/p/w500/y33jCOdrFNpuNVq7F5ZFztfNNYe.jpg",
-        "link": "https://vidmody.com/vs/tt1201607",
         "group": "Filmler"
     },
     {
@@ -6829,13 +6843,6 @@
         "title": "Tanrı Kent",
         "poster": "https://image.tmdb.org/t/p/w500/ltoNh0NJ8hJTOKbuRvTNc8918Mi.jpg",
         "link": "https://vidmody.com/vs/tt0317248",
-        "group": "Filmler"
-    },
-    {
-        "id": "tt1324999",
-        "title": "Alacakaranlık Efsanesi: Şafak Vakti Bölüm 1",
-        "poster": "https://image.tmdb.org/t/p/w500/5soU5Rh5OkZksyXdJaoTzFf200a.jpg",
-        "link": "https://vidmody.com/vs/tt1324999",
         "group": "Filmler"
     },
     {
@@ -15460,13 +15467,6 @@
         "title": "Bir Avuç Dolar",
         "poster": "https://image.tmdb.org/t/p/w500/4XuSOYvRZWY6AqmNEygweiI81Ch.jpg",
         "link": "https://vidmody.com/vs/tt0058461",
-        "group": "Filmler"
-    },
-    {
-        "id": "tt13238346",
-        "title": "Başka Bir Hayatta",
-        "poster": "https://image.tmdb.org/t/p/w500/ndE4NbhoNGFcnICbkhvpExdFp8W.jpg",
-        "link": "https://vidmody.com/vs/tt13238346",
         "group": "Filmler"
     },
     {
