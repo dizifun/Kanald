@@ -103339,5 +103339,68 @@
         "poster": "https://image.tmdb.org/t/p/w500/arH52UwfIEKuzUR0qZrm2E1r0Rh.jpg",
         "link": "https://vidmody.com/vs/tt1528718",
         "category": "Filmler | Aksiyon"
+    },
+    {
+        "id": 507537,
+        "title": "Kızım ve Ben (2018)",
+        "poster": "https://image.tmdb.org/t/p/w500/b0HEe3cnvxUijEL9RFK3MrNQrUo.jpg",
+        "link": "https://vidmody.com/vs/tt7807064",
+        "category": "Filmler | Yerli"
+    },
+    {
+        "id": 1225048,
+        "title": "Sağ Salim 3: Ölü ya da Diri (2023)",
+        "poster": "https://image.tmdb.org/t/p/w500/jeLgDRs67kCsmNcRC5mOqQtW1qI.jpg",
+        "link": "https://vidmody.com/vs/tt29551264",
+        "category": "Filmler | Yerli"
+    },
+    {
+        "id": 1069185,
+        "title": "İnşallah Erkek Olur (2024)",
+        "poster": "https://image.tmdb.org/t/p/w500/kc2MGJeAzDG7jG4ZA1jIwO7TQ0p.jpg",
+        "link": "https://vidmody.com/vs/tt25406412",
+        "category": "Filmler | Dram"
+    },
+    {
+        "id": 1128718,
+        "title": "Bilinmeyenler: Katil Robotlar (2023)",
+        "poster": "https://image.tmdb.org/t/p/w500/lZ61VGpdRiMUlptBucnjBc64Wrj.jpg",
+        "link": "https://vidmody.com/vs/tt27837442",
+        "category": "Filmler | Belgesel"
+    },
+    {
+        "id": 1128720,
+        "title": "Bilinmeyenler: Kemik Mağarası (2023)",
+        "poster": "https://image.tmdb.org/t/p/w500/irDu0rnlzTpl8RkOEl7XG2B88tJ.jpg",
+        "link": "https://vidmody.com/vs/tt27837467",
+        "category": "Filmler | Belgesel"
+    },
+    {
+        "id": 857732,
+        "title": "Untold: Crime & Penalties (2021)",
+        "poster": "https://image.tmdb.org/t/p/w500/zKXmY2UYtCrhBZfzgmDgpteWyV4.jpg",
+        "link": "https://vidmody.com/vs/tt15101956",
+        "category": "Filmler | Belgesel"
+    },
+    {
+        "id": 686142,
+        "title": "Kayıp Koca (2020)",
+        "poster": "https://image.tmdb.org/t/p/w500/ouwKjq9SshrAzb2KIwa057O2I6N.jpg",
+        "link": "https://vidmody.com/vs/tt4257940",
+        "category": "Filmler | Romantik"
+    },
+    {
+        "id": 320006,
+        "title": "Taksi Tahran (2015)",
+        "poster": "https://image.tmdb.org/t/p/w500/u4afAyz3d2pMLb3usyieYh1qHlV.jpg",
+        "link": "https://vidmody.com/vs/tt4359416",
+        "category": "Filmler | Komedi"
+    },
+    {
+        "id": 319373,
+        "title": "Umudun Tarifi (2015)",
+        "poster": "https://image.tmdb.org/t/p/w500/ieczJK1EFp3vAVE9DSWKliuYSsb.jpg",
+        "link": "https://vidmody.com/vs/tt4298958",
+        "category": "Filmler | Dram"
     }
 ]
