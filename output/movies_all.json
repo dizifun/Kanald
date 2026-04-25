@@ -104858,5 +104858,68 @@
         "poster": "https://image.tmdb.org/t/p/w500/aAU27tuWBrIcOhxLyxd1QgFgXSi.jpg",
         "link": "https://vidmody.com/vs/tt2823574",
         "category": "Filmler | Aksiyon"
+    },
+    {
+        "id": 1365683,
+        "title": "Primavera",
+        "poster": "https://image.tmdb.org/t/p/w500/6Giqb3a9ITCKhlkNeWtfzGWOxU0.jpg",
+        "link": "https://vidmody.com/vs/tt33586629",
+        "category": "Son Eklenenler"
+    },
+    {
+        "id": 1130022,
+        "title": "Sovereign",
+        "poster": "https://image.tmdb.org/t/p/w500/cWXUMfnMj4ioReprwsDZgt8sghK.jpg",
+        "link": "https://vidmody.com/vs/tt26843513",
+        "category": "Son Eklenenler"
+    },
+    {
+        "id": 757651,
+        "title": "Af (2020)",
+        "poster": "https://image.tmdb.org/t/p/w500/tcAuUxt0ahW67jm3WhJr9U3IgLv.jpg",
+        "link": "https://vidmody.com/vs/tt13534792",
+        "category": "Filmler | Yerli"
+    },
+    {
+        "id": 961427,
+        "title": "Spirit Halloween: The Movie (2022)",
+        "poster": "https://image.tmdb.org/t/p/w500/akWDID6zfsWHJhGCAAcbwbytU55.jpg",
+        "link": "https://vidmody.com/vs/tt11426228",
+        "category": "Filmler | Aile"
+    },
+    {
+        "id": 957445,
+        "title": "Fallen Angels Murder Club: Friends to Die For (2022)",
+        "poster": "https://image.tmdb.org/t/p/w500/3v8qDxeka5cofkRW0KBzsAV3DDm.jpg",
+        "link": "https://vidmody.com/vs/tt15506674",
+        "category": "Filmler | TV Filmi"
+    },
+    {
+        "id": 824865,
+        "title": "Çivi Bombacısı: Londra'yı Sarsan Terörist (2021)",
+        "poster": "https://image.tmdb.org/t/p/w500/3iSL0WLl2Y76n9l9FejaoXTaPPE.jpg",
+        "link": "https://vidmody.com/vs/tt12939812",
+        "category": "Filmler | Belgesel"
+    },
+    {
+        "id": 565348,
+        "title": "Zoraki Baba (2019)",
+        "poster": "https://image.tmdb.org/t/p/w500/r1oA872Sj40w5HlvdtcJfirxGlY.jpg",
+        "link": "https://vidmody.com/vs/tt8970448",
+        "category": "Filmler | Dram"
+    },
+    {
+        "id": 435218,
+        "title": "Londra'da Kaybolmak (2017)",
+        "poster": "https://image.tmdb.org/t/p/w500/sMZbWKHRzWDjzUsSkfhCnLlJxMx.jpg",
+        "link": "https://vidmody.com/vs/tt6338476",
+        "category": "Filmler | Komedi"
+    },
+    {
+        "id": 317560,
+        "title": "Carrie Pilby (2017)",
+        "poster": "https://image.tmdb.org/t/p/w500/IHuNvCTOsSox1Gj4ykHImrC5EL.jpg",
+        "link": "https://vidmody.com/vs/tt2989524",
+        "category": "Filmler | Komedi"
     }
 ]
