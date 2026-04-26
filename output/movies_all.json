@@ -104921,5 +104921,138 @@
         "poster": "https://image.tmdb.org/t/p/w500/IHuNvCTOsSox1Gj4ykHImrC5EL.jpg",
         "link": "https://vidmody.com/vs/tt2989524",
         "category": "Filmler | Komedi"
+    },
+    {
+        "id": 1318447,
+        "title": "Apex",
+        "poster": "https://image.tmdb.org/t/p/w500/gRtchtSLqA7yVtNVI6gqfBlIHa6.jpg",
+        "link": "https://vidmody.com/vs/tt16431404",
+        "category": "Son Eklenenler"
+    },
+    {
+        "id": 1210938,
+        "title": "İçimizdeki Sesler",
+        "poster": "https://image.tmdb.org/t/p/w500/nLVJ5MtxmJQDdFrsoXo2MAeX7kQ.jpg",
+        "link": "https://vidmody.com/vs/tt32648798",
+        "category": "Son Eklenenler"
+    },
+    {
+        "id": 1069440,
+        "title": "Ulan Salih (2023)",
+        "poster": "https://image.tmdb.org/t/p/w500/bTS0nwNd6CfKqaEHVrc7TjlmYaG.jpg",
+        "link": "https://vidmody.com/vs/tt25503254",
+        "category": "Filmler | Yerli"
+    },
+    {
+        "id": 1212005,
+        "title": "Murat Göğebakan: Kalbim Yaralı (2023)",
+        "poster": "https://image.tmdb.org/t/p/w500/17ppeeDqsflHcauzFDA1QGc7RPC.jpg",
+        "link": "https://vidmody.com/vs/tt21345388",
+        "category": "Filmler | Yerli"
+    },
+    {
+        "id": 331119,
+        "title": "İyi Aile Çocuğu (1978)",
+        "poster": "https://image.tmdb.org/t/p/w500/vCmnaqPEZl2A8YSs3NdbcBPAR0c.jpg",
+        "link": "https://vidmody.com/vs/tt0253151",
+        "category": "Filmler | Yerli"
+    },
+    {
+        "id": 355411,
+        "title": "Üç Harfliler 2: Hablis (2015)",
+        "poster": "https://image.tmdb.org/t/p/w500/neIWcgOh2d9boY4DUmbpHR8ZvZE.jpg",
+        "link": "https://vidmody.com/vs/tt4813122",
+        "category": "Filmler | Yerli"
+    },
+    {
+        "id": 37575,
+        "title": "Türkler Çıldırmış Olmalı (2009)",
+        "poster": "https://image.tmdb.org/t/p/w500/XSvRXJdfJffcIWxVvg36LixvMv.jpg",
+        "link": "https://vidmody.com/vs/tt1700494",
+        "category": "Filmler | Yerli"
+    },
+    {
+        "id": 599605,
+        "title": "Tahin Pekmez (2017)",
+        "poster": "https://image.tmdb.org/t/p/w500/5usi7tAwbsGXKcKIm4K1JcYH46u.jpg",
+        "link": "https://vidmody.com/vs/tt8745866",
+        "category": "Filmler | Yerli"
+    },
+    {
+        "id": 1014209,
+        "title": "Suncoast (2024)",
+        "poster": "https://image.tmdb.org/t/p/w500/nmPLUp5lVMiGomkN3db1WPeNrz3.jpg",
+        "link": "https://vidmody.com/vs/tt13650742",
+        "category": "Filmler | Komedi"
+    },
+    {
+        "id": 1204912,
+        "title": "İnanılmaz Noel (2023)",
+        "poster": "https://image.tmdb.org/t/p/w500/9kKDdxX0KZ6x2F5FNCUOa4VQEji.jpg",
+        "link": "https://vidmody.com/vs/tt29961072",
+        "category": "Filmler | Macera"
+    },
+    {
+        "id": 1010826,
+        "title": "Katil Kitap Kulübü (2023)",
+        "poster": "https://image.tmdb.org/t/p/w500/idew42l7ILdyR97XC9yG4hFUy1Z.jpg",
+        "link": "https://vidmody.com/vs/tt18260564",
+        "category": "Filmler | Korku"
+    },
+    {
+        "id": 813726,
+        "title": "Bir Turistin Aşk Rehberi (2023)",
+        "poster": "https://image.tmdb.org/t/p/w500/j74VscJgn83mFww90f8Ud59k6Km.jpg",
+        "link": "https://vidmody.com/vs/tt20115096",
+        "category": "Filmler | Romantik"
+    },
+    {
+        "id": 1064024,
+        "title": "Esaret (2023)",
+        "poster": "https://image.tmdb.org/t/p/w500/nmjq6QsFCxESXZu9IjIBDQsjZ2W.jpg",
+        "link": "https://vidmody.com/vs/tt24870072",
+        "category": "Filmler | Gerilim"
+    },
+    {
+        "id": 1049233,
+        "title": "Ders Planı (2022)",
+        "poster": "https://image.tmdb.org/t/p/w500/e4nR9m6nY7HpaaeiEL1ixaYqReq.jpg",
+        "link": "https://vidmody.com/vs/tt23343786",
+        "category": "Filmler | Suç"
+    },
+    {
+        "id": 574097,
+        "title": "Suç Mahalli (2019)",
+        "poster": "https://image.tmdb.org/t/p/w500/oXRca3OCNdmNAvComBaSXH6ogZq.jpg",
+        "link": "https://vidmody.com/vs/tt8359840",
+        "category": "Filmler | Suç"
+    },
+    {
+        "id": 492452,
+        "title": "Eve Dönüş (2018)",
+        "poster": "https://image.tmdb.org/t/p/w500/lEU4SeUquKFEbhTlKiYFFXf8G7Q.jpg",
+        "link": "https://vidmody.com/vs/tt7545524",
+        "category": "Filmler | Dram"
+    },
+    {
+        "id": 417406,
+        "title": "The Possession Experiment (2016)",
+        "poster": "https://image.tmdb.org/t/p/w500/js7DhZe8iQHpY5gQnYmJKbKdaRp.jpg",
+        "link": "https://vidmody.com/vs/tt3697398",
+        "category": "Filmler | Korku"
+    },
+    {
+        "id": 362180,
+        "title": "Sakın Büyüme (2015)",
+        "poster": "https://image.tmdb.org/t/p/w500/kFMcTFDYjOdBpDfdFocLm40epDA.jpg",
+        "link": "https://vidmody.com/vs/tt3557406",
+        "category": "Filmler | Korku"
+    },
+    {
+        "id": 157825,
+        "title": "Karda Bir Beyaz Kuş (2014)",
+        "poster": "https://image.tmdb.org/t/p/w500/agbUxaiSx78kzYFYGpUbhRcu2Z4.jpg",
+        "link": "https://vidmody.com/vs/tt2238050",
+        "category": "Filmler | Gerilim"
     }
 ]
