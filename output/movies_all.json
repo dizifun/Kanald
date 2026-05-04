@@ -105663,5 +105663,68 @@
         "poster": "https://image.tmdb.org/t/p/w500/qOZRzDQf1RPHURzCYk8YjaHdSOP.jpg",
         "link": "https://vidmody.com/vs/tt0056818",
         "category": "Filmler | Dram"
+    },
+    {
+        "id": 1269644,
+        "title": "Amrum",
+        "poster": "https://image.tmdb.org/t/p/w500/veKogeWV5xVrg41HrLCspiwHNDy.jpg",
+        "link": "https://vidmody.com/vs/tt22507216",
+        "category": "Son Eklenenler"
+    },
+    {
+        "id": 177256,
+        "title": "14 Numara (1985)",
+        "poster": "https://image.tmdb.org/t/p/w500/9su96OFDe9Mqtbqe7BrK3T3BaYp.jpg",
+        "link": "https://vidmody.com/vs/tt0274306",
+        "category": "Filmler | Yerli"
+    },
+    {
+        "id": 787781,
+        "title": "Quiz Lady (2023)",
+        "poster": "https://image.tmdb.org/t/p/w500/tqKiprkTUfXWi8bOjCl0lHtCwod.jpg",
+        "link": "https://vidmody.com/vs/tt13405810",
+        "category": "Filmler | Komedi"
+    },
+    {
+        "id": 1114905,
+        "title": "Death's Roulette (2023)",
+        "poster": "https://image.tmdb.org/t/p/w500/tP0xZWNqNNM0PEhkURsKriTQT9j.jpg",
+        "link": "https://vidmody.com/vs/tt21087452",
+        "category": "Filmler | Gizem"
+    },
+    {
+        "id": 1013951,
+        "title": "Strong Fathers, Strong Daughters (2022)",
+        "poster": "https://image.tmdb.org/t/p/w500/w94QQH0Cf13YCPWctm8NJZtbwBE.jpg",
+        "link": "https://vidmody.com/vs/tt7472122",
+        "category": "Filmler | Aile"
+    },
+    {
+        "id": 334537,
+        "title": "Biz Buraya Ait Değiliz (2017)",
+        "poster": "https://image.tmdb.org/t/p/w500/uppSRvzL8CW4dzHNzousMeaijvm.jpg",
+        "link": "https://vidmody.com/vs/tt3731580",
+        "category": "Filmler | Aile"
+    },
+    {
+        "id": 410117,
+        "title": "Lady Macbeth (2016)",
+        "poster": "https://image.tmdb.org/t/p/w500/xWTJbhTwSTJmhLlX5xAOxPhdnXc.jpg",
+        "link": "https://vidmody.com/vs/tt4291600",
+        "category": "Filmler | Dram"
+    },
+    {
+        "id": 250184,
+        "title": "Locker 13 (2014)",
+        "poster": "https://image.tmdb.org/t/p/w500/cafljB271v1L4smQT0n0Tznor79.jpg",
+        "link": "https://vidmody.com/vs/tt1241226",
+        "category": "Filmler | Korku"
+    },
+    {
+        "id": 30295,
+        "title": "Şaşkın Baba (1964)",
+        "poster": "https://image.tmdb.org/t/p/w500/Tp4vSQef0qsI78M90SsZZLJzPE.jpg",
+        "link": "https://vidmody.com/vs/tt0058092",
+        "category": "Filmler | Macera"
     }
 ]
