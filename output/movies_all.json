@@ -106601,5 +106601,54 @@
         "poster": "https://image.tmdb.org/t/p/w500/iuVTAorj7fkFjY8JfKfGHwKR7fm.jpg",
         "link": "https://vidmody.com/vs/tt4794832",
         "category": "Filmler | Müzik"
+    },
+    {
+        "id": 1595128,
+        "title": "Lure",
+        "poster": "https://image.tmdb.org/t/p/w500/zwGIXXauPHkGCEgDc13raAsG4Uk.jpg",
+        "link": "https://vidmody.com/vs/tt15160410",
+        "category": "Son Eklenenler"
+    },
+    {
+        "id": 477298,
+        "title": "Seni Gidi Seni (2017)",
+        "poster": "https://image.tmdb.org/t/p/w500/utMnbRmzidD0nchiz43Np8inQmz.jpg",
+        "link": "https://vidmody.com/vs/tt8218452",
+        "category": "Filmler | Yerli"
+    },
+    {
+        "id": 1074108,
+        "title": "Cenazemize Hoş Geldiniz (2023)",
+        "poster": "https://image.tmdb.org/t/p/w500/cBrnDhaZpJfpMwUNosv0vit8gm5.jpg",
+        "link": "https://vidmody.com/vs/tt21764952",
+        "category": "Filmler | Yerli"
+    },
+    {
+        "id": 1158959,
+        "title": "Isabella: o Caso Nardoni (2023)",
+        "poster": "https://image.tmdb.org/t/p/w500/53pmHd5XialRnoTXlLwwBaezEOs.jpg",
+        "link": "https://vidmody.com/vs/tt28552695",
+        "category": "Filmler | Belgesel"
+    },
+    {
+        "id": 992499,
+        "title": "Ash and Bone (2022)",
+        "poster": "https://image.tmdb.org/t/p/w500/xs5O1wlDzbABYVeRXXGQMuoiItG.jpg",
+        "link": "https://vidmody.com/vs/tt10015244",
+        "category": "Filmler | Gizem"
+    },
+    {
+        "id": 596178,
+        "title": "Music Teacher (2018)",
+        "poster": "https://image.tmdb.org/t/p/w500/yFOQP52iqVzRqEbc1kuHPjRCYBA.jpg",
+        "link": "https://vidmody.com/vs/tt3257794",
+        "category": "Filmler | Müzik"
+    },
+    {
+        "id": 133206,
+        "title": "War Flowers (2012)",
+        "poster": "https://image.tmdb.org/t/p/w500/q8TO6X6nt4qgEa6vSQXjplkXHF4.jpg",
+        "link": "https://vidmody.com/vs/tt1688704",
+        "category": "Filmler | Dram"
     }
 ]
