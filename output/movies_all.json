@@ -106895,5 +106895,54 @@
         "poster": "https://image.tmdb.org/t/p/w500/gjEnwAqNADksJugIs2F7EgQ5ekp.jpg",
         "link": "https://vidmody.com/vs/tt0082042",
         "category": "Filmler | Komedi"
+    },
+    {
+        "id": 1368881,
+        "title": "Önce Kadınlar",
+        "poster": "https://image.tmdb.org/t/p/w500/kjR56Yv17pbjTVBTMjqepvcus4f.jpg",
+        "link": "https://vidmody.com/vs/tt34611082",
+        "category": "Son Eklenenler"
+    },
+    {
+        "id": 96049,
+        "title": "Gelin (1973)",
+        "poster": "https://image.tmdb.org/t/p/w500/stgjSa4Fm6V58CTv5YER88qPOJG.jpg",
+        "link": "https://vidmody.com/vs/tt0070099",
+        "category": "Filmler | Yerli"
+    },
+    {
+        "id": 680631,
+        "title": "Cehennemin Çocukları (2021)",
+        "poster": "https://image.tmdb.org/t/p/w500/5DAmmAxTeZd2oh6cveD0yyysjcT.jpg",
+        "link": "https://vidmody.com/vs/tt10262380",
+        "category": "Filmler | Korku"
+    },
+    {
+        "id": 537034,
+        "title": "A.R.C.H.I.E. 2: Mission Impawsible (2018)",
+        "poster": "https://image.tmdb.org/t/p/w500/cLq0FuEHeJz04eWu2oiIsPMRD0p.jpg",
+        "link": "https://vidmody.com/vs/tt7386668",
+        "category": "Filmler | Aile"
+    },
+    {
+        "id": 405551,
+        "title": "Arbor Demon (2016)",
+        "poster": "https://image.tmdb.org/t/p/w500/7mJea8gSFBwTSdrKxDkzEsgCD0y.jpg",
+        "link": "https://vidmody.com/vs/tt4375268",
+        "category": "Filmler | Korku"
+    },
+    {
+        "id": 191185,
+        "title": "Şeker Portakalı (2012)",
+        "poster": "https://image.tmdb.org/t/p/w500/4yf5WdQZ9ntoGEWN8AD4NFAMihj.jpg",
+        "link": "https://vidmody.com/vs/tt2402186",
+        "category": "Filmler | Aile"
+    },
+    {
+        "id": 13996,
+        "title": "Paris Yargısı (2008)",
+        "poster": "https://image.tmdb.org/t/p/w500/DMc4eRfU0RA2SX2oGR3YllEhH7.jpg",
+        "link": "https://vidmody.com/vs/tt0914797",
+        "category": "Filmler | Komedi"
     }
 ]
