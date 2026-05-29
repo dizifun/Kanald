@@ -107077,5 +107077,75 @@
         "poster": "https://image.tmdb.org/t/p/w500/eIj1pPOifipNLqqNQfGRHs7DBcO.jpg",
         "link": "https://vidmody.com/vs/tt2419986",
         "category": "Filmler | Komedi"
+    },
+    {
+        "id": 1174334,
+        "title": "大濛",
+        "poster": "https://image.tmdb.org/t/p/w500/5nXkeQHSHPccTMllRZMURs790fR.jpg",
+        "link": "https://vidmody.com/vs/tt32080855",
+        "category": "Son Eklenenler"
+    },
+    {
+        "id": 1257960,
+        "title": "Sikandar",
+        "poster": "https://image.tmdb.org/t/p/w500/41s42CRXafa3OuRGvCtfYPEBmse.jpg",
+        "link": "https://vidmody.com/vs/tt31712434",
+        "category": "Son Eklenenler"
+    },
+    {
+        "id": 515533,
+        "title": "Beyoğlu'nun Arka Yakası (1986)",
+        "poster": "https://image.tmdb.org/t/p/w500/A0OMPHzM27dAz7s3DpGuXwTQGcV.jpg",
+        "link": "https://vidmody.com/vs/tt1172505",
+        "category": "Filmler | Yerli"
+    },
+    {
+        "id": 963372,
+        "title": "4N1K: Düğün (2021)",
+        "poster": "https://image.tmdb.org/t/p/w500/u9vmlPNI3sSguEir5nmdUXNI0kR.jpg",
+        "link": "https://vidmody.com/vs/tt13000788",
+        "category": "Filmler | Yerli"
+    },
+    {
+        "id": 86319,
+        "title": "Çılgın Dersane Kampta (2008)",
+        "poster": "https://image.tmdb.org/t/p/w500/vrjpobx9mOz4ddFlqoWk7ODipiI.jpg",
+        "link": "https://vidmody.com/vs/tt1176142",
+        "category": "Filmler | Yerli"
+    },
+    {
+        "id": 1285637,
+        "title": "Biaz: Kara İyenin Laneti (2024)",
+        "poster": "https://image.tmdb.org/t/p/w500/zqtvkMh3Dx3eGyy1w0NSOgjnNBO.jpg",
+        "link": "https://vidmody.com/vs/tt22854322",
+        "category": "Filmler | Yerli"
+    },
+    {
+        "id": 1298476,
+        "title": "Fındıkkıran Operasyonu (2024)",
+        "poster": "https://image.tmdb.org/t/p/w500/tGBFhErxbevFK6fw1IC8xfsId87.jpg",
+        "link": "https://vidmody.com/vs/tt30487216",
+        "category": "Filmler | TV Filmi"
+    },
+    {
+        "id": 826796,
+        "title": "Help (2021)",
+        "poster": "https://image.tmdb.org/t/p/w500/xuB589szYuTcBJ0lZa0MSGAf1Ok.jpg",
+        "link": "https://vidmody.com/vs/tt13649036",
+        "category": "Filmler | Dram"
+    },
+    {
+        "id": 197082,
+        "title": "Kürklü Venüs (2013)",
+        "poster": "https://image.tmdb.org/t/p/w500/1dDf4Agwx9V4WzwT1RlwDD4Zy4B.jpg",
+        "link": "https://vidmody.com/vs/tt2406252",
+        "category": "Filmler | Dram"
+    },
+    {
+        "id": 7353,
+        "title": "Bahçemdeki Ateşböcekleri (2008)",
+        "poster": "https://image.tmdb.org/t/p/w500/ozRz07oyk4ZKu5fbYHE33DnnuM9.jpg",
+        "link": "https://vidmody.com/vs/tt0961108",
+        "category": "Filmler | Dram"
     }
 ]
