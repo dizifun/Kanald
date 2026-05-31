@@ -107217,5 +107217,54 @@
         "poster": "https://image.tmdb.org/t/p/w500/8hIdqIaQVNsEh4FB3nAhCXMSVWJ.jpg",
         "link": "https://vidmody.com/vs/tt1103982",
         "category": "Filmler | Dram"
+    },
+    {
+        "id": 1431071,
+        "title": "सिस्टम",
+        "poster": "https://image.tmdb.org/t/p/w500/8qrddM5BRcTuqjc9crJY6e3gyE6.jpg",
+        "link": "https://vidmody.com/vs/tt36201830",
+        "category": "Son Eklenenler"
+    },
+    {
+        "id": 1196067,
+        "title": "Worldbreaker",
+        "poster": "https://image.tmdb.org/t/p/w500/ahj1JU8r0uJv7QII5Uj7tKzbEsC.jpg",
+        "link": "https://vidmody.com/vs/tt14264694",
+        "category": "Son Eklenenler"
+    },
+    {
+        "id": 1502089,
+        "title": "Bir Ömrün Sonbaharı (2025)",
+        "poster": "https://image.tmdb.org/t/p/w500/iT6yCdZ88cf5mOKzUxnkT1pwF6p.jpg",
+        "link": "https://vidmody.com/vs/tt35108470",
+        "category": "Filmler | Yerli"
+    },
+    {
+        "id": 1146412,
+        "title": "Gabriel's Redemption: Part II (2023)",
+        "poster": "https://image.tmdb.org/t/p/w500/dxu0JzeYYtMGHTvgThGHmfOmafg.jpg",
+        "link": "https://vidmody.com/vs/tt27845902",
+        "category": "Filmler | Romantik"
+    },
+    {
+        "id": 633908,
+        "title": "Dublör (2020)",
+        "poster": "https://image.tmdb.org/t/p/w500/twQeFldoNaDnMYXmZNXpm3NHlhP.jpg",
+        "link": "https://vidmody.com/vs/tt7970348",
+        "category": "Filmler | Komedi"
+    },
+    {
+        "id": 472497,
+        "title": "Aşk Sınır Tanımaz (2019)",
+        "poster": "https://image.tmdb.org/t/p/w500/8jtHRcsEq6MOK9DDb6K7dVOQhl6.jpg",
+        "link": "https://vidmody.com/vs/tt6489562",
+        "category": "Filmler | Dram"
+    },
+    {
+        "id": 77844,
+        "title": "Caged (2011)",
+        "poster": "https://image.tmdb.org/t/p/w500/h7NK9CnHNtTAcBiFVbpRuLTVIWP.jpg",
+        "link": "https://vidmody.com/vs/tt1736555",
+        "category": "Filmler | Gerilim"
     }
 ]
