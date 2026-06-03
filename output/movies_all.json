@@ -107308,5 +107308,75 @@
         "poster": "https://image.tmdb.org/t/p/w500/9212udpJsvp01Cb5RkoKEpchtpX.jpg",
         "link": "https://vidmody.com/vs/tt2955316",
         "category": "Filmler | Romantik"
+    },
+    {
+        "id": 1555331,
+        "title": "D.I.S.C.O. (2026)",
+        "poster": "https://image.tmdb.org/t/p/w500/zNjm76IFBxiXMZ7ldWrVSudWeqo.jpg",
+        "link": "https://vidmody.com/vs/tt39105882",
+        "category": "Filmler | Yerli"
+    },
+    {
+        "id": 793904,
+        "title": "Keman Ağıtları (2020)",
+        "poster": "https://image.tmdb.org/t/p/w500/3AmdcdueNQH3w1XBLWcd7EPTDQX.jpg",
+        "link": "https://vidmody.com/vs/tt10682112",
+        "category": "Filmler | Yerli"
+    },
+    {
+        "id": 665090,
+        "title": "Karakomik Filmler 2: Deli (2020)",
+        "poster": "https://image.tmdb.org/t/p/w500/ubPinmYiajbPYpRXfSklgSviM8r.jpg",
+        "link": "https://vidmody.com/vs/tt11416594",
+        "category": "Filmler | Yerli"
+    },
+    {
+        "id": 952521,
+        "title": "Bana Karanlığını Anlat (2022)",
+        "poster": "https://image.tmdb.org/t/p/w500/VKLnyID9clsw0fEAIihH34xP4h.jpg",
+        "link": "https://vidmody.com/vs/tt18246312",
+        "category": "Filmler | Yerli"
+    },
+    {
+        "id": 1460028,
+        "title": "Baldız (2025)",
+        "poster": "https://image.tmdb.org/t/p/w500/hEzTNpdUSQNoWbMDIk3P7sqSvg.jpg",
+        "link": "https://vidmody.com/vs/tt36469661",
+        "category": "Filmler | Yerli"
+    },
+    {
+        "id": 385194,
+        "title": "Git Başımdan (2015)",
+        "poster": "https://image.tmdb.org/t/p/w500/zDCKYzXmmNkv6XZJIM2Y309f8VJ.jpg",
+        "link": "https://vidmody.com/vs/tt4857062",
+        "category": "Filmler | Yerli"
+    },
+    {
+        "id": 1180262,
+        "title": "A Match in Manhattan (2023)",
+        "poster": "https://image.tmdb.org/t/p/w500/gbkrkIN7Ajxao1dIwyAu5vOFKXg.jpg",
+        "link": "https://vidmody.com/vs/tt29213543",
+        "category": "Filmler | TV Filmi"
+    },
+    {
+        "id": 392625,
+        "title": "Flower Shop Mystery: Snipped in the Bud (2016)",
+        "poster": "https://image.tmdb.org/t/p/w500/5cKtGbgxh47bROQx7raEGG8ZwfD.jpg",
+        "link": "https://vidmody.com/vs/tt5459456",
+        "category": "Filmler | Gizem"
+    },
+    {
+        "id": 398356,
+        "title": "Flower Shop Mystery: Dearly Depotted (2016)",
+        "poster": "https://image.tmdb.org/t/p/w500/wq9Vine2xE8SqqGwfTA1HzRvaWC.jpg",
+        "link": "https://vidmody.com/vs/tt5541330",
+        "category": "Filmler | TV Filmi"
+    },
+    {
+        "id": 253161,
+        "title": "Madame Bovary (2015)",
+        "poster": "https://image.tmdb.org/t/p/w500/jW0CRLVYOQm0HOh6fZXnW2JKxwF.jpg",
+        "link": "https://vidmody.com/vs/tt2334733",
+        "category": "Filmler | Dram"
     }
 ]
