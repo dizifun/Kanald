@@ -107378,5 +107378,47 @@
         "poster": "https://image.tmdb.org/t/p/w500/jW0CRLVYOQm0HOh6fZXnW2JKxwF.jpg",
         "link": "https://vidmody.com/vs/tt2334733",
         "category": "Filmler | Dram"
+    },
+    {
+        "id": 1242265,
+        "title": "Fünye",
+        "poster": "https://image.tmdb.org/t/p/w500/zYDdmuLi1x81zmw786lSg6XtTV.jpg",
+        "link": "https://vidmody.com/vs/tt31189814",
+        "category": "Son Eklenenler"
+    },
+    {
+        "id": 1211776,
+        "title": "Violent Ends",
+        "poster": "https://image.tmdb.org/t/p/w500/9BrXyyrd5amNmpbZNc4gSblt6kQ.jpg",
+        "link": "https://vidmody.com/vs/tt6902560",
+        "category": "Son Eklenenler"
+    },
+    {
+        "id": 879006,
+        "title": "Turna Misali (2021)",
+        "poster": "https://image.tmdb.org/t/p/w500/1Vt0vGAAVyUQ9EY8ZmexDtAyTFd.jpg",
+        "link": "https://vidmody.com/vs/tt15511174",
+        "category": "Filmler | Yerli"
+    },
+    {
+        "id": 1143839,
+        "title": "Haile: Bir Aile Kabusu (2023)",
+        "poster": "https://image.tmdb.org/t/p/w500/5ryMVYaS0E48OytakguxEDRty4O.jpg",
+        "link": "https://vidmody.com/vs/tt27301476",
+        "category": "Filmler | Yerli"
+    },
+    {
+        "id": 32313,
+        "title": "Hababam Sınıfı Askerde (2005)",
+        "poster": "https://image.tmdb.org/t/p/w500/zKAuLZEIa2bjdY8PBJ3MXRM1fpd.jpg",
+        "link": "https://vidmody.com/vs/tt0427323",
+        "category": "Filmler | Yerli"
+    },
+    {
+        "id": 385371,
+        "title": "Geceyarısı Tetikçisi (2016)",
+        "poster": "https://image.tmdb.org/t/p/w500/mCViGoJkLvTKWJDHCTgm54DW09w.jpg",
+        "link": "https://vidmody.com/vs/tt3685586",
+        "category": "Filmler | Suç"
     }
 ]
