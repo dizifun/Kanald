@@ -107553,5 +107553,103 @@
         "poster": "https://image.tmdb.org/t/p/w500/6xld6dA6rlctR9mUtcVRigZTfu5.jpg",
         "link": "https://vidmody.com/vs/tt0290145",
         "category": "Filmler | Dram"
+    },
+    {
+        "id": 1116201,
+        "title": "Iron Lung",
+        "poster": "https://image.tmdb.org/t/p/w500/sIwakdbMGS1krtgendTWpxTY9Hw.jpg",
+        "link": "https://vidmody.com/vs/tt27564844",
+        "category": "Son Eklenenler"
+    },
+    {
+        "id": 1473878,
+        "title": "Speed Demon",
+        "poster": "https://image.tmdb.org/t/p/w500/gtphVD4wfa34aFgw9bLNaufO6kT.jpg",
+        "link": "https://vidmody.com/vs/tt34386603",
+        "category": "Son Eklenenler"
+    },
+    {
+        "id": 1358005,
+        "title": "Ofis Aşkı",
+        "poster": "https://image.tmdb.org/t/p/w500/1HRUTqEVDmJC4L6tp6zd85MI6uH.jpg",
+        "link": "https://vidmody.com/vs/tt33397980",
+        "category": "Son Eklenenler"
+    },
+    {
+        "id": 1693002,
+        "title": "Rachel Nickell Cinayeti",
+        "poster": "https://image.tmdb.org/t/p/w500/db9nxdSqZ8Mh6RDRreF1HFsz9hx.jpg",
+        "link": "https://vidmody.com/vs/tt42192165",
+        "category": "Son Eklenenler"
+    },
+    {
+        "id": 1693201,
+        "title": "Poldi",
+        "poster": "https://image.tmdb.org/t/p/w500/ylgaqq0NdSlnrBRtWMePYvDlTDa.jpg",
+        "link": "https://vidmody.com/vs/tt42456008",
+        "category": "Son Eklenenler"
+    },
+    {
+        "id": 1528577,
+        "title": "Thỏ Ơi!!",
+        "poster": "https://image.tmdb.org/t/p/w500/rWXJZWweOoDjZXLQuKSsHw14GaO.jpg",
+        "link": "https://vidmody.com/vs/tt38934698",
+        "category": "Son Eklenenler"
+    },
+    {
+        "id": 1144430,
+        "title": "Lost Bullet 3",
+        "poster": "https://image.tmdb.org/t/p/w500/rtOSoLMQU2rEpeMr4kdztfEbZad.jpg",
+        "link": "https://vidmody.com/vs/tt29768333",
+        "category": "Son Eklenenler"
+    },
+    {
+        "id": 1556616,
+        "title": "Yaz Evi (2026)",
+        "poster": "https://image.tmdb.org/t/p/w500/kA6e4wmyulZn76xBd5Bq29PZwnb.jpg",
+        "link": "https://vidmody.com/vs/tt38897659",
+        "category": "Filmler | Yerli"
+    },
+    {
+        "id": 1270804,
+        "title": "Bodrum Seferi (2024)",
+        "poster": "https://image.tmdb.org/t/p/w500/e9w54Le5zqKAYKSPhPYFTtE1vXG.jpg",
+        "link": "https://vidmody.com/vs/tt29191385",
+        "category": "Filmler | Yerli"
+    },
+    {
+        "id": 435241,
+        "title": "Geniş Aile 2: Her Türlü (2016)",
+        "poster": "https://image.tmdb.org/t/p/w500/haOieefa6S2wz7fF0m20yN2iSOg.jpg",
+        "link": "https://vidmody.com/vs/tt6266984",
+        "category": "Filmler | Yerli"
+    },
+    {
+        "id": 1362376,
+        "title": "Hiçbir Şey Normal Değil (2024)",
+        "poster": "https://image.tmdb.org/t/p/w500/9Q1t3tcqwWcKlPAhh4iAXzHet1H.jpg",
+        "link": "https://vidmody.com/vs/tt27999010",
+        "category": "Filmler | Yerli"
+    },
+    {
+        "id": 640155,
+        "title": "Karakomik Filmler: Kaçamak (2019)",
+        "poster": "https://image.tmdb.org/t/p/w500/jeU1vUTBxlchVfqklO38XBTc9jv.jpg",
+        "link": "https://vidmody.com/vs/tt8865546",
+        "category": "Filmler | Yerli"
+    },
+    {
+        "id": 754158,
+        "title": "Hui Buh ve Cadılar Şatosu (2022)",
+        "poster": "https://image.tmdb.org/t/p/w500/6pFimosDngknypmNIFg8E0zcVhz.jpg",
+        "link": "https://vidmody.com/vs/tt14176696",
+        "category": "Filmler | Aile"
+    },
+    {
+        "id": 345727,
+        "title": "Pentatonix: On My Way Home (2015)",
+        "poster": "https://image.tmdb.org/t/p/w500/vCRHVPPpgHvY4pGZdHYemHjEBn7.jpg",
+        "link": "https://vidmody.com/vs/tt4799426",
+        "category": "Filmler | Müzik"
     }
 ]
