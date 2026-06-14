@@ -108106,5 +108106,75 @@
         "poster": "https://image.tmdb.org/t/p/w500/2AnJ8LodqnuKxsXpuDjuecCuW2S.jpg",
         "link": "https://vidmody.com/vs/tt2396436",
         "category": "Filmler | Gizem"
+    },
+    {
+        "id": 1501018,
+        "title": "Une Famille de Bâtards",
+        "poster": "https://image.tmdb.org/t/p/w500/zuiZDJcjlNWB6EcXHer06u9BQke.jpg",
+        "link": "https://vidmody.com/vs/tt36963493",
+        "category": "Son Eklenenler"
+    },
+    {
+        "id": 573790,
+        "title": "Organik Aşk (2018)",
+        "poster": "https://image.tmdb.org/t/p/w500/q4bzvCtNBh6HzT7ZdtsbpszBTbn.jpg",
+        "link": "https://vidmody.com/vs/tt9124840",
+        "category": "Filmler | Yerli"
+    },
+    {
+        "id": 354659,
+        "title": "Aşk Olsun (2015)",
+        "poster": "https://image.tmdb.org/t/p/w500/3vKO3hLFyKi3AKOSr2M9dDaMgnt.jpg",
+        "link": "https://vidmody.com/vs/tt4460786",
+        "category": "Filmler | Yerli"
+    },
+    {
+        "id": 756397,
+        "title": "Kaçak Fil (2024)",
+        "poster": "https://image.tmdb.org/t/p/w500/4GgXSqCFAMASOPsMHl20kagc5i5.jpg",
+        "link": "https://vidmody.com/vs/tt13176330",
+        "category": "Filmler | Macera"
+    },
+    {
+        "id": 926008,
+        "title": "The Beanie Bubble (2023)",
+        "poster": "https://image.tmdb.org/t/p/w500/9YDW8dCrQyRpppK5985hKY1Mc8X.jpg",
+        "link": "https://vidmody.com/vs/tt17007120",
+        "category": "Filmler | Komedi"
+    },
+    {
+        "id": 980285,
+        "title": "Tehlikeli Sular (2023)",
+        "poster": "https://image.tmdb.org/t/p/w500/fOOHG2Dpfcw2TydFFgsEezawJn5.jpg",
+        "link": "https://vidmody.com/vs/tt20024428",
+        "category": "Filmler | Gerilim"
+    },
+    {
+        "id": 467546,
+        "title": "Der Mann aus dem Eis (2017)",
+        "poster": "https://image.tmdb.org/t/p/w500/fJw0TKNItpJ977H9lYPFqzHTwU0.jpg",
+        "link": "https://vidmody.com/vs/tt5907748",
+        "category": "Filmler | Macera"
+    },
+    {
+        "id": 19238,
+        "title": "Üç Kişilik Masa (2009)",
+        "poster": "https://image.tmdb.org/t/p/w500/uMfEHaLtilpTcMWEthswjwinqJP.jpg",
+        "link": "https://vidmody.com/vs/tt1238304",
+        "category": "Filmler | Romantik"
+    },
+    {
+        "id": 18219,
+        "title": "La bestia nel cuore (2006)",
+        "poster": "https://image.tmdb.org/t/p/w500/gh1NoCfEJcNgEF5ntyA3T5gU132.jpg",
+        "link": "https://vidmody.com/vs/tt0443446",
+        "category": "Filmler | Dram"
+    },
+    {
+        "id": 598798,
+        "title": "Almanya'da Bir Türk Kızı (1974)",
+        "poster": "https://image.tmdb.org/t/p/w500/wEtVQZKJlLSSdUfdssRQidcplVh.jpg",
+        "link": "https://vidmody.com/vs/tt8602768",
+        "category": "Filmler | Romantik"
     }
 ]
