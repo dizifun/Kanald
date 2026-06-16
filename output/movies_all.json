@@ -108239,5 +108239,47 @@
         "poster": "https://image.tmdb.org/t/p/w500/xzktU0gAeVOU2pqMDweL90SEWeO.jpg",
         "link": "https://vidmody.com/vs/tt1644669",
         "category": "Filmler | Korku"
+    },
+    {
+        "id": 875828,
+        "title": "Peaky Blinders: Ölümsüz Adam",
+        "poster": "https://image.tmdb.org/t/p/w500/gRMalasZEzsZi4w2VFuYusfSfqf.jpg",
+        "link": "https://vidmody.com/vs/tt15574124",
+        "category": "Son Eklenenler"
+    },
+    {
+        "id": 801937,
+        "title": "Sessiz Gece, Kanlı Gece",
+        "poster": "https://image.tmdb.org/t/p/w500/3BGeAlfOjSduB13tw11NkDOg8O3.jpg",
+        "link": "https://vidmody.com/vs/tt34508974",
+        "category": "Son Eklenenler"
+    },
+    {
+        "id": 1190967,
+        "title": "Zübeyde, Analar ve Oğullar (2023)",
+        "poster": "https://image.tmdb.org/t/p/w500/3qfNPgrYKURItNrklkRSfmj9Fh6.jpg",
+        "link": "https://vidmody.com/vs/tt24513892",
+        "category": "Filmler | Yerli"
+    },
+    {
+        "id": 34420,
+        "title": "Uzak İhtimal (2009)",
+        "poster": "https://image.tmdb.org/t/p/w500/6t4G7p36HwFknbJRfmuxfpNeBcQ.jpg",
+        "link": "https://vidmody.com/vs/tt1366981",
+        "category": "Filmler | Yerli"
+    },
+    {
+        "id": 527799,
+        "title": "Kiraz Mevsimi (2018)",
+        "poster": "https://image.tmdb.org/t/p/w500/7A3T75LtQB1DKUPjVqMqz4kfQCn.jpg",
+        "link": "https://vidmody.com/vs/tt8451180",
+        "category": "Filmler | Yerli"
+    },
+    {
+        "id": 269714,
+        "title": "Le Dernier diamant (2014)",
+        "poster": "https://image.tmdb.org/t/p/w500/2KOZ7vHKwWyCBXMOZrqIbFIpHoR.jpg",
+        "link": "https://vidmody.com/vs/tt3136752",
+        "category": "Filmler | Suç"
     }
 ]
