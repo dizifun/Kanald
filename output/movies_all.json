@@ -108652,5 +108652,47 @@
         "poster": "https://image.tmdb.org/t/p/w500/83mQRrNO9ewz0qLSJcGp4nGBRr.jpg",
         "link": "https://vidmody.com/vs/tt0071970",
         "category": "Filmler | Suç"
+    },
+    {
+        "id": 1301421,
+        "title": "Bir Koyun Polisiyesi",
+        "poster": "https://image.tmdb.org/t/p/w500/8UgINK1QibxQPkgCYZCoYXDeOcC.jpg",
+        "link": "https://vidmody.com/vs/tt32565993",
+        "category": "Son Eklenenler"
+    },
+    {
+        "id": 383523,
+        "title": "Şevkat Yerimdar 2 (2016)",
+        "poster": "https://image.tmdb.org/t/p/w500/c5byG7KEmeW2txVOJeCb01sCtpl.jpg",
+        "link": "https://vidmody.com/vs/tt5265308",
+        "category": "Filmler | Yerli"
+    },
+    {
+        "id": 916222,
+        "title": "Cem Yılmaz: Diamond Elite Platinum Plus (2021)",
+        "poster": "https://image.tmdb.org/t/p/w500/d7pspvBSo0OLvyfPHU21qjhOWMj.jpg",
+        "link": "https://vidmody.com/vs/tt16444502",
+        "category": "Filmler | Yerli"
+    },
+    {
+        "id": 765421,
+        "title": "Geçiş (2024)",
+        "poster": "https://image.tmdb.org/t/p/w500/iknUFPigx4olpNdGGrvnGUNB5qs.jpg",
+        "link": "https://vidmody.com/vs/tt27417166",
+        "category": "Filmler | Dram"
+    },
+    {
+        "id": 1061785,
+        "title": "Tilki ve Tavşan: Orman Macerası (2024)",
+        "poster": "https://image.tmdb.org/t/p/w500/bn8iy6lEIPmGKZ8qKOkF6Nlg0cS.jpg",
+        "link": "https://vidmody.com/vs/tt23451240",
+        "category": "Filmler | Aile"
+    },
+    {
+        "id": 937161,
+        "title": "The New Boy (2023)",
+        "poster": "https://image.tmdb.org/t/p/w500/r0hNRXZtGaON1wBPqPI4oe1V4CU.jpg",
+        "link": "https://vidmody.com/vs/tt18180926",
+        "category": "Filmler | Dram"
     }
 ]
