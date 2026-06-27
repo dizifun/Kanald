@@ -108694,5 +108694,61 @@
         "poster": "https://image.tmdb.org/t/p/w500/r0hNRXZtGaON1wBPqPI4oe1V4CU.jpg",
         "link": "https://vidmody.com/vs/tt18180926",
         "category": "Filmler | Dram"
+    },
+    {
+        "id": 1398050,
+        "title": "Driver's Ed",
+        "poster": "https://image.tmdb.org/t/p/w500/hHbzSzjJnmcq02l2razSScBEVBf.jpg",
+        "link": "https://vidmody.com/vs/tt9308022",
+        "category": "Son Eklenenler"
+    },
+    {
+        "id": 1323625,
+        "title": "Night Patrol",
+        "poster": "https://image.tmdb.org/t/p/w500/rNqLzACU9ez2ehDalTFDPjZiC4G.jpg",
+        "link": "https://vidmody.com/vs/tt8637438",
+        "category": "Son Eklenenler"
+    },
+    {
+        "id": 1481603,
+        "title": "Hold the Fort",
+        "poster": "https://image.tmdb.org/t/p/w500/fnq6itOtvCXRBjwuq96hkYu0pCX.jpg",
+        "link": "https://vidmody.com/vs/tt29926644",
+        "category": "Son Eklenenler"
+    },
+    {
+        "id": 1379266,
+        "title": "Kokuho",
+        "poster": "https://image.tmdb.org/t/p/w500/bPuH9nB995PE3P9j4sTanWsxfUW.jpg",
+        "link": "https://vidmody.com/vs/tt35231039",
+        "category": "Son Eklenenler"
+    },
+    {
+        "id": 995746,
+        "title": "Rosalie (2024)",
+        "poster": "https://image.tmdb.org/t/p/w500/gAaNdxUZzT3XXTmmn5eC5QHc9nh.jpg",
+        "link": "https://vidmody.com/vs/tt26342863",
+        "category": "Filmler | Romantik"
+    },
+    {
+        "id": 492998,
+        "title": "Puzzle (2018)",
+        "poster": "https://image.tmdb.org/t/p/w500/7CfijsjOsPKzz2Dd1zoMF5VPmZo.jpg",
+        "link": "https://vidmody.com/vs/tt6933454",
+        "category": "Filmler | Dram"
+    },
+    {
+        "id": 333356,
+        "title": "What Our Fathers Did: A Nazi Legacy (2015)",
+        "poster": "https://image.tmdb.org/t/p/w500/n7i41SR4QDKJnpGoClt6rrvOqiw.jpg",
+        "link": "https://vidmody.com/vs/tt4668808",
+        "category": "Filmler | Belgesel"
+    },
+    {
+        "id": 298031,
+        "title": "Kayıp Umut (2015)",
+        "poster": "https://image.tmdb.org/t/p/w500/cHIAHvWtI11VN5tZepjGj7hbv5r.jpg",
+        "link": "https://vidmody.com/vs/tt3610576",
+        "category": "Filmler | Dram"
     }
 ]
